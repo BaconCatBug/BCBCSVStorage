@@ -1,4 +1,4 @@
-Character,Source,Img,Name,Type,Target,Forula,Multiplier,Element,Time,Effects,Counter,Auto Target,SB,School
+Character,Source,Img,Name,Type,Target,Formula,Multiplier,Element,Time,Effects,Counter,Auto Target,SB,School
 Tyro,Keeper's Tome,,Book of Despair,PHY,Single enemy,Physical,2.10,-,1.65,"One single attack (2.10), ATK and MAG -20% for 15 seconds",Y,Random enemy,60,Support
 Tyro,Keeper's Tome,,Book of Retribution,PHY,Single enemy,Physical,2.10,-,1.65,"One single attack (2.10), DEF and RES -20% for 15 seconds",Y,Random enemy,60,Support
 Elarra,Magika Coat,,Pulchra Magika,NAT,Self,,,,1.65,"MND +20% for 25 seconds, grants Quick Cast 3",Y,Self,50,White Magic

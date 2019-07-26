@@ -1,7 +1,7 @@
 Character,Source,Img,Name,Type,Target,Formula,Multiplier,Element,Time,Effects,Counter,Auto Target,SB,School,Name (JP),ID
 Tyro,Keeper's Tome,,Book of Despair,PHY,Single enemy,Physical,2.10,-,1.65,"One single attack (2.10), ATK and MAG -20% for 15 seconds",Y,Random enemy,60,Support,戦意喪失の章,30510071
 Tyro,Keeper's Tome,,Book of Retribution,PHY,Single enemy,Physical,2.10,-,1.65,"One single attack (2.10), DEF and RES -20% for 15 seconds",Y,Random enemy,60,Support,因果応報の章,30510072
-Elarra,Magika Coat,,Pulchra Magika,NAT,Self,,,,1.65,"MND +20% for 25 seconds, grants Quick Cast 3",Y,Self,50,White Magic,フロース・プルクラ,30512521
+Elarra,Magika Coat,,Pulchra Magika,NAT,Self,,,,1.65,"MND +20% for 25 seconds, gants Quick Cast 3",Y,Self,50,White Magic,フロース・プルクラ,30512521
 Elarra,Magika Coat,,Fomenta Magika,WHT,All allies,Magical,2.00,Holy,1.65,"Restores HP (25), damages undeads",Y,All allies,50,White Magic,フロース・オドル,30512522
 Warrior of Light,Ultimate Shield,,Stroke of Light,PHY,Single enemy,Physical,2.40,"Holy, NE",1.65,1/2/3/4/5 single attacks (0.48 each) at 327/654/1700/2490 DEF,Y,Lowest HP% enemy,50,Knight,ストライクオブライト,30510542
 Warrior of Light,Ultimate Shield,,Crystalize,PHY,All enemies,Physical,1.30,"Holy, NE",1.65,"Two group attacks (0.65 each), DEF +50% to the user for 25 seconds",Y,All enemies,50,Knight,クリスタルフォーム,30510541

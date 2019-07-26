@@ -1,4 +1,4 @@
-Name,Realm,Type,Synergy,Combine,Rarity,Level,ATK,DEF,MAG,RES,MND,ACC,EVA,Effect,Character,Soul Break,Legend Materia,Brar,Blv,Batk,Bdef,Bmag,Bres,Bmnd,Bacc,Beva,Mrar,Mlv,Matk,Mdef,Mmag,Mres,Mmnd,Macc,Meva
+Name,Realm,Type,Synergy,Combine,Rarity,Level,ATK,DEF,MAG,RES,MND,CC,EVA,Effect,Character,Soul Break,Legend Materia,Brar,Blv,Batk,Bdef,Bmag,Bres,Bmnd,Bacc,Beva,Mrar,Mlv,Matk,Mdef,Mmag,Mres,Mmnd,Macc,Meva
 Mythril Knife,I,Dagger,,,S,50,268,0,0,0,0,95,0,"RS: Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark, Poison and NE damage +20%",,,,S,50,164.0,,,,,95.0,,S,50,268.0,,,,,95.0,
 Orichalcum,II,Dagger,,,S,50,268,0,0,0,0,95,0,"RS: Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark, Poison and NE damage +20%",,,,S,50,164.0,,,,,95.0,,S,50,268.0,,,,,95.0,
 Gladius,III,Dagger,,,S,50,135,0,268,0,87,95,0,"RS: Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark, Poison and NE damage +20%",,,,S,50,83.0,,164.0,,55.0,95.0,,S,50,135.0,,268.0,,87.0,95.0,

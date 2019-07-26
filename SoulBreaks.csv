@@ -1,4 +1,4 @@
-Realm,Character,Img,Name,Tier,Type,Target,Formula,Multiplier,Element,Time,Effects,Counter,Auto Target,Points,Soulbreak Bonus
+Realm,Character,Img,Name,Tier,Type,Target,Formula,Multiplier,Eleent,Time,Effects,Counter,Auto Target,Points,Soulbreak Bonus
 Core,Tyro,,Judgment Grimoire,Default,PHY,All enemies,Physical,1.05,-,2.75,One group ranged attack (1.05),Y,All enemies,500,
 Core,Tyro,,Healing Grimoire,SB,WHT,All allies,,,,2.5,Restores HP (104),N,All allies,500,
 Core,Tyro,,Sentinel's Grimoire,SB,NAT,All allies,,,,3.0,DEF and RES +200% for 25 seconds,N,All allies,500,

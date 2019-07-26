@@ -44,7 +44,12 @@ File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\Magicite.cs
 end
 
 sleep(2)
-
+time = Time.now.utc.strftime("%Y%m%d%H%M%S")
 system 'python StripColumns.py'
+puts 'add'
+system 'git add *.csv'
+puts 'commit'
 
-system 'Github.vbs'
+system 'git commit -m #{time}'
+puts 'push'
+system 'git push'

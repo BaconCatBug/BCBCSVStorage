@@ -46,3 +46,5 @@ end
 sleep(2)
 
 system 'python StripColumns.py'
+
+system 'Github.vbs'

@@ -50,6 +50,6 @@ puts 'add'
 system 'git add *.csv'
 puts 'commit'
 
-system 'git commit -m #{time}'
+system ('git commit -m Blah2')
 puts 'push'
 system 'git push'

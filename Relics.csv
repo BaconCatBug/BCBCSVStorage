@@ -775,6 +775,9 @@ Morning Star,V,Hammer,,,6,25,180,0,0,0,0,95,0,Ice damage +20%,Xezat,Crew's Uniso
 Behemoth Bone,VI,Hammer,,,6,25,180,0,0,0,0,95,0,Ice damage +20%,Umaro,Snowball Throwdown,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21005027
 Musk Stick,VIII,Hammer,,,6,25,176,0,0,0,0,95,0,RS: Lightning damage +20%,Raijin,Dragon Rising,,6,25,130.0,,,,,95.0,,8,35,194.0,,,,,95.0,,21005025
 Gokuu Pole,VIII,Hammer,,,6,25,181,0,0,0,0,95,0,,Raijin,Dragon Soaring,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21005031
+Battle Mace,VIII,Hammer,,,6,25,181,0,0,0,0,95,0,,Raijin,Unrelenting,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21005037
+Spirited Stick,VIII,Hammer,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Raijin,Thunderous Call,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21005048
+Ivory Pole,VIII,Hammer,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Raijin,Devastate Dragon Rising,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21005045
 Morgenstern,XI,Hammer,,,6,25,180,0,0,0,0,95,0,Earth damage +20%,Naja,Feline President's Hammer,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21005046
 Scorpion Tail,XII,Hammer,,,6,25,178,0,0,0,0,95,0,,Basch,Clash of Light and Flame,,6,25,132.0,,,,,95.0,,8,35,196.0,,,,,95.0,,21005018
 Shock Hammer,Type-0,Hammer,,,6,25,180,0,0,0,0,95,0,Earth damage +20%,Cinque,Whirling Mace,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21005032
@@ -793,6 +796,7 @@ Bone Club,VI,Hammer,,,5,20,141,0,0,0,0,95,0,,Umaro,Master's Voice,,5,20,106.0,,,
 Earth Mallet,VI,Hammer,,,5,20,147,0,0,0,0,95,0,,Umaro,,Ughaaa!,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21005029
 Raijin's Staff,VIII,Hammer,,,5,20,133,0,0,0,0,95,0,Lightning damage +20%,Raijin,Raijin Special,,5,20,99.0,,,,,95.0,,7,30,150.0,,,,,95.0,,21005020
 Six-fluted Pole,VIII,Hammer,,,5,20,147,0,0,0,0,95,0,,Raijin,,Bad Crowd,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21005028
+Battle Stick,VIII,Hammer,,,5,20,147,0,0,0,0,95,0,,Raijin,Focused Lightning Hammer,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21005034
 Warhammer,XI,Hammer,,,5,20,147,0,0,0,0,95,0,,Naja,,Wishing for Reinstatement,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21005047
 Skull Crusher,Type-0,Hammer,,,5,20,147,0,0,0,0,95,0,,Cinque,Gaia Pulse,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21005033
 Sledgehammer,XII,Hammer,,,4,15,64,0,0,0,0,92,0,,,,,4,15,41.0,,,,,92.0,,6,25,79.0,,,,,92.0,,21005005
@@ -1777,6 +1781,7 @@ Edea's Shooting Star,VIII,Thrown,,,6,25,115,0,173,0,0,95,0,Dark damage +20%,Edea
 Fujin's Twin Viper,VIII,Thrown,,,6,25,115,0,174,0,0,95,0,,Fujin,Shou,,6,25,88.0,,129.0,,,95.0,,8,35,126.0,,192.0,,,95.0,,21013076
 Rising Moon,VIII,Thrown,,,6,25,115,0,173,0,0,95,0,Ice damage +20%,Rinoa,Cherubim Shot,,6,25,88.0,,128.0,,,95.0,,8,35,126.0,,191.0,,,95.0,,21013097
 Fuma Shuriken,VIII,Thrown,,,6,25,115,0,173,0,0,95,0,Wind damage +20%,Fujin,Ran,,6,25,88.0,,128.0,,,95.0,,8,35,126.0,,191.0,,,95.0,,21013092
+Edea's Valkyries,VIII,Thrown,,,6,25,115,0,173,0,0,95,0,Ice damage +20%,Edea,Astral Soul,,6,25,88.0,,128.0,,,95.0,,8,35,126.0,,191.0,,,95.0,,21013140
 Eagletalon,XIII,Thrown,,,6,25,115,0,159,0,0,95,0,RS: Holy damage +20%,Hope,Retributive Blast,,6,25,88.0,,114.0,,,95.0,,8,35,126.0,,177.0,,,95.0,,21013038
 Simurgh,XIII,Thrown,,,6,25,115,0,171,0,78,95,0,,Hope,Divine Fist,,6,25,88.0,,126.0,,55.0,95.0,,8,35,126.0,,189.0,,87.0,95.0,,21013031
 Vidofnir,XIII,Thrown,,,6,25,115,0,173,0,78,95,0,Holy damage +20%,Hope,Celestial Prison,,6,25,88.0,,128.0,,55.0,95.0,,8,35,126.0,,191.0,,87.0,95.0,,21013075
@@ -1892,6 +1897,8 @@ Antares,VIII,Gun,,,6,25,163,0,0,0,0,95,0,Fire damage +20%,Irvine,Break Shot,,6,2
 Laguna's Bazooka,VIII,Gun,,,6,25,165,0,0,0,0,95,0,,Laguna,Junction Link,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21015068
 High-Power Machine Gun,VIII,Gun,,,6,25,165,0,0,0,0,95,0,,Laguna,Ragnarok Blade,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21015084
 Supershot ST,VIII,Gun,,,6,25,165,0,0,0,0,95,0,,Irvine,Bygone Days,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21015081
+Ras Algethi,VIII,Gun,,,6,25,164,0,0,0,0,95,0,Ice damage +20%,Laguna,Tactical Attack,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21015109
+Lufenian Gun,VIII,Gun,,,6,25,164,0,0,0,0,95,0,Ice damage +20%,Laguna,Freezing Crush,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21015097
 Arcturus,XII,Gun,,,6,25,152,0,0,0,0,95,0,RS: Fire damage +20%,Balthier,S-85 Cyclotrone,,6,25,107.0,,,,,95.0,,8,35,170.0,,,,,95.0,,21015042
 Fomalhaut,XII,Gun,,,6,25,162,0,0,0,0,95,0,,Balthier,Makara,,6,25,116.0,,,,,95.0,,8,35,180.0,,,,,95.0,,21015054
 Mithuna,XII,Gun,,,6,25,164,0,0,0,0,95,0,Fire damage +20%,Balthier,Tales of the Past,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21015071
@@ -2358,6 +2365,7 @@ Nibelheim Guide,VII,Light Armor,,,6,25,19,152,0,152,0,0,100,,Tifa,Sprouting Eart
 Barret's Vest,VII,Light Armor,,,6,25,19,151,0,151,0,0,100,Fire damage +20%,Barret,AVALANCHE's Strategy,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053412
 Genesis's Guise (DoC),VII,Light Armor,,,6,25,19,151,0,151,0,0,100,Fire damage +20%,Genesis,SOLDIER's Epic,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053456
 Genesis's Guise (CC),VII,Light Armor,,,6,25,19,151,0,151,0,0,100,Fire damage +20%,Genesis,Apocalypse Genesis,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053444
+Ninja Gear,VIII,Light Armor,,,6,25,0,152,19,152,0,0,100,,Fujin,Loop,,6,25,,111.0,10.0,111.0,,,100.0,8,35,,168.0,22.0,168.0,,,100.0,22053357
 Achromatic Bolero,IX,Light Armor,,,6,25,0,151,19,151,0,0,100,Dark damage +20%,Kuja,Soulsplitter,,6,25,,110.0,10.0,110.0,,,100.0,8,35,,167.0,22.0,167.0,,,100.0,22053269
 Garnet's Guise,IX,Light Armor,,,6,25,0,151,19,151,19,0,100,Lightning damage +20%,Garnet,Resilient Memories,,6,25,,110.0,10.0,110.0,10.0,,100.0,8,35,,167.0,22.0,167.0,22.0,,100.0,22053275
 Trance Eiko's Guise,IX,Light Armor,,,6,25,0,152,19,152,19,0,100,,Eiko,Phoenix Feather,,6,25,,111.0,10.0,111.0,10.0,,100.0,8,35,,168.0,22.0,168.0,22.0,,100.0,22053276
@@ -2650,6 +2658,7 @@ Gilgamesh's Guise,V,Heavy Armor,,,6,25,19,185,0,125,0,0,105,Fire damage +20%,Gil
 Santalum Robe,V,Heavy Armor,,,6,25,0,185,19,125,0,0,105,Dark damage +20%,Exdeath,Delta Hole,,6,25,,146.0,10.0,102.0,,,105.0,8,35,,200.0,22.0,134.0,,,105.0,22054085
 Root of Evil I,V,Heavy Armor,,,6,25,0,187,19,125,0,0,105,,Exdeath,Balance of Power,,6,25,,148.0,10.0,102.0,,,105.0,8,35,,202.0,22.0,134.0,,,105.0,22054102
 Shield Armor,VI,Heavy Armor,,,6,25,19,187,0,125,0,0,105,,Leo,Indomitable Will,,6,25,10.0,148.0,,102.0,,,105.0,8,35,22.0,202.0,,134.0,,,105.0,22054101
+Diamond Armor,VIII,Heavy Armor,,,6,25,19,187,0,125,0,0,105,,Laguna,Junction Freeze,,6,25,10.0,148.0,,102.0,,,105.0,8,35,22.0,202.0,,134.0,,,105.0,22054116
 Chaos Cuirass,XI,Heavy Armor,,,6,25,19,185,0,125,0,0,105,Dark damage +20%,Zeid,Darksheen Blade,,6,25,10.0,146.0,,102.0,,,105.0,8,35,22.0,200.0,,134.0,,,105.0,22054083
 Diamond Armor,XII,Heavy Armor,,,6,25,19,185,19,125,0,0,105,Dark damage +20%,Vayne,Eminence,,6,25,10.0,146.0,10.0,102.0,,,105.0,8,35,22.0,200.0,22.0,134.0,,,105.0,22054076
 Reks's Guise,XII,Heavy Armor,,,6,25,19,185,0,125,0,0,105,Lightning damage +20%,Reks,Dalmasca Spiral,,6,25,10.0,146.0,,102.0,,,105.0,8,35,22.0,200.0,,134.0,,,105.0,22054097
@@ -2904,6 +2913,7 @@ Harmonia's Guard,VIII,Bracer,,,5,20,24,99,28,95,18,0,105,,Ultimecia,,Arrogant Am
 Magic Armlet,VIII,Bracer,,,5,20,24,99,28,95,18,0,105,,Rinoa,,Witching Wings,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056229
 Witch's Bracelet,VIII,Bracer,,,5,20,24,99,28,95,18,0,105,,Rinoa,,Reluctant Successor,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056230
 Platinum Bangle,VIII,Bracer,,,5,20,24,99,28,95,18,0,105,,Fujin,,Fully Agree!,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056264
+Metal Gloves,VIII,Bracer,,,5,20,34,99,18,95,18,0,105,,Raijin,,Seifer Squad,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056279
 Thunder Gloves,IX,Bracer,,,5,20,26,88,18,79,19,0,105,Lightning resistance (minor),Beatrix,Rose of May,,5,20,18.0,70.0,11.0,55.0,13.0,,105.0,7,30,30.0,96.0,21.0,91.0,22.0,,105.0,22056067
 Kuja's Gloves,IX,Bracer,,,5,20,24,89,28,85,19,0,105,,Kuja,Dread of Death,,5,20,16.0,71.0,21.0,61.0,13.0,,105.0,7,30,28.0,97.0,31.0,97.0,22.0,,105.0,22056073
 Gauntlets,IX,Bracer,,,5,20,25,88,18,83,19,0,105,,,,,5,20,18.0,70.0,11.0,60.0,13.0,,105.0,7,30,28.0,96.0,21.0,94.0,22.0,,105.0,22056058
@@ -3185,6 +3195,7 @@ Royal Crown,VIII,Accessory,,,5,1,0,0,30,0,0,0,0,,,,,5,20,,,30.0,,,,,7,30,,,30.0,
 Occult Fan I,VIII,Accessory,,,5,1,0,0,0,0,0,0,0,"Poison resistance (moderate), Sap immunity (moderate)",,,,5,20,,,,,,,,7,30,,,,,,,,23080461
 Magical Lamp,VIII,Accessory,,,5,1,0,0,0,0,0,0,0,Wind and Dark resistance (moderate),,,,5,20,,,,,,,,7,30,,,,,,,,23080482
 Selphie's Necklace,VIII,Accessory,,,5,1,0,0,0,0,15,0,0,Poison resistance (moderate),,,,5,20,,,,,15.0,,,7,30,,,,,15.0,,,23080413
+Cockatrice Feather,VIII,Accessory,,,5,1,0,0,15,0,0,0,0,Petrify immunity (moderate),,,,5,20,,,15.0,,,,,7,30,,,15.0,,,,,23080488
 Coral Ring,IX,Accessory,,,5,1,15,0,0,0,0,0,0,Lightning resistance (moderate),,,,5,20,15.0,,,,,,,7,30,15.0,,,,,,,23080081
 Silver Pinion,IX,Accessory,,,5,1,0,0,30,0,0,0,0,,,,,5,20,,,30.0,,,,,7,30,,,30.0,,,,,23080176
 Gulug Stone,IX,Accessory,,,5,1,0,0,15,0,0,0,0,Fire resistance (moderate),,,,5,20,,,15.0,,,,,7,30,,,15.0,,,,,23080197

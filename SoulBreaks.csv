@@ -1232,6 +1232,8 @@ X,Tidus,,Slash & Splash,AOSB,PHY,Single enemy,Physical,19.00,Water,2.5,"Twenty s
 X,Tidus,,Ace Form,Glint,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and High Quick Cast 2",N,Self,250,ATK +10,Wizard Sword (X),エースフォーム,20130013.0
 X,Tidus,,Quick Rush,USB,PHY,Single enemy,Physical,7.20,Water,2.5,"Ten single ranged attacks (0.72 each), grants Attach Water, Quick Cast and Brave Mode to the user",N,Lowest HP% enemy,500,ATK +10,Beast Blitz (X),クイック＆ラッシュ,20130016.0
 X,Tidus,,Rising Dream,AASB,PHY,Single enemy,Physical,9.00,"Water, NE",2.5,"Fifteen single ranged attacks (0.60 each), grants Attach Water, Awoken Sharpshooter, Damage Cap +10000 and Ace Shot Follow-Up to the user",N,Lowest HP% enemy,500,ATK +10,Zanarkand Abes Uniform I (X),いつか蘇る夢,20130017.0
+X,Tidus,,Blitz Cry,SASB,PHY,Single enemy,Physical,9.00,"Water, NE",2.5,"Fifteen single ranged attacks (0.60 each), grants Attach Water 3 with Stacking, Synchro Mode and Damage Cap +10000 to the user",N,Lowest HP% enemy,500,ATK +10,Blitz Psyches (X),ブリッツ・エール,20130019.0
+X,Tidus,,Sphere Form,Glint+,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1",N,Self,0,ATK +10,Glorious Shield (X),スフィアフォーム,20130020.0
 X,Yuna,,Grand Summon I,Default,SUM,All enemies,Magical,1.10,-,3.0,"One group attack (1.10), minimum damage 100",N,All enemies,500,,-,マスター召喚Ⅰ,20520001.0
 X,Yuna,,The Sending,SB,WHT,All enemies,Magical,7.17,Holy,3.0,One group attack (7.17),N,All enemies,500,,Magistral Rod (X),異界送り,20520002.0
 X,Yuna,,Hymn of the Fayth,SB,WHT,All allies,,,,3.0,"Restores HP (50), grants High Regen",N,All allies,500,,Lullaby Rod (X),祈りの歌,20520003.0
@@ -1294,6 +1296,7 @@ X,Rikku,,Hyper Enwater,CSB,NAT,All allies,,,,2.5,"Activates Water Chain (max 150
 X,Rikku,,Eternal Dedication,CSB,NAT,All allies,,,,2.5,"Activates X Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",N,All allies,500,ATK +10,Shocking Fist (X),いつもチイのために,20970013.0
 X,Rikku,,Secret Concoction,Glint+,NAT,Self,,,,0.01,Grants 500 SB points to the user,N,Self,0,ATK +10,Tongue Holder (X),秘技の薬,20970014.0
 X,Rikku,,Dynamic Mix,AASB,PHY,Single enemy,Physical,9.00,"Water, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Water, Awoken Water, Damage Cap +10000 and Dynamic Mix Follow-Up to the user",N,Lowest HP% enemy,500,ATK +10,Al Bhed Rikku's Guise (X),調合ダイナミック,20970015.0
+X,Rikku,,Marine Time,Glint,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and High Quick Cast 2",N,Self,250,ATK +10,Seeker's Targe (X),マリンタイム,20970016.0
 X,Auron,,Threaten,Default,PHY,Single enemy,Physical,1.40,-,2.5,"One single ranged attack (1.40), causes Stop (50%)",Y,Lowest HP% enemy,500,,-,おどす,20690001.0
 X,Auron,,Dragon Fang,SB,PHY,All enemies,Physical,3.20,-,2.5,"One group attack (3.20), ATK -50% for 25 seconds",N,All enemies,500,,Shimmering Blade (X),牙龍,20690002.0
 X,Auron,,Shooting Star,SB,PHY,Single enemy,Physical,5.10,-,2.75,"Three single attacks (1.70 each), causes Paralyze (21%)",Y,Random enemy without status,500,,Shiranui (X),流星,20690003.0
@@ -1323,6 +1326,8 @@ X,Jecht,,Wound Up,BSB,PHY,Single enemy,Physical,6.64,"Fire, NE",2.5,"Eight singl
 X,Jecht,,Jecht Impact,AOSB,PHY,Single enemy,Physical,24.00,"Dark, Fire",2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Lufenian Claw (X),ジェクトインパクト,22090011.0
 X,Jecht,,Struggle Within,USB,PHY,Single enemy,Physical,7.00,"Dark, Fire, NE",2.5,"Ten single attacks (0.70 each), grants Attach Dark and Struggle Within to the user",N,Lowest HP% enemy,500,ATK +10,Seafang (X),ケモノと父の狭間,22090012.0
 X,Jecht,,Jecht Spirit,Glint,NAT,Self,,,,0.01,"Grants 100% Critical 1, Critical Damage +50% 1 and Instant Cast 1",N,Self,250,ATK +10,Spirit Band (X),ジェクトスピリット,22090013.0
+X,Jecht,,Jecht Dream,AASB,PHY,Single enemy,Physical,9.00,"Fire, Dark, NE",2.5,"Fifteen single ranged attacks (0.60 each), grants Double Sphere Mode, Awoken Legendary Player, Damage Cap +10000 and Vigor Mode to the user",N,Lowest HP% enemy,500,ATK +10,Comrade Ball (X),ジェクトドリーム,22090014.0
+X,Jecht,,Jecht Charge,Glint,NAT,Self,,,,0.01,Grants High Quick Cast 1 and Double Sphere Mode II,N,Self,250,ATK +10,Dueling Mask (X),ジェクトチャージ,22090015.0
 X,Braska,,Aeon of Storms,Default,SUM,All enemies,Magical,1.10,Lightning,3.0,"Two group attacks (0.55 each), minimum damage 55",N,All enemies,500,,-,雷獣召喚,22270002.0
 X,Braska,,Aeons of Wing and Flame,SSB,SUM,All enemies,Magical,21.60,"Fire, NE",3.0,"6/7/8/9 group attacks (2.40 each) at 562/681/723 MAG, minimum damage 800",N,All enemies,500,MAG +10,Braska's Staff (X),W召喚・炎翼,22270001.0
 X,Braska,,Summoner's Dream,SSB,NAT,All allies,,,,2.5,"MAG +30% for 25 seconds, grants Magical Quick Cast 3 and High Regen",N,All allies,500,MAG +10,High Summoner's Robe (X),召喚士の夢,22270003.0
@@ -1336,6 +1341,11 @@ X,Paine,,Grand Storm,BSB,PHY,All enemies,Physical,5.40,"Water, Earth, Wind",2.5,
 X,Paine,,Rushing Steel,USB,PHY,Single enemy,Physical,7.10,"Water, NE",2.5,"Ten single attacks (0.71 each), ATK and DEF +30% to the user for 25 seconds, grants Attach Water and Spellblade Quick Cast: Alternative to the user",N,Lowest HP% enemy,500,ATK +10,Force Stealer (X),ネオ・アクアセイバー,22420005.0
 X,Paine,,Whelmen,BSB,PHY,Single enemy,Physical,6.64,"Water, NE",2.5,"Eight single attacks (0.83 each), grants Haste, Attach Water and Burst Mode to the user",N,Lowest HP% enemy,500,ATK +10,Painebringer (X),水没！,22420006.0
 X,Paine,,Throttle Alluvion,USB,PHY,Single enemy,Physical,7.20,Water,2.5,"Ten single attacks (0.72 each), grants Attach Water, Spellblade High Quick Cast 2 and Brave Mode to the user",N,Lowest HP% enemy,500,ATK +10,Full Throttle Blade (X),斬騎剣術・水乱！,22420007.0
+X,Paine,,Y.R.P Combo!,AASB,PHY,Single enemy,Physical,9.00,"Water, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Water, Awoken Water, Damage Cap +10000 and Respect Counter Mode to the user",N,Lowest HP% enemy,500,ATK +10,Full Throttle Sword (X),ユ・リ・パCOMBO！,22420008.0
+X,Paine,,Painful Slice,AOSB,PHY,Single enemy,Physical,24.00,Water,2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Ultima Sword (X),シメてひんむく,22420009.0
+X,Paine,,Cool Vacation,CSB,NAT,All allies,,,,2.5,"Activates Water Chain (max 150, field +50%), ATK +50% for 25 seconds",N,All allies,500,ATK +10,Alchemist P (X),クール・バカンス,22420010.0
+X,Paine,,Speed Professional,USB,PHY,Single enemy,Physical,,,2.5,,N,Lowest HP% enemy,500,ATK +10,Zantetsuken (X),鴻漸之翼,22420011.0
+X,Paine,,Time for Some Hurt!,Glint+,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1",N,Self,0,ATK +10,Dark Knight Guise (X),シメる準備！,22420012.0
 X,Seymour,,Rest in Peace,Default,BLK,Single enemy,Magical,1.80,Dark,2.5,"One single ranged attack (1.80), causes Sleep (30%)",N,Lowest HP% enemy,500,,-,安息の呪言,22540003.0
 X,Seymour,,Anima's Pain,BSB,SUM,Random enemies,Magical,17.44,"Dark, NE",2.5,"Eight random attacks (2.18 each), causes Imperil Dark 20% for 25 seconds, causes Instant KO (9%), grants Haste and Burst Mode to the user",N,Random enemies,500,MAG +10,Seymour's Rod (X),アニマ召喚・ペイン,22540001.0
 X,Seymour,,Cross Cleave,SSB,BLK,All enemies,Magical,13.90,"Dark, NE",2.5,"Five group attacks (2.78 each), causes Petrify (13%), grants Attach Dark to the user",N,All enemies,500,MAG +10,Seymour's Robes (X),死刃の交撃,22540002.0

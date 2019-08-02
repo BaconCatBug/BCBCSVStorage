@@ -179,6 +179,8 @@ II,Leon,,Lord of Darkness,USB,PHY,Single enemy,Physical,6.88,"Dark, NE",2.5,"Eig
 II,Leon,,Soul of Darkness,AOSB,PHY,Single enemy,Physical,24.00,Dark,2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Blood Lance (II),ソウルオブダークネス,20580006.0
 II,Leon,,Weapon of Darkness,USB,PHY,Single enemy,Physical,7.20,Dark,2.5,"Ten single attacks (0.72 each), ATK and MAG -40% for 25 seconds, grants Quick Cast and Brave Mode to the user",N,Lowest HP% enemy,500,ATK +10,Leon's Guise (II),ダークネスウェポン,20580007.0
 II,Leon,,Force of Darkness,Glint,NAT,Self,,,,0.01,"Grants Attach Dark Stacking, Attach Dark and HP Stock (6000)",N,Self,250,ATK +10,Leon's Blade (II),ダークネスフォース,20580008.0
+II,Leon,,Knight in the Dark,AASB,PHY,Single enemy,Physical,9.00,"Dark, NE",2.5,"Fifteen single attack (0.60 each), grants Attach Dark, Awoken Darkness, Damage Cap +10000 and Knight in the Dark Follow-Up to the user",N,Lowest HP% enemy,500,ATK +10,Soul Sabre (II),ナイトインザダーク,20580009.0
+II,Leon,,Darkness Breaker,USB,PHY,Single enemy,Physical,,"Dark, NE",2.5,"Ten single attacks (? each), grants Dark Radiant Shield: 75% to all allies, grants Attach Dark Stacking, Attach Dark and Instant Cast 1 to the user",N,Lowest HP% enemy,500,ATK +10,Maximillian (II),ダークネスブレイカ,20580010.0
 II,Minwu,,Basuna VI,Default,WHT,Single ally,,,,2.75,Removes negative effects,N,Random ally with status,500,,-,バスナ6,22120001.0
 II,Minwu,,Will of the White Mage,SSB,WHT,All allies,,,,0.01,Restores HP (85),N,All allies,500,MND +10,Healing Staff (II),白魔道士の覚悟,22120002.0
 II,Minwu,,Teleport XVI,SB,WHT,All enemies,Magical,9.48,-,2.5,"Three group attacks (3.16 each), causes Stun (100%)",N,All enemies,500,,White Robe (II),テレポ16,22120003.0
@@ -1213,6 +1215,7 @@ IX,Kuja,,Corrupt Refrain,BSB,BLK,Single enemy,Magical,15.04,"Dark, NE",2.5,"Eigh
 IX,Kuja,,Planet Requiem,AOSB,BLK,Single enemy,Magical,79.50,Dark,2.5,Three single attacks (26.50 each) capped at 99999,N,Lowest HP% enemy,750,MAG +10,Millennium Rod (IX),プラネットレクイエム,22240009.0
 IX,Kuja,,Chaotic Rhapsody,USB,BLK,Single enemy,Magical,17.30,Dark,2.5,"Ten single attacks (1.73 each), causes Doom: 30 to all allies, grants MAG and RES +30% for 25 seconds, Attach Dark and Brave Mode to the user",N,Lowest HP% enemy,500,MAG +10,Misty Rod (IX),カオスラプソディ,22240010.0
 IX,Kuja,,Soul Charge,Glint,NAT,Self,,,,0.01,"Grants Attach Dark Stacking, Attach Dark, Last Stand and Magical High Quick Cast 1",N,Self,250,MAG +10,Treno Hat (IX),ソウルチャージ,22240011.0
+IX,Kuja,,Ultima Symphony,AASB,BLK,Single enemy,Magical,22.50,"Dark, NE",2.5,"Fifteen single attacks (1.50 each), grants Attach Dark, Awoken Darkness, Damage Cap +10000 and Elegant Angel of Death Mode to the user",N,Lowest HP% enemy,500,MAG +10,Nemesis Rod (IX),アルテマシンフォニー,22240012.0
 IX,Marcus,,What?!,Default,NAT,All enemies,,,,2.5,Causes Slow (20%),N,All enemies,500,,-,それはなんだ,23070003.0
 IX,Marcus,,Poison Impulse,BSB,PHY,All enemies,Physical,6.00,"Wind, Poison",2.5,"Six group attacks (1.00 each), DEF and MAG -40% for 25 seconds, grants Haste and Burst Mode to the user",N,All enemies,500,ATK +10,Platinum Dagger (IX),ポイズンインパルス,23070001.0
 IX,Marcus,,Tantalus Break,SSB,PHY,All enemies,Physical,5.64,"Wind, Poison",2.5,"Six group attacks (0.94 each), ATK, DEF, MAG, RES and MND -30% for 25 seconds",N,All enemies,500,ATK +10,Marcus's Bandana (IX),タンタラスブレイク,23070002.0
@@ -1353,6 +1356,8 @@ X,Seymour,,Oblivion,CSB,BLK,Single enemy,Magical,17.93,Dark,2.5,"Activates Dark 
 X,Seymour,,Guado Grudge,BSB,BLK,Single enemy,Magical,15.04,"Dark, NE",2.5,"Eight single attacks (1.88 each), grants Haste, Attach Dark and Burst Mode to the user",N,Lowest HP% enemy,500,MAG +10,Guado Wedding Robes (X),グアドの狂気,22540005.0
 X,Seymour,,Merciless Barrage,USB,BLK,Single enemy,Magical,17.00,"Dark, NE",2.5,"Ten single attacks (1.70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Dark and Savage Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Assault (X),無慈悲なる連撃,22540006.0
 X,Seymour,,Lance of Atrophy,AOSB,BLK,Single enemy,Magical,79.50,Dark,2.5,Three single attacks (26.50 each) capped at 99999,N,Lowest HP% enemy,750,MAG +10,Staff of Atrophy (X),滅びのヤリ,22540007.0
+X,Seymour,,Cataclysmic Requiem,AASB,BLK,Single enemy,Magical,22.50,"Dark, NE",2.5,"Fifteen single attacks (1.50 each), grants 50% Damage Reduction Barrier 4 to all allies, grants Attach Dark, Awoken Darkness, Damage Cap +10000 and Forbidden Curse Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Heretic (X),崩界のレクイエム,22540008.0
+X,Seymour,,Dark Scheme,Glint,NAT,Self,,,,0.01,"Grants Attach Dark Stacking, Attach Dark and High Quick Cast 2",N,Self,250,MAG +10,Guado Wedding Hat (X),黒い思惑,22540009.0
 XI,Shantotto,,Freeze,Default,BLK,All enemies,Magical,2.00,Ice,3.0,One group attack (2.00),N,All enemies,500,,-,フリーズ,22190001.0
 XI,Shantotto,,Vidofnir,SSB,BLK,Random enemies,Magical,17.84,-,3.0,"Eight random attacks (2.23 each), grants Magical Quick Cast 5 to the user",N,Random enemies,500,MAG +10,Jupiter's Staff (XI),ヴィゾフニル,22360001.0
 XI,Shantotto,,Primordial Elements,SSB,BLK,Random enemies,Magical,17.52,"Fire, Ice, Lightning",2.5,"Eight random attacks (2.19 each), MAG and RES +30% to all allies for 25 seconds",N,Random enemies,500,MAG +10,Tactician Magician's Coat (XI),古代魔法 炎・氷・雷,22360002.0
@@ -1482,6 +1487,9 @@ XII,Gabranth,,Ruin Unflinching,USB,PHY,Single enemy,Physical,7.10,"Dark, NE",2.5
 XII,Gabranth,,Hatred,OSB,PHY,Single enemy,Physical,11.20,"Dark, NE",2.5,One single attack (11.20~14.50 scaling with Dark attacks used) capped at 99999,N,Lowest HP% enemy,500,ATK +10,Helter-Skelter (XII),ヘイトレッド,22370007.0
 XII,Gabranth,,Frost Purge,USB,PHY,Single enemy,Physical,7.20,Dark,2.5,"Ten single ranged attacks (0.72 each), grants Attach Dark, Heavy Charge Booster and Brave Mode to the user",N,Lowest HP% enemy,500,ATK +10,Balmung (XII),百鬼･秋霜の破邪,22370008.0
 XII,Gabranth,,Ruinous Hatred,CSB,NAT,All allies,,,,2.5,"Activates Dark Chain (max 150, field +50%), ATK +50% for 25 seconds",N,All allies,500,ATK +10,Death Sickle (XII),亡国の憎悪,22370009.0
+XII,Gabranth,,Eternal Lament,AASB,PHY,Single enemy,Physical,9.00,"Dark, NE",2.5,"Fifteen single attacks (? each), grants Attach Dark, Awoken Judge, Damage Cap +10000 and Quick Cast to the user",N,Lowest HP% enemy,500,ATK +10,Blood Sword (XII),果て無き慟哭,22370010.0
+XII,Gabranth,,Time of Vengeance,Glint+,NAT,Self,,,,0.01,Grants 500 SB points to the user,N,Self,0,ATK +10,Rune Axe (XII),復讐の刻,22370011.0
+XII,Gabranth,,Unbending Hatred,Glint,NAT,Self,,,,0.01,"Grants Attach Dark Stacking, Attach Dark and High Quick Cast 2",N,Self,250,ATK +10,Chain Mail (XII),黒鉄の憎悪,22370012.0
 XII,Larsa,,Blink Strike,Default,PHY,Single enemy,Physical,1.30,-,2.5,"One single attack (1.30), grants Physical Blink 1 to the user",N,Lowest HP% enemy,500,,-,ブリンクダガー,22440002.0
 XII,Larsa,,Archadian Draught,SSB,WHT,All allies,,,,2.5,"Restores HP (85), grants Haste",N,All allies,500,MND +10,Cloud Staff (XII),帝国の秘薬,22440001.0
 XII,Larsa,,Manufacted Marvel,SSB,NAT,All allies,,,,2.5,"Grants Protect, Shell and Stoneskin: 30%",N,All allies,500,MND +10,Staff of the Magi (XII),人造破魔石の輝き,22440003.0
@@ -1737,7 +1745,7 @@ XV,Aranea,,Rush Superiority,Glint+,PHY,Single enemy,Physical,3.12,"Lightning, Da
 XV,Cor,,Knife Throw,Default,PHY,Single enemy,Physical,1.50,-,2.5,Two ranged attacks (0.75 each),N,Lowest HP% enemy,500,,-,小刀投げ,23420001.0
 XV,Cor,,Lion's Roar,AASB,PHY,Single enemy,Physical,9.00,"Fire, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Fire, Awoken Samurai, Damage Cap +10000, Samurai Quick Cast, High Retaliate and Critical Damage +50% to the user",N,Lowest HP% enemy,500,ATK +10,Kiku-ichimonji (XV),子吼,23420002.0
 XV,Cor,,Servant of Two Kings,AOSB,PHY,Single enemy,Physical,24.00,Fire,2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Kotetsu (XV),二王に仕えし者,23420003.0
-XV,Cor,,Strength of the Former King,USB,PHY,Single enemy,Physical,6.30,"Fire, NE",0.01,"Ten single attacks (0.63 each), grants Instant Cast 1 and Lion Slash Follow-up to the user",N,Lowest HP% enemy,500,ATK +10,Cor's Fatigues (XV),先代王の力,23420004.0
+XV,Cor,,Strength of the Former King,USB,PHY,Single enemy,Physical,6.30,"Fire, NE",0.01,"Ten single attacks (0.63 each), grants Attach Fire, Instant Cast 1 and Lion Slash Follow-up to the user",N,Lowest HP% enemy,500,ATK +10,Cor's Fatigues (XV),先代王の力,23420004.0
 XV,Cor,,Blade of the Immortal,Glint,PHY,Single enemy,Physical,3.12,"Fire, NE",0.01,"Six single attacks (0.52 each), grants Attach Fire Stacking and Attach Fire to the user",N,Lowest HP% enemy,250,ATK +10,Carbon Bangle (XV),不死将軍の剣閃,23420005.0
 FFT,Ramza,,Focus (FFT),Default,NAT,Self,,,,3.0,ATK +35% for 25 seconds,N,Self,500,,-,ためる,22140001.0
 FFT,Ramza,,Shout,SSB,NAT,All allies,,,,3.0,"Grants Haste, ATK +50% for 25 seconds",N,All allies,500,ATK +10,Platinum Sword (FFT),さけぶ,22140002.0

@@ -1,4 +1,4 @@
-Realm,Character,Img,Name,Tier,Type,Target,Formula,Multiplier,Element,Time,Effects,Counter,Auto Target,Points,Soulbreak Bonus,Relic,Name (JP),ID
+Ralm,Character,Img,Name,Tier,Type,Target,Formula,Multiplier,Element,Time,Effects,Counter,Auto Target,Points,Soulbreak Bonus,Relic,Name (JP),ID
 Core,Tyro,,Judgment Grimoire,Default,PHY,All enemies,Physical,1.05,-,2.75,One group ranged attack (1.05),Y,All enemies,500,,-,断撃のグリモア,20140001.0
 Core,Tyro,,Healing Grimoire,SB,WHT,All allies,,,,2.5,Restores HP (104),N,All allies,500,,Healing Grimoire (Core),治癒のグリモア,20140002.0
 Core,Tyro,,Sentinel's Grimoire,SB,NAT,All allies,,,,3.0,DEF and RES +200% for 25 seconds,N,All allies,500,,Sentinel's Grimoire (Core),鉄壁のグリモア,20140004.0

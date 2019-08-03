@@ -838,7 +838,7 @@ Blood Lance,II,Spear,,,6,25,180,0,0,0,0,95,0,Dark damage +20%,Leon,Soul of Darkn
 Holy Lance,II,Spear,,,6,25,181,0,0,0,0,95,0,,Ricard,Wyvern's Roar,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006135
 Heat Lance,II,Spear,,,6,25,181,0,112,0,0,95,0,,Gordon,Rebellion's Link,,6,25,135.0,,87.0,,,95.0,,8,35,199.0,,122.0,,,95.0,,21006155
 Dragon Lance,III,Spear,,,6,25,169,0,0,0,0,95,0,Wind damage +20%,Luneth,Heavenly Gust,,6,25,123.0,,,,,95.0,,8,35,187.0,,,,,95.0,,21006017
-Blood Lance,III,Spear,,,6,25,180,0,0,0,0,95,0,Wind damage +20%,Luneth,Howling Vortex,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21006142
+Blood Lance,III,Spear,Y,,6,85,293,0,0,0,0,95,0,Wind damage +20%,Luneth,Howling Vortex,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21006142
 Longinus,IV,Spear,,,6,25,176,0,0,0,0,95,0,Lightning damage +20%,Kain,Luminous Dragon,,6,25,130.0,,,,,95.0,,8,35,194.0,,,,,95.0,,21006082
 Kain's Lance,IV,Spear,,,6,25,178,0,0,0,0,95,0,,Kain,Impulse Drive,,6,25,132.0,,,,,95.0,,8,35,196.0,,,,,95.0,,21006107
 Holy Lance,IV,Spear,,,6,25,181,0,0,0,0,95,0,,Kain,Dragon's Wrath,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006070

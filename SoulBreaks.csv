@@ -73,6 +73,11 @@ Core,Dr. Mog,,Puff,USB,BLK,All enemies,Magical,14.30,"Fire, NE",2.5,"Ten group a
 Core,Dr. Mog,,Our Historia,CSB,NAT,All allies,,,,2.5,"Activates Core Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",N,All allies,500,,Power Staff (Core),我らが記すヒストリア,23060047.0
 Core,Dr. Mog,,Tetra Catastrophe,AASB,BLK,Single enemy,Magical,22.50,"Holy, Fire, Ice, Lightning, NE",2.5,"Fifteen single attacks (1.50 each), grants Major Buff Holy, Major Buff Fire, Major Buff Ice, Major Buff Lightning, Awoken Royal Archives, Damage Cap +10000 and Royal Archives' Teachings Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Judicer's Staff (Core),テトラカタストロフィ,23060048.0
 Core,Dr. Mog,,Magic Burst,AOSB,BLK,Single enemy,Magical,62.90,"Holy, Fire, Ice, Lightning",2.5,"Twenty single attacks (1.82 each), followed by one single attack (26.50) capped at 99999",N,Lowest HP% enemy,750,MAG +10,Mage's Robe (Core),歴史省奥義「起源」,23060049.0
+Core,Dr. Mog,,Marine Field,AASB,,,,,,,,,,500,MAG +10,Marine Beast Encyclopedia (Core),マリンフィールド,23060051.0
+Core,Dr. Mog,,Aqua Mode,Glint+,NAT,Self,,,,0.01,,,,0,MAG +10,Seraphim Mace (Core),アクアモード,23060052.0
+Core,Dr. Mog,,Bubble Mode,Glint,,,,,,,,,,250,MAG +10,Oak Staff (Core),バブルモード,23060053.0
+Core,Dr. Mog,,,AOSB,,,,,,,,,,,,,,23060054.0
+Core,Dr. Mog,,,,,,,,,,,,,,,,,23060056.0
 I,Warrior of Light,,Class Change,Default,NAT,Self,,,,3.0,"ATK, DEF, MAG and RES +30% for 25 seconds",N,Self,500,,-,クラスチェンジ,20330001.0
 I,Warrior of Light,,Shining Wave,SB,PHY,Single enemy,Physical,4.80,Holy,3.0,One single ranged attack (4.80),N,Lowest HP% enemy,500,,Sun Blade (I),シャイニングウェーブ,20330002.0
 I,Warrior of Light,,Radiant Sword,SSB,PHY,All enemies,Physical,6.00,-,2.5,"Eight group attacks (0.75 each), grants Physical Blink 1 to all allies",N,All enemies,500,ATK +10,Braveheart (I),レディアントソード,20330003.0
@@ -203,6 +208,9 @@ II,Leila,,Captain's Command,SB,NAT,All allies,,,,3.0,Grants Shell and Haste,N,Al
 II,Leila,,Pirate's Knives,SSB,PHY,Single enemy,Physical,7.62,Water,2.5,"Six single attacks (1.27 each), ATK and RES -50% for 25 seconds, ATK and RES +30% to the user for 25 seconds",N,Lowest HP% enemy,500,ATK +10,Thief's Gloves (II),パイレーツナイブス,22130003.0
 II,Leila,,Poison Cloud XVI,BSB,PHY,All enemies,Physical,4.96,"Poison, NE",2.5,"Eight group attacks (0.62 each), grants Haste, Attach Poison and Burst Mode to the user",N,All enemies,500,ATK +10,Gladius (II),どくぎり16,22130004.0
 II,Leila,,Pirate Scourge,USB,PHY,Single enemy,Physical,7.00,"Poison, Water, NE",2.5,"Ten single attacks (0.70 each), grants 100% Critical and Thief or Sharpshooter Double to the user",N,Lowest HP% enemy,500,ATK +10,Zwill Crossblade (II),パイレーツ・クラウダ,22130005.0
+II,Leila,,Pirate Cutlass,AASB,PHY,Single enemy,Physical,9.00,"Water, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Water, Awoken Water, Damage Cap +10000 and Water Instant Cast to the user",N,Lowest HP% enemy,500,ATK +10,Pirate's Knife (II),パイレーツカットラス,22130006.0
+II,Leila,,Splash LXIV,AOSB,PHY,Single enemy,Physical,24.00,Water,2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Traitor's Bow (II),スプラッシュ64,22130007.0
+II,Leila,,Pirate's Spirit,Glint+,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1",N,Self,0,ATK +10,Leila's Guise (II),女海賊の気概,22130008.0
 II,Ricard,,Spear Master,Default,PHY,Single enemy,Physical,1.50,-,3.0,One single attack (1.50),Y,Lowest HP% enemy,500,,-,熟練の槍,20460001.0
 II,Ricard,,Wyvern,SB,PHY,All enemies,Physical,3.10,Fire,2.5,One group attack (3.10),N,All enemies,500,,Flame Lance (II),飛竜,20460002.0
 II,Ricard,,Highwind Secrets,SSB,PHY,Random enemies,Physical,7.74,Wind,2.5,"Six random ranged jump attacks (1.29 each), -10/-5/2/10/15/20% more damage with 0/1/2/3/4/5 other Dragoon users, grants Attach Wind to the user",N,Random enemies,500,ATK +10,Ricard's Cuirass (II),ハイウィンド流奥義,20460003.0
@@ -1356,7 +1364,7 @@ X,Seymour,,Oblivion,CSB,BLK,Single enemy,Magical,17.93,Dark,2.5,"Activates Dark 
 X,Seymour,,Guado Grudge,BSB,BLK,Single enemy,Magical,15.04,"Dark, NE",2.5,"Eight single attacks (1.88 each), grants Haste, Attach Dark and Burst Mode to the user",N,Lowest HP% enemy,500,MAG +10,Guado Wedding Robes (X),グアドの狂気,22540005.0
 X,Seymour,,Merciless Barrage,USB,BLK,Single enemy,Magical,17.00,"Dark, NE",2.5,"Ten single attacks (1.70 each), MAG and RES +30% to the user for 25 seconds, grants Attach Dark and Savage Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Assault (X),無慈悲なる連撃,22540006.0
 X,Seymour,,Lance of Atrophy,AOSB,BLK,Single enemy,Magical,79.50,Dark,2.5,Three single attacks (26.50 each) capped at 99999,N,Lowest HP% enemy,750,MAG +10,Staff of Atrophy (X),滅びのヤリ,22540007.0
-X,Seymour,,Cataclysmic Requiem,AASB,BLK,Single enemy,Magical,22.50,"Dark, NE",2.5,"Fifteen single attacks (1.50 each), grants Attach Dark, Awoken Darkness, Damage Cap +10000 50%, Damage Reduction Barrier 4 and Forbidden Curse Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Heretic (X),崩界のレクイエム,22540008.0
+X,Seymour,,Cataclysmic Requiem,AASB,BLK,Single enemy,Magical,22.50,"Dark, NE",2.5,"Fifteen single attacks (1.50 each), grants Attach Dark, Awoken Dark, Damage Cap +10000, 50% Damage Reduction Barrier 4 and Forbidden Curse Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Heretic (X),崩界のレクイエム,22540008.0
 X,Seymour,,Dark Scheme,Glint,NAT,Self,,,,0.01,"Grants Attach Dark Stacking, Attach Dark and High Quick Cast 2",N,Self,250,MAG +10,Guado Wedding Hat (X),黒い思惑,22540009.0
 XI,Shantotto,,Freeze,Default,BLK,All enemies,Magical,2.00,Ice,3.0,One group attack (2.00),N,All enemies,500,,-,フリーズ,22190001.0
 XI,Shantotto,,Vidofnir,SSB,BLK,Random enemies,Magical,17.84,-,3.0,"Eight random attacks (2.23 each), grants Magical Quick Cast 5 to the user",N,Random enemies,500,MAG +10,Jupiter's Staff (XI),ヴィゾフニル,22360001.0
@@ -1604,6 +1612,10 @@ XIII,Serah,,Eternity Unpromised,BSB,BLK,Random enemies,Magical,14.40,"Ice, NE",2
 XIII,Serah,,Etro Fusion,CSB,NAT,All allies,,,,2.5,"Activates Ice Chain (max 150, field +50%), MAG +50% for 25 seconds",N,All allies,500,MAG +10,Summoner's Garb (XIII),エトロジョイント,22260008.0
 XIII,Serah,,Artemis Volley,USB,BLK,Single enemy,Magical,17.30,Ice,2.5,"Ten single attacks (1.73 each), grants Ice Radiant Shield: 75% to all allies, grants High Quick Cast 1 and Ice High Quick Cycle to the user",N,Lowest HP% enemy,500,MAG +10,Fellowship Arc (XIII),アルテミスシュート,22260009.0
 XIII,Serah,,Artemis Zone,Glint+,NAT,Self,,,,0.01,"Grants Attach Ice Stacking, Attach Ice and Instant Cast 1 to the user",N,Self,0,MAG +10,Faerie's Bow (XIII),アルテミスゾーン,22260010.0
+XIII,Serah,,Absolute Zero,AASB,BLK,Single enemy,Magical,22.50,"Ice, Water, NE",2.5,"Fifteen single attacks (1.50 each), grants Awoken Farseer, Damage Cap +10000, Quick Cast, Double Crystarium Mode and Blue Arrow Follow-Up",N,Lowest HP% enemy,500,MAG +10,Genji Bow (XIII),アブソリュートゼロ,22260011.0
+XIII,Serah,,Artemis Frost,AOSB,BLK,Single enemy,Magical,62.50,"Ice, Water",2.5,"Twenty single attacks (1.82 each), followed by one single attack (26.50) capped at 99999",N,Lowest HP% enemy,750,MAG +10,Rune Feather (XIII),アルテミスフロスト,22260012.0
+XIII,Serah,,Strike Water,USB,BLK,Single enemy,Magical,,"Water, NE",2.5,"Ten single attacks (? each), grants Attach Water, Strike Water and Rain Arrow Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,N7 Armor S (XIII),ストライクウォータ,22260013.0
+XIII,Serah,,Artemis Charge,Glint+,NAT,Self,,,,0.01,Grants 500 SB points to the user,N,Self,0,MAG +10,Summoner's Glove (XIII),アルテミスチャージ,22260014.0
 XIII,Cid Raines,,Recovery Shift,Default,NAT,Self,,,,2.5,Grants High Regen,N,Self,500,,-,ヒールシフト,22410003.0
 XIII,Cid Raines,,Seraphic Ray,SSB,BLK,All enemies,Magical,14.20,Holy,2.5,"Five group attacks (2.84 each), causes Imperil Holy 20% for 25 seconds",N,All enemies,500,MAG +10,Raines's Gloves (XIII),セラフィックレイ,22410002.0
 XIII,Cid Raines,,Offensive Shift,SB,BLK,Single enemy,Magical,11.88,-,2.5,"Six single attacks (1.98 each), grants Haste to all allies",N,Lowest HP% enemy,500,,Raines's Cloak (XIII),アタックシフト,22410001.0

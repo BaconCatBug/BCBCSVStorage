@@ -73,10 +73,10 @@ Core,Dr. Mog,,Puff,USB,BLK,All enemies,Magical,14.30,"Fire, NE",2.5,"Ten group a
 Core,Dr. Mog,,Our Historia,CSB,NAT,All allies,,,,2.5,"Activates Core Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",N,All allies,500,,Power Staff (Core),我らが記すヒストリア,23060047.0
 Core,Dr. Mog,,Tetra Catastrophe,AASB,BLK,Single enemy,Magical,22.50,"Holy, Fire, Ice, Lightning, NE",2.5,"Fifteen single attacks (1.50 each), grants Major Buff Holy, Major Buff Fire, Major Buff Ice, Major Buff Lightning, Awoken Royal Archives, Damage Cap +10000 and Royal Archives' Teachings Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Judicer's Staff (Core),テトラカタストロフィ,23060048.0
 Core,Dr. Mog,,Magic Burst,AOSB,BLK,Single enemy,Magical,62.90,"Holy, Fire, Ice, Lightning",2.5,"Twenty single attacks (1.82 each), followed by one single attack (26.50) capped at 99999",N,Lowest HP% enemy,750,MAG +10,Mage's Robe (Core),歴史省奥義「起源」,23060049.0
-Core,Dr. Mog,,Marine Field,AASB,,,,,,,,,,500,MAG +10,Marine Beast Encyclopedia (Core),マリンフィールド,23060051.0
-Core,Dr. Mog,,Aqua Mode,Glint+,NAT,Self,,,,0.01,,,,0,MAG +10,Seraphim Mace (Core),アクアモード,23060052.0
-Core,Dr. Mog,,Bubble Mode,Glint,,,,,,,,,,250,MAG +10,Oak Staff (Core),バブルモード,23060053.0
-Core,Dr. Mog,,,AOSB,,,,,,,,,,,,,,23060054.0
+Core,Dr. Mog,,Marine Field,AASB,,,,,"Water, NE",,"Fifteen single attacks (1.50? each), grants Attach Water, Awoken Water, Damage Cap +10000 and Marine Wave Follow-Up to the user",,,500,MAG +10,Marine Beast Encyclopedia (Core),マリンフィールド,23060051.0
+Core,Dr. Mog,,Aqua Mode,Glint+,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Water Quick Cast",,,0,MAG +10,Seraphim Mace (Core),アクアモード,23060052.0
+Core,Dr. Mog,,Bubble Mode,Glint,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1",,,250,MAG +10,Oak Staff (Core),バブルモード,23060053.0
+Core,Dr. Mog,,Surfing Moogle!,AOSB,,,,,,,,,,,,Dr. Mog's Swim Ring (Core),,23060054.0
 Core,Dr. Mog,,,,,,,,,,,,,,,,,23060056.0
 I,Warrior of Light,,Class Change,Default,NAT,Self,,,,3.0,"ATK, DEF, MAG and RES +30% for 25 seconds",N,Self,500,,-,クラスチェンジ,20330001.0
 I,Warrior of Light,,Shining Wave,SB,PHY,Single enemy,Physical,4.80,Holy,3.0,One single ranged attack (4.80),N,Lowest HP% enemy,500,,Sun Blade (I),シャイニングウェーブ,20330002.0
@@ -1616,6 +1616,7 @@ XIII,Serah,,Absolute Zero,AASB,BLK,Single enemy,Magical,22.50,"Ice, Water, NE",2
 XIII,Serah,,Artemis Frost,AOSB,BLK,Single enemy,Magical,62.50,"Ice, Water",2.5,"Twenty single attacks (1.82 each), followed by one single attack (26.50) capped at 99999",N,Lowest HP% enemy,750,MAG +10,Rune Feather (XIII),アルテミスフロスト,22260012.0
 XIII,Serah,,Strike Water,USB,BLK,Single enemy,Magical,,"Water, NE",2.5,"Ten single attacks (? each), grants Attach Water, Strike Water and Rain Arrow Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,N7 Armor S (XIII),ストライクウォータ,22260013.0
 XIII,Serah,,Artemis Charge,Glint+,NAT,Self,,,,0.01,Grants 500 SB points to the user,N,Self,0,MAG +10,Summoner's Glove (XIII),アルテミスチャージ,22260014.0
+XIII,Serah,,Artemis Field,Glint,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1 to the user",,Self,250,MAG +10,Bloodguard (XIII),アルテミスフィールド,
 XIII,Cid Raines,,Recovery Shift,Default,NAT,Self,,,,2.5,Grants High Regen,N,Self,500,,-,ヒールシフト,22410003.0
 XIII,Cid Raines,,Seraphic Ray,SSB,BLK,All enemies,Magical,14.20,Holy,2.5,"Five group attacks (2.84 each), causes Imperil Holy 20% for 25 seconds",N,All enemies,500,MAG +10,Raines's Gloves (XIII),セラフィックレイ,22410002.0
 XIII,Cid Raines,,Offensive Shift,SB,BLK,Single enemy,Magical,11.88,-,2.5,"Six single attacks (1.98 each), grants Haste to all allies",N,Lowest HP% enemy,500,,Raines's Cloak (XIII),アタックシフト,22410001.0

@@ -502,7 +502,7 @@ V,Lenna,,Tender Mercy,BSB,WHT,All allies,Magical,3.00,Holy,2.5,"Restores HP (85)
 V,Lenna,,Tycoon Princess,USB,WHT,All allies,,,,2.5,"Restores HP (85), grants Stoneskin: 30% and Last Stand",N,All allies,500,MND +10,Healing Rod (V),タイクーン・プリンセス,20200010.0
 V,Lenna,,Essence of Water,USB,WHT,All allies,,,,0.01,"Restores HP (85), grants Regenga, Minor Resist Ice and Minor Resist Water, grants Quick Cast to the user",N,All allies,500,MND +10,Holy Rod (V),水の心「いたわり」,20200011.0
 V,Lenna,,Greatest Love,Glint,WHT,All allies,,,,0.01,Restores HP (55),N,All allies,250,MND +10,White Robe (V),無上の愛,20200012.0
-V,Lenna,,Champion of Life,AASB,WHT,All allies,,,,0.01,"Restores HP (105), Removes KO (100% HP), grants Last Stand, Dual Blink 1 and Haste, grants Awoken Love Mode to the user",N,All allies,500,MND +10,Tycoon Staff (V),命と魂の護り手,20200014.0
+V,Lenna,,Champion of Life,AASB,WHT,All allies,,,,0.01,"Restores HP (105), removes KO (100% HP), grants Last Stand, Dual Blink 1 and Haste, grants Awoken Love Mode to the user",N,All allies,500,MND +10,Tycoon Staff (V),命と魂の護り手,20200014.0
 V,Lenna,,Tycoon's Protection,Glint+,NAT,All allies,,,,0.01,"Grants Protect, Shell and Haste",N,All allies,0,MND +10,Recovery Rod (V),タイクーンガード,20200015.0
 V,Galuf,,Clenched Fist,Default,PHY,Single enemy,Physical,1.50,-,3.0,One single attack (1.50),Y,Lowest HP% enemy,500,,-,老練の拳,20650001.0
 V,Galuf,,Unyielding Fist,SB,NAT,Self,,,,3.0,Grants Unyielding Fist,N,Self,500,,Kaiser Knuckles (V),不撓不屈,20650002.0
@@ -836,7 +836,7 @@ VII,Aerith,,White Materia,BSB,WHT,All enemies,Magical,9.50,Holy,2.5,"Five group 
 VII,Aerith,,Hidden Bloom,USB,WHT,All allies,,,,0.01,"Restores HP (85), grants Shell and HP Stock (2000)",N,All allies,500,MND +10,Umbrella (VII),教会に咲く花,20120009.0
 VII,Aerith,,Prayer of Salvation,BSB,WHT,All allies,,,,2.5,"Restores HP (85), grants Minor Resist Dark, grants Haste and Burst Mode to the user",N,All allies,500,MND +10,Holy Rod (VII),救星の祈り,20120010.0
 VII,Aerith,,Innocent Cure,USB,WHT,All allies,,,,0.01,"Restores HP (85), grants Last Stand and Physical High Quick Cast 3",N,All allies,500,MND +10,Healing Rod (VII),イノセント・キュアー,20120011.0
-VII,Aerith,,Planet's Pulse,AASB,WHT,All allies,,,,0.01,"Restores HP (105), Removes KO (100% HP), grants Last Stand, Physical High Quick Cast 3 and Haste, grants Awoken Planet Prayer to the user",N,All allies,500,MND +10,Wonder Wand (VII),星の鼓動,20120012.0
+VII,Aerith,,Planet's Pulse,AASB,WHT,All allies,,,,0.01,"Restores HP (105), removes KO (100% HP), grants Last Stand, Physical High Quick Cast 3 and Haste, grants Awoken Planet Prayer to the user",N,All allies,500,MND +10,Wonder Wand (VII),星の鼓動,20120012.0
 VII,Aerith,,Breath of the Wind,Glint+,NAT,All allies,,,,0.01,"Grants Protect, Shell and Haste",N,All allies,0,MND +10,Seraphim Rod (VII),清風の息吹,20120013.0
 VII,Red XIII,,Sled Fang,Default,PHY,Single enemy,Physical,1.50,-,3.0,One single attack (1.50),Y,Lowest HP% enemy,500,,-,スレッドファング,20470001.0
 VII,Red XIII,,Lunatic High,SB,NAT,All allies,,,,3.0,Grants Protect and Haste,N,All allies,500,,Diamond Pin (VII),ルナティックハイ,20470002.0
@@ -901,7 +901,7 @@ VII,Sephiroth,,Heaven's Light,OSB,PHY,Single enemy,Physical,12.00,"Dark, Fire",2
 VII,Sephiroth,,Octaslash,BSB,PHY,Single enemy,Physical,6.24,"Dark, NE",2.5,"Eight single attacks (0.78 each), grants Haste, Dual Blink 2, Attach Dark and Burst Mode to the user",N,Lowest HP% enemy,500,ATK +10,Yoshiyuki-shinuchi (VII),八刀一閃,20250009.0
 VII,Sephiroth,,Heartless Angel,USB,PHY,Single enemy,Physical,7.20,Dark,2.5,"Fifteen single attacks (0.48 each), grants Attach Dark Stacking, Attach Dark and Heartless Angel to the user",N,Lowest HP% enemy,500,ATK +10,Mako Katana (VII),心無い天使,20250010.0
 VII,Sephiroth,,Setting Sun,AOSB,PHY,Single enemy,Physical,19.00,Dark,2.5,"Twenty single attacks (0.55 each), followed by one single attack (8.00) capped at 99999",N,Lowest HP% enemy,750,ATK +10,Cetra Blade (VII),天照ノ落日,20250011.0
-VII,Sephiroth,,Zanshin,USB,PHY,Single enemy,Physical,7.20,Dark,2.5,"Fifteen single ranged attacks (0.48 each), grants Attach Dark, Critical Chance 50% for 25 seconds, and EX: Legendary SOLDIER to the user",N,Lowest HP% enemy,500,ATK +10,Executioner (VII),残心,20250012.0
+VII,Sephiroth,,Zanshin,USB,PHY,Single enemy,Physical,7.20,Dark,2.5,"Fifteen single ranged attacks (0.48 each), grants Attach Dark, Critical Chance 50% for 25 seconds, and EX: Legendary SOLDIER for 15 seconds to the user",N,Lowest HP% enemy,500,ATK +10,Executioner (VII),残心,20250012.0
 VII,Sephiroth,,Jenova's Might,Glint,NAT,Self,,,,0.01,Grants Quick Cast and Dark Drain,N,Self,250,ATK +10,Genji Glove (VII),ジェノバの力,20250013.0
 VII,Sephiroth,,Stigma,AASB,PHY,Single enemy,Physical,9.00,"Dark, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Dark, Awoken Darkness, Damage Cap +10000 and Soul Break Gauge +500 to the user",N,Lowest HP% enemy,500,ATK +10,Genji Blade (VII),スティグマ,20250014.0
 VII,Cid (VII),,Boost Jump,Default,PHY,Single enemy,Physical,1.50,-,2.75,One single ranged jump attack (1.50),Y,Lowest HP% enemy,500,,-,ブーストジャンプ,20830001.0
@@ -920,7 +920,7 @@ VII,Reno,,Turk Bombshell,SSB,NAT,All enemies,Magical,14.40,-,2.75,"Three group a
 VII,Reno,,Turk Triad,BSB,PHY,All enemies,Physical,4.92,"Lightning, NE",2.5,"Six group ranged attacks (0.82 each), grants Haste, Attach Lightning and Burst Mode to the user",N,All enemies,500,ATK +10,Shinra Bombshell (VII),トリニティタークス光線,20920005.0
 VII,Reno,,Turk Special,USB,NAT,Single enemy,Hybrid,-,"Lightning, NE",2.5,"Ten single hybrid ranged attacks (0.71 or 1.70 each), grants ATK/DEF or DEF/MAG +30%, Attach Lightning, Quick Cast 1 and Lightning Quick Cycle to the user",N,Lowest HP% enemy,500,"ATK +5, MAG +5",Enhanced Pierce Rod (VII),タークス・フルコース,20920006.0
 VII,Reno,,Pyramid Pinnacle,USB,NAT,Single enemy,Hybrid,-,Lightning,2.5,"Ten single hybrid ranged attacks (0.72 or 1.73 each), grants Attach Lightning, Black Magic or Machinist +30% Boost and Brave Mode to the user",N,Lowest HP% enemy,500,"ATK +5, MAG +5",Imperial Guard (VII),ピラミッド・マキシマム,20920007.0
-VII,Reno,,Overpowered Rod,AOSB,NAT,Single enemy,Hybrid,-,Lightning,2.5,Three single hybrid attacks (8.00 each or 26.50 each) capped at 99999,N,Lowest HP% enemy,500,"ATK +5, MAG +5",Gold Rod (VII),オーバースペックロッド,20920008.0
+VII,Reno,,Overpowered Rod,AOSB,NAT,Single enemy,Hybrid,-,Lightning,2.5,Three single hybrid attacks (8.00 or 26.50 each) capped at 99999,N,Lowest HP% enemy,500,"ATK +5, MAG +5",Gold Rod (VII),オーバースペックロッド,20920008.0
 VII,Reno,,Chain of Thunder,CSB,NAT,All allies,,,,2.5,"Activates Lightning Chain (max 99, field +20%)",N,All allies,500,,Power Rod (VII),チェインオブサンダ,20920009.0
 VII,Angeal,,Defense of Lust,Default,NAT,All allies,,,,2.5,DEF +30% for 25 seconds,N,All allies,500,,-,色欲の守り,22500002.0
 VII,Angeal,,Wings of Pride,SSB,PHY,Single enemy,Physical,7.44,"Holy, NE",2.5,"Six single attacks (1.24 each), DEF +100% to all allies for 25 seconds, grants High Regen to all allies",N,Lowest HP% enemy,500,ATK +10,Hewley Buster (CC) (VII),傲慢なる翼,22500001.0
@@ -1515,6 +1515,7 @@ XII,Vayne,,Relentless Drive,USB,NAT,Single enemy,Hybrid,-,"Dark, NE",2.5,"Ten si
 XII,Vayne,,Writ of Conquest,AASB,NAT,Single enemy,Hybrid,-,"Dark, NE",2.5,"Fifteen single hybrid attacks (0.60 or 1.50 each), grants Instant Cast 1, ATK/DEF or DEF/MAG +50% for 25 seconds, Attach Dark, Awoken Darkness and Damage Cap +10000 to the user",N,Lowest HP% enemy,500,"ATK +5, MAG +5",Qliphoth (XII),親征の檄,22620007.0
 XII,Vayne,,Eminence,AOSB,NAT,Single enemy,Hybrid,-,Dark,2.5,"Twenty single hybrid attacks (0.55 or 1.82 each), followed by one single hybrid attack (8.00 or 26.50) capped at 99999",N,Lowest HP% enemy,750,"ATK +5, MAG +5",Diamond Armor (XII),不壊衝天,22620008.0
 XII,Vayne,,Dark Reign,Glint+,NAT,Single enemy,Hybrid,-,"Dark, NE",0.01,"Six single hybrid attacks (0.52 or 1.25 each), grants Attach Dark Stacking and Attach Dark to the user",N,Lowest HP% enemy,0,"ATK +5, MAG +5",Black Mask (XII),黒き覇道,22620009.0
+XII,Vayne,,Chain of Dark,CSB,NAT,All allies,,,,2.5,"Activates Dark Chain (max 99, field +20%)",N,All allies,500,,Adaman Hat (XII),チェインオブダーク,22620010.0
 XII,Reks,,Cure (XII),Default,WHT,Single ally,,,,2.5,Restores HP (55),N,Lowest HP% ally,500,,-,ケアル【XII】,22770003.0
 XII,Reks,,Whitefall,BSB,NAT,All allies,,,,2.5,"Grants Haste, ATK and DEF +30% for 25 seconds, grants Burst Mode to the user",N,All allies,500,ATK +10,Dalmascan Warblade (XII),ホワイトフォール,22770001.0
 XII,Reks,,Dual Swords,SSB,PHY,Single enemy,Physical,7.84,-,2.5,"Eight single attacks (0.98 each), restores HP to all allies for 40% of their maximum HP",N,Lowest HP% enemy,500,ATK +10,Diamond Shield (XII),ソードコンボ,22770002.0
@@ -1746,6 +1747,9 @@ XV,Iris,,Kupo Attack,Default,WHT,Single enemy,Magical,1.90,-,2.5,"One single att
 XV,Iris,,Kupo Cure,BSB,WHT,All allies,,,,2.5,"Restores HP (55), grants Astra and Stoneskin: 30%, grants Haste and Burst Mode to the user",N,All allies,500,MND +10,Moogle Plushie (XV),モーグリケアル,22910001.0
 XV,Iris,,Eclipse,SSB,WHT,All enemies,Magical,14.00,-,2.5,"Five group attacks (2.80 each), grants Haste and Critical Chance 50% to all allies",N,All enemies,500,MND +10,White Choker (XV),エクリプス,22910002.0
 XV,Iris,,Amicitia's Cheer,USB,WHT,All allies,,,,0.01,"Restores HP (85), removes KO (40% HP), grants Haste, grants High Quick Cast to the user",N,All allies,500,MND +10,Cactuar Plushie (XV),アミシティア・エール,22910004.0
+XV,Iris,,Choco Cry,AASB,WHT,All allies,,,,0.01,"Restores HP (105), removes KO (100%), grants Physical High Quick Cast 3, Last Stand and Haste, grants Awoken Support to the user",N,All allies,500,MND +10,Chocobo Plushie (XV),チョコエール,22910005.0
+XV,Iris,,Moogle Trouble,USB,WHT,All allies,,,,0.01,"Restores HP (85), grants Regenga and Physical High Quick Cast 3",N,All allies,500,MND +10,Sapphire Bracelet (XV),モーグリトラブル,22910006.0
+XV,Iris,,Trinity Support,Glint+,NAT,All allies,,,,0.01,"Grants Protect, Shell and Haste",N,All allies,500,MND +10,Black Choker (XV),トリニティサポート,22910007.0
 XV,Aranea,,Jump (XV),Default,PHY,Single enemy,Physical,1.50,-,2.5,One single ranged jump attack (1.50),N,Lowest HP% enemy,500,,-,ジャンプ【XV】,22980004.0
 XV,Aranea,,Highwind (XV),OSB,PHY,Single enemy,Physical,11.25,"Lightning, Dark",2.5,"One single ranged jump attack (11.25) capped at 99999, 12.75 multiplier if exploiting elemental weakness",N,Lowest HP% enemy,500,ATK +10,Stoss Spear (XV),ハイウィンド【XV】,22980001.0
 XV,Aranea,,Air Superiority,BSB,PHY,Single enemy,Physical,6.64,"Lightning, Dark",2.5,"Eight single ranged jump attacks (0.83 each), grants Haste, Attach Lightning and Burst Mode to the user",N,Lowest HP% enemy,500,ATK +10,Aranea's Cowl (XV),エア・スペリオリティ,22980002.0
@@ -1759,6 +1763,12 @@ XV,Cor,,Lion's Roar,AASB,PHY,Single enemy,Physical,9.00,"Fire, NE",2.5,"Fifteen 
 XV,Cor,,Servant of Two Kings,AOSB,PHY,Single enemy,Physical,24.00,Fire,2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Kotetsu (XV),二王に仕えし者,23420003.0
 XV,Cor,,Strength of the Former King,USB,PHY,Single enemy,Physical,6.30,"Fire, NE",0.01,"Ten single attacks (0.63 each), grants Attach Fire, Instant Cast 1 and Lion Slash Follow-up to the user",N,Lowest HP% enemy,500,ATK +10,Cor's Fatigues (XV),先代王の力,23420004.0
 XV,Cor,,Blade of the Immortal,Glint,PHY,Single enemy,Physical,3.12,"Fire, NE",0.01,"Six single attacks (0.52 each), grants Attach Fire Stacking and Attach Fire to the user",N,Lowest HP% enemy,250,ATK +10,Carbon Bangle (XV),不死将軍の剣閃,23420005.0
+XV,Lunafreya,,?,Default,?,?,?,?,?,2.5,?,?,?,500,,-,モーグリアタック,23460001.0
+XV,Lunafreya,,All for Our King,SASB,SUM,Single enemy,Magical,?,"Water, Holy, NE",2.5,"Fifteen single attacks (? each), grants Attach Water 3 with Stacking, Synchro Mode and Damage Cap +10000",N,Lowest HP% enemy,500,"Damage Up, Cast Time Down",Formal Gown of Oracle (XV),全ては我らが王のために,23460002.0
+XV,Lunafreya,,Oracle's Love,AASB,WHT,All allies,,,,2.5,"Restores HP (105), removes KO (100%), grants Last Stand and Haste, grants Awoken Leviathan, Damage Cap +10000 and Quick Cast to the user",N,All allies,500,"MAG +5, MND +5",Trident of the Oracle (XV),神凪の慈愛,23460003.0
+XV,Lunafreya,,Leviathan's Pact,AOSB,SUM,Single enemy,Magical,?,"Water, Holy",2.5,"Twenty single attacks (? each), followed by one single attack (?) capped at 99999",N,Lowest HP% enemy,750,"MAG +5, MND +5",Oracle's Dress (XV),水神の誓約,23460004.0
+XV,Lunafreya,,Leviathan's Blessing,USB,SUM,Single enemy,Magical,?,"Water, Holy, NE",2.5,"Ten single attacks (? each), grants Attach Water, Summoning smart ether 2, Leviathan's Blessing and Tsunami (XV) Follow-Up to user",N,Lowest HP% enemy,500,"MAG +5, MND +5",Lunafreya's Guise (XV),水神の加護,23460005.0
+XV,Lunafreya,,Fate of the Oracle,Glint+,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1 to the user",N,Self,0,"MAG +5, MND +5",Wedding Dress (XV),神凪の使命,23460006.0
 FFT,Ramza,,Focus (FFT),Default,NAT,Self,,,,3.0,ATK +35% for 25 seconds,N,Self,500,,-,ためる,22140001.0
 FFT,Ramza,,Shout,SSB,NAT,All allies,,,,3.0,"Grants Haste, ATK +50% for 25 seconds",N,All allies,500,ATK +10,Platinum Sword (FFT),さけぶ,22140002.0
 FFT,Ramza,,Tailwind,SB,NAT,All allies,,,,2.75,"Restores HP for 40% of the target's maximum HP, grants Protect",N,All allies,500,,Grand Armor (FFT),エール,22140003.0
@@ -1876,7 +1886,7 @@ Type-0,Deuce,,Concerto,BSB,WHT,All allies,,,,2.5,"Restores HP (55), ATK and MAG 
 Type-0,Deuce,,Prelude,SSB,NAT,All allies,,,,2.5,"Grants Last Stand, Magical Blink 1 and High Regen",N,All allies,500,MND +10,Luminous Robe (Type-0),プレリュード,22800003.0
 Type-0,Deuce,,Concerto ff,USB,WHT,All allies,,,,0.01,"Restores HP (85), RES +100% for 25 seconds, grants Last Stand",N,All allies,500,MND +10,Anima Flute (Type-0),コンチェルトff,22800005.0
 Type-0,Deuce,,Vivace,USB,WHT,All allies,,,,0.01,"Restores HP (85), grants High Regen and High Quick Cast 2 to all allies, grants Cure Melody Follow-Up to the user",N,All allies,500,MND +10,Platinum Piccolo (Type-0),ヴィヴァーチェ,22800006.0
-Type-0,Deuce,,All in Harmony,AASB,WHT,All allies,,,,0.01,"Restores HP (105), removes KO (100%), grants Last Stand and Haste, grants Awoken Protection Melody to the user",N,All allies,500,MND +10,Wyvern Whistle (Type-0),みんなの協和音,22800007.0
+Type-0,Deuce,,All in Harmony,AASB,WHT,All allies,,,,0.01,"Restores HP (105), removes KO (100% HP), grants Last Stand and Haste, grants Awoken Protection Melody to the user",N,All allies,500,MND +10,Wyvern Whistle (Type-0),みんなの協和音,22800007.0
 Type-0,Deuce,,Con Brio,Glint+,NAT,All allies,,,,0.01,"Grants Protect, Shell and Haste",N,All allies,0,MND +10,Marching Fife (Type-0),コン・ブリオ,22800008.0
 Type-0,Nine,,Jump (Type-0),Default,PHY,Single enemy,Physical,1.50,-,2.5,One single ranged jump attack (1.50),N,Lowest HP% enemy,500,,-,ジャンプ【零式】,22810003.0
 Type-0,Nine,,Class Zero Basher-in-Chief,BSB,PHY,Single enemy,Physical,6.64,"Wind, NE",2.5,"Eight single ranged jump attacks (0.83 each), grants Haste, Attach Wind and Burst Mode to the user",N,Lowest HP% enemy,500,ATK +10,Javelin (Type-0),ブッコミ隊長,22810001.0

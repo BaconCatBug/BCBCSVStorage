@@ -1515,7 +1515,7 @@ XII,Vayne,,Relentless Drive,USB,NAT,Single enemy,Hybrid,-,"Dark, NE",2.5,"Ten si
 XII,Vayne,,Writ of Conquest,AASB,NAT,Single enemy,Hybrid,-,"Dark, NE",2.5,"Fifteen single hybrid attacks (0.60 or 1.50 each), grants Instant Cast 1, ATK/DEF or DEF/MAG +50% for 25 seconds, Attach Dark, Awoken Darkness and Damage Cap +10000 to the user",N,Lowest HP% enemy,500,"ATK +5, MAG +5",Qliphoth (XII),親征の檄,22620007.0
 XII,Vayne,,Eminence,AOSB,NAT,Single enemy,Hybrid,-,Dark,2.5,"Twenty single hybrid attacks (0.55 or 1.82 each), followed by one single hybrid attack (8.00 or 26.50) capped at 99999",N,Lowest HP% enemy,750,"ATK +5, MAG +5",Diamond Armor (XII),不壊衝天,22620008.0
 XII,Vayne,,Dark Reign,Glint+,NAT,Single enemy,Hybrid,-,"Dark, NE",0.01,"Six single hybrid attacks (0.52 or 1.25 each), grants Attach Dark Stacking and Attach Dark to the user",N,Lowest HP% enemy,0,"ATK +5, MAG +5",Black Mask (XII),黒き覇道,22620009.0
-XII,Vayne,,Chain of Dark,CSB,NAT,All allies,,,,2.5,"Activates Dark Chain (max 99, field +20%)",N,All allies,500,,Adaman Hat (XII),チェインオブダーク,22620010.0
+XII,Vayne,,Chain of Dark,CSB,NAT,All allies,,,,2.5,"Activates Dark Chain (max 99, field +20%)",N,All allies,500,,Adamant Hat (XII),チェインオブダーク,22620010.0
 XII,Reks,,Cure (XII),Default,WHT,Single ally,,,,2.5,Restores HP (55),N,Lowest HP% ally,500,,-,ケアル【XII】,22770003.0
 XII,Reks,,Whitefall,BSB,NAT,All allies,,,,2.5,"Grants Haste, ATK and DEF +30% for 25 seconds, grants Burst Mode to the user",N,All allies,500,ATK +10,Dalmascan Warblade (XII),ホワイトフォール,22770001.0
 XII,Reks,,Dual Swords,SSB,PHY,Single enemy,Physical,7.84,-,2.5,"Eight single attacks (0.98 each), restores HP to all allies for 40% of their maximum HP",N,Lowest HP% enemy,500,ATK +10,Diamond Shield (XII),ソードコンボ,22770002.0

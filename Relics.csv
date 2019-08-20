@@ -340,7 +340,7 @@ Hauteclaire,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Lightning,B
 Fragarach,XIII,Sword,,,6,25,181,0,0,0,0,95,0,,Noel,Blizzard Hunt,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002418
 Liberator,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Lightning,Army of One Evolved,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002432
 Survivor's Edge,XIII,Sword,,,6,25,181,0,0,0,0,95,0,,Noel,Javelin Hunt,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002516
-Vajradanda,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Ice damage +20%,Noel,Hunter's Pride,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002370
+Vajradanda,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Ice damage +20%,Noel,Blessing of Shadows,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002370
 Excalibur Zeta,XIV,Sword,,,6,25,172,0,0,0,0,95,0,Holy damage +20%,Minfilia,Call of the Stars,,6,25,126.0,,,,,95.0,,8,35,190.0,,,,,95.0,,21002270
 Sword of the Father,XV,Sword,,,6,25,172,0,0,0,0,95,0,,Noctis,Armiger,,6,25,126.0,,,,,95.0,,8,35,190.0,,,,,95.0,,21002264
 Blade of Brennaere,XV,Sword,,,6,25,173,0,0,0,0,95,0,"Fire damage +20%, RS: Earth damage +20%",Gladiolus,Dawnhammer,,6,25,127.0,,,,,95.0,,8,35,191.0,,,,,95.0,,21002312
@@ -2052,7 +2052,7 @@ Chainsaw,VII,Gun-Arm,,,5,20,132,0,0,0,0,95,0,,Barret,,AVALANCHE's Leader,5,20,99
 Darts,VI,Gambling Gear,,,5,20,101,0,0,0,0,95,0,,Setzer,Dive Bomb,,5,20,70.0,,,,,95.0,,7,30,117.0,,,,,95.0,,21033001
 Moomba Mage,X,Doll,,,6,25,115,0,166,0,78,95,0,RS: Ice damage +20%,Lulu,Abaddon Blizzaja,,6,25,88.0,,121.0,,55.0,95.0,,8,35,126.0,,184.0,,87.0,95.0,,21034006
 Water Moomba,X,Doll,,,6,25,115,0,173,0,78,95,0,Water damage +20%,Lulu,Blizzard & Water Fury,,6,25,88.0,,128.0,,55.0,95.0,,8,35,126.0,,191.0,,87.0,95.0,,21034007
-Dreamy Cait Sith,X,Doll,,,6,25,115,0,173,0,78,95,0,Ice damage +20%,Lulu,Moving Forward,,6,25,88.0,,128.0,,55.0,95.0,,8,35,126.0,,191.0,,87.0,95.0,,21034008
+Dreamy Cait Sith,X,Doll,,,6,25,115,0,173,0,78,95,0,Ice damage +20%,Lulu,The Future Waits,,6,25,88.0,,128.0,,55.0,95.0,,8,35,126.0,,191.0,,87.0,95.0,,21034008
 Magical Mog,X,Doll,,,5,20,50,0,114,0,61,95,0,,Lulu,Firaga Fury,,5,20,30.0,,80.0,,44.0,95.0,,7,30,60.0,,131.0,,69.0,95.0,,21034001
 Rune Mog,X,Doll,,,5,20,50,0,118,0,61,95,0,,Lulu,March of the Moogles,,5,20,30.0,,84.0,,44.0,95.0,,7,30,60.0,,135.0,,69.0,95.0,,21034002
 Magician Mog,X,Doll,,,5,20,82,0,125,0,63,95,0,Ice damage +20%,Lulu,Icy Smile,,5,20,58.0,,91.0,,46.0,95.0,,7,30,94.0,,142.0,,71.0,95.0,,21034005

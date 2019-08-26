@@ -52,6 +52,9 @@ Adventurer's Knife,VI,Dagger,,,6,25,171,0,0,0,0,95,0,,Locke,Heat Slicer,,6,25,12
 Triton's Dagger,VI,Dagger,,,6,25,171,0,0,0,0,95,0,,Locke,Burning Spirit,,6,25,125.0,,,,,95.0,,8,35,189.0,,,,,95.0,,21001109
 Darksteel Baselard,XI,Dagger,,,6,25,164,0,94,0,0,95,0,,Lion,Pirate Pummel,,6,25,118.0,,63.0,,,95.0,,8,35,182.0,,106.0,,,95.0,,21001101
 Darksteel Kukri,XI,Dagger,,,6,25,171,0,0,0,81,95,0,,Lilisette,Sensual Dance,,6,25,125.0,,,,58.0,95.0,,8,35,189.0,,,,90.0,95.0,,21001122
+Norghish Dagger,XI,Dagger,,,6,25,170,0,0,0,0,95,0,Water damage +20%,Lion,Evisceration,,6,25,124.0,,,,,95.0,,8,35,188.0,,,,,95.0,,21001120
+Chicken Knife,XI,Dagger,,,6,25,170,0,0,0,0,95,0,Water damage +20%,Lion,Grapeshot,,6,25,124.0,,,,,95.0,,8,35,188.0,,,,,95.0,,21001121
+Beetle Knife,XI,Dagger,,,6,25,171,0,0,0,0,95,0,,Lion,Shark Bite,,6,25,125.0,,,,,95.0,,8,35,189.0,,,,,95.0,,21001097
 Shikari Nagasa,XII,Dagger,,,6,25,156,0,0,0,0,95,0,,Vaan,Blood-Red Spiral,,6,25,110.0,,,,,95.0,,8,35,174.0,,,,,95.0,,21001088
 Triton's Dagger,XII,Dagger,,,6,25,170,0,0,0,0,95,0,Wind damage +20%,Vaan,Whitest Whorl,,6,25,124.0,,,,,95.0,,8,35,188.0,,,,,95.0,,21001151
 Pirate's Knife,XII,Dagger,,,6,25,170,0,0,0,0,95,0,Wind damage +20%,Vaan,Dreadnought,,6,25,124.0,,,,,95.0,,8,35,188.0,,,,,95.0,,21001158
@@ -317,6 +320,10 @@ Full Throttle Sword,X,Sword,,,6,25,180,0,0,0,0,95,0,Water damage +20%,Paine,Y.R.
 Ultima Sword,X,Sword,,,6,25,180,0,0,0,0,95,0,Water damage +20%,Paine,Painful Slice,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002518
 Gluttony Sword,XI,Sword,,,6,25,174,0,0,0,0,95,0,RS: Holy damage +20%,Curilla,Holy Circle,,6,25,128.0,,,,,95.0,,8,35,192.0,,,,,95.0,,21002189
 Bastard Sword,XI,Sword,,,6,25,181,0,0,0,0,95,0,,Curilla,Extreme Defense,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002249
+Balmung,XI,Sword,,,6,25,180,0,0,0,0,95,0,Dark damage +20%,Zeid,Sickle Moon,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002549
+Dragvandil,XI,Sword,,,6,25,181,0,0,0,0,95,0,,Curilla,Divine Emblem,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002250
+Katzbalger,XI,Sword,,,6,25,180,0,0,0,0,95,0,Holy damage +20%,Curilla,Circle Blade,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002548
+Ascalon,XI,Sword,,,6,25,180,0,0,0,0,95,0,Dark damage +20%,Zeid,Shockwave (XI),,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002290
 Durandal,XII,Sword,,,6,25,120,0,162,0,0,95,0,RS: Lightning damage +20%,Ashe,Thunder's Echo,,6,25,83.0,,117.0,,,95.0,,8,35,135.0,,180.0,,,95.0,,21002070
 Save the Queen,XII,Sword,,,6,25,170,0,0,0,0,95,0,RS: Holy damage +20%,Basch,Righteous Steel,,6,25,124.0,,,,,95.0,,8,35,188.0,,,,,95.0,,21002185
 Dark Sephira,XII,Sword,,,6,25,166,0,159,0,0,95,0,Dark damage +20%,Vayne,Divine Sword,,6,25,120.0,,114.0,,,95.0,,8,35,184.0,,177.0,,,95.0,,21002255
@@ -2078,6 +2085,7 @@ Force Shield,IV,Shield,,,6,25,19,178,0,118,0,0,112,,Cecil (Paladin),Paladin Wall
 Force Shield,V,Shield,,,6,25,19,178,0,118,0,0,112,Earth and Wind resistance (minor),Faris,Pirate Storm,,6,25,10.0,143.0,,94.0,,,112.0,8,35,22.0,192.0,,128.0,,,112.0,22050082
 Sorcery Targe,X,Shield,,,6,25,19,178,0,118,0,0,112,,Rikku,Hyper Enwater,,6,25,10.0,143.0,,94.0,,,112.0,8,35,22.0,192.0,,128.0,,,112.0,22050064
 Glorious Shield,X,Shield,,,6,25,19,178,0,118,0,0,112,,Tidus,Sphere Form,,6,25,10.0,143.0,,94.0,,,112.0,8,35,22.0,192.0,,128.0,,,112.0,22050071
+Royal Guard's Shield,XI,Shield,,,6,25,19,176,0,117,0,0,112,Holy damage +20%,Curilla,Vorpal Blade,,6,25,10.0,141.0,,93.0,,,112.0,8,35,22.0,190.0,,127.0,,,112.0,22050120
 Crystal Shield,XII,Shield,,,6,25,19,178,0,118,0,0,112,,Basch,Exemplar of Honor,,6,25,10.0,143.0,,94.0,,,112.0,8,35,22.0,192.0,,128.0,,,112.0,22050077
 Fortemps Kite Shield,XIV,Shield,,,6,25,19,176,0,117,0,0,112,,Haurchefant,Live to Serve,,6,25,10.0,141.0,,93.0,,,112.0,8,35,22.0,190.0,,127.0,,,112.0,22050081
 Magitek Shield,XV,Shield,,,6,25,19,176,0,117,0,0,112,Lightning damage +20%,Aranea,Highwind OB,,6,25,10.0,141.0,,93.0,,,112.0,8,35,22.0,190.0,,127.0,,,112.0,22050118
@@ -2173,6 +2181,7 @@ Witch Tiara,VIII,Hat,,,6,25,0,111,45,164,34,0,105,,Rinoa,Angel Wing Ice Dust,,6,
 Mystery Veil,VIII,Hat,,,6,25,0,112,45,165,34,0,105,,Rinoa,Grand Rondo,,6,25,,90.0,35.0,126.0,24.0,,105.0,8,35,,121.0,48.0,181.0,37.0,,105.0,22051211
 Hypno Crown,X,Hat,,,6,25,0,112,35,165,44,0,105,,Yuna,Calm Prayer,,6,25,,90.0,25.0,126.0,34.0,,105.0,8,35,,121.0,38.0,181.0,47.0,,105.0,22051066
 Wizard's Petasos,XI,Hat,,,6,25,0,111,45,164,34,0,105,Lightning damage +20%,Shantotto,Federation Demon,,6,25,,89.0,35.0,125.0,24.0,,105.0,8,35,,120.0,48.0,180.0,37.0,,105.0,22051164
+Green Ribbon,XI,Hat,,,6,25,19,111,35,164,34,0,105,Water damage +20%,Lion,Dancing Edge (XI),,6,25,10.0,89.0,25.0,125.0,24.0,,105.0,8,35,22.0,120.0,38.0,180.0,37.0,,105.0,22051128
 Black Mask,XII,Hat,,,6,25,19,112,35,165,34,0,105,Dark resistance (minor),Vayne,Dark Reign,,6,25,10.0,90.0,25.0,126.0,24.0,,105.0,8,35,22.0,121.0,38.0,181.0,37.0,,105.0,22051207
 White Mask,XII,Hat,,,6,25,0,112,35,165,44,0,105,Holy resistance (minor),Larsa,Just Reign,,6,25,,90.0,25.0,126.0,34.0,,105.0,8,35,,121.0,38.0,181.0,47.0,,105.0,22051206
 Hypno Crown,XII,Hat,,,6,25,0,112,45,165,34,0,105,,Ashe,Conqueror's Descendent,,6,25,,90.0,35.0,126.0,24.0,,105.0,8,35,,121.0,48.0,181.0,37.0,,105.0,22051139
@@ -2339,6 +2348,7 @@ Genji Helm,VI,Helm,,,5,20,12,98,0,88,0,0,105,,-,Divine Majesty,,5,20,8.0,68.0,,6
 Helm of Wonders,VI,Helm,,,5,20,12,117,12,104,0,0,105,,Gogo (VI),Punishing Meteor,,5,20,5.0,87.0,5.0,77.0,,,105.0,7,30,15.0,132.0,15.0,117.0,,,105.0,22052049
 Barbut,IX,Helm,,,5,20,12,102,0,92,0,0,105,Blind immunity (minor),,,,5,20,8.0,72.0,,65.0,,,105.0,7,30,13.0,117.0,,105.0,,,105.0,22052020
 Golden Helm,IX,Helm,,,5,20,17,120,0,107,0,0,105,,Steiner,,Loyal Guard,5,20,10.0,90.0,,80.0,,,105.0,7,30,20.0,135.0,,120.0,,,105.0,22052045
+Royal Knight's Bascinet,XI,Helm,,,5,20,17,120,0,107,0,0,105,,Curilla,One-Eyed Swordswoman,,5,20,10.0,90.0,,80.0,,,105.0,7,30,20.0,135.0,,120.0,,,105.0,22052052
 Gabranth's Helm,XII,Helm,,,5,20,17,114,0,102,0,0,105,Dark damage +20%,Gabranth,Avenger,,5,20,10.0,84.0,,75.0,,,105.0,7,30,20.0,129.0,,115.0,,,105.0,22052036
 Barbut,XII,Helm,,,5,20,17,117,0,104,0,0,105,,Gabranth,,Clad in Darkness,5,20,10.0,87.0,,77.0,,,105.0,7,30,20.0,132.0,,117.0,,,105.0,22052046
 Giant's Helmet,XII,Helm,,,5,20,17,120,0,107,0,0,105,,Gabranth,,9th Bureau's General,5,20,10.0,90.0,,80.0,,,105.0,7,30,20.0,135.0,,120.0,,,105.0,22052065
@@ -2878,6 +2888,7 @@ Off-Season,X,Bracer,,,6,25,42,125,24,122,23,0,105,Water damage +20%,Wakka,Auroch
 Medical Bangle,X,Bracer,,,6,25,32,125,34,122,23,0,105,Ice damage +20%,Lulu,Twin Temptations,,6,25,20.0,102.0,24.0,90.0,13.0,,105.0,8,35,36.0,134.0,38.0,134.0,27.0,,105.0,22056188
 Echo Armlet,X,Bracer,,,6,25,42,125,24,122,23,0,105,Silence immunity (minor),Kimahri,Aqua Landing,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056190
 Shaman Bracer,X,Bracer,,,6,25,42,125,24,122,23,0,105,,Auron,Igniting Flame,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056233
+Chaos Gauntlets,XI,Bracer,,,6,25,42,125,24,122,23,0,105,,Zeid,Smite,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056280
 Argyle Armlet,XII,Bracer,,,6,25,42,125,24,122,23,0,105,Blind immunity (minor),Balthier,Edge of Treachery,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056174
 Vayne's Armguard,XII,Bracer,,,6,25,34,125,34,122,23,0,105,,Vayne,Relentless Drive,,6,25,24.0,102.0,24.0,90.0,13.0,,105.0,8,35,38.0,134.0,38.0,134.0,27.0,,105.0,22056159
 Warlord's Glove,XIII,Bracer,,,6,25,42,125,24,122,23,0,105,Ice damage +20%,Snow,Revenge Wall,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056191
@@ -2991,6 +3002,8 @@ Tactician Magician's Cuffs,XI,Bracer,,,5,20,24,93,28,90,19,0,105,,Shantotto,Play
 Royal Squire's Mufflers,XI,Bracer,,,5,20,31,96,18,92,18,0,105,,Curilla,,Templar's Charge,5,20,23.0,78.0,11.0,68.0,11.0,,105.0,7,30,35.0,104.0,21.0,104.0,21.0,,105.0,22056098
 Alkyoneus's Bracelet,XI,Bracer,,,5,20,24,96,18,92,28,0,105,,Aphmau,,Court Secrets,5,20,16.0,78.0,11.0,68.0,21.0,,105.0,7,30,28.0,104.0,21.0,104.0,31.0,,105.0,22056096
 Nashira Gages,XI,Bracer,,,5,20,34,99,18,95,18,0,105,,Naja,Warrior's Charge,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056277
+Sand Gloves,XI,Bracer,,,5,20,34,99,18,95,18,0,105,,Lion,Pirate's Discipline,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056173
+Coral Finger Gauntlets,XI,Bracer,,,5,20,34,99,18,95,18,0,105,,Zeid,,Wandering Dark Knight,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056153
 Armguard,XII,Bracer,,,5,20,25,89,18,85,19,0,105,Instant KO immunity (minor),,,,5,20,18.0,71.0,11.0,62.0,13.0,,105.0,7,30,28.0,97.0,21.0,96.0,22.0,,105.0,22056080
 Fran's Bracers,XII,Bracer,,,5,20,30,96,18,92,18,0,105,,Fran,,Brawn and Brains,5,20,22.0,78.0,11.0,68.0,11.0,,105.0,7,30,34.0,104.0,21.0,104.0,21.0,,105.0,22056115
 Ashe's Bracers,XII,Bracer,,,5,20,24,97,28,93,18,0,105,Lightning damage +20%,Ashe,,Fallen Pride,5,20,16.0,79.0,21.0,69.0,11.0,,105.0,7,30,28.0,105.0,31.0,105.0,21.0,,105.0,22056136
@@ -3285,6 +3298,7 @@ Rabbit Charm,XI,Accessory,,,5,1,0,0,15,0,0,0,0,Silence immunity (moderate),,,,5,
 Horizon Ring,XI,Accessory,,,5,1,0,0,0,0,0,0,0,"Ice resistance (moderate), Paralyze immunity (moderate)",,,,5,20,,,,,,,,7,30,,,,,,,,23080303
 Victory Ring,XI,Accessory,,,5,1,0,15,0,0,0,0,0,Fire resistance (moderate),,,,5,20,,15.0,,,,,,7,30,,15.0,,,,,,23080304
 Bitter Earring,XI,Accessory,,,5,1,0,15,0,0,0,0,0,Dark resistance (moderate),,,,5,20,,15.0,,,,,,7,30,,15.0,,,,,,23080394
+Volant Belt,XI,Accessory,,,5,1,0,15,0,0,0,0,0,Holy resistance (moderate),,,,5,20,,15.0,,,,,,7,30,,15.0,,,,,,23080395
 Rose Corsage,XII,Accessory,,,5,1,0,0,0,0,15,0,0,Silence immunity (major),,,,5,20,,,,,15.0,,,7,30,,,,,15.0,,,23080039
 Vossler's Gauntlet,XII,Accessory,,,5,1,30,0,0,0,0,0,0,,,,,5,20,30.0,,,,,,,7,30,30.0,,,,,,,23080144
 Doctor Cid's Glasses,XII,Accessory,,,5,1,0,0,0,0,30,0,0,,,,,5,20,,,,,30.0,,,7,30,,,,,30.0,,,23080184

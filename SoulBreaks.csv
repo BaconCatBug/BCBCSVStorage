@@ -1354,7 +1354,7 @@ X,Paine,,Throttle Alluvion,USB,PHY,Single enemy,Physical,7.20,Water,2.5,"Ten sin
 X,Paine,,Y.R.P Combo!,AASB,PHY,Single enemy,Physical,9.00,"Water, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Water, Awoken Water, Damage Cap +10000 and Respect Counter Mode to the user",N,Lowest HP% enemy,500,ATK +10,Full Throttle Sword (X),ユ・リ・パCOMBO！,22420008.0
 X,Paine,,Painful Slice,AOSB,PHY,Single enemy,Physical,24.00,Water,2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Ultima Sword (X),シメてひんむく,22420009.0
 X,Paine,,Cool Vacation,CSB,NAT,All allies,,,,2.5,"Activates Water Chain (max 150, field +50%), ATK +50% for 25 seconds",N,All allies,500,ATK +10,Alchemist P (X),クール・バカンス,22420010.0
-X,Paine,,Speed Professional,USB,PHY,Single enemy,Physical,,"Water, NE",2.5,"Ten single attacks (? each), grants Attach Water, Speed Professional and Surfeit to the user",N,Lowest HP% enemy,500,ATK +10,Zantetsuken (X),鴻漸之翼,22420011.0
+X,Paine,,Speed Professional,USB,PHY,Single enemy,Physical,7.10,"Water, NE",2.5,"Ten single attacks (0.71 each), grants Attach Water, Speed Professional and Surfeit to the user",N,Lowest HP% enemy,500,ATK +10,Zantetsuken (X),鴻漸之翼,22420011.0
 X,Paine,,Time for Some Hurt!,Glint+,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1",N,Self,0,ATK +10,Dark Knight Guise (X),シメる準備！,22420012.0
 X,Seymour,,Rest in Peace,Default,BLK,Single enemy,Magical,1.80,Dark,2.5,"One single ranged attack (1.80), causes Sleep (30%)",N,Lowest HP% enemy,500,,-,安息の呪言,22540003.0
 X,Seymour,,Anima's Pain,BSB,SUM,Random enemies,Magical,17.44,"Dark, NE",2.5,"Eight random attacks (2.18 each), causes Imperil Dark 20% for 25 seconds, causes Instant KO (9%), grants Haste and Burst Mode to the user",N,Random enemies,500,MAG +10,Seymour's Rod (X),アニマ召喚・ペイン,22540001.0
@@ -1507,7 +1507,7 @@ XII,Gabranth,,Hatred,OSB,PHY,Single enemy,Physical,11.20,"Dark, NE",2.5,One sing
 XII,Gabranth,,Frost Purge,USB,PHY,Single enemy,Physical,7.20,Dark,2.5,"Ten single ranged attacks (0.72 each), grants Attach Dark, Heavy Charge Booster and Brave Mode to the user",N,Lowest HP% enemy,500,ATK +10,Balmung (XII),百鬼･秋霜の破邪,22370008.0
 XII,Gabranth,,Ruinous Hatred,CSB,NAT,All allies,,,,2.5,"Activates Dark Chain (max 150, field +50%), ATK +50% for 25 seconds",N,All allies,500,ATK +10,Death Sickle (XII),亡国の憎悪,22370009.0
 XII,Gabranth,,Eternal Lament,AASB,PHY,Single enemy,Physical,9.00,"Dark, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Dark, Awoken Judge, Damage Cap +10000 and Quick Cast to the user",N,Lowest HP% enemy,500,ATK +10,Blood Sword (XII),果て無き慟哭,22370010.0
-XII,Gabranth,,Time of Vengeance,Glint+,NAT,Self,,,,0.01,Grants 500 SB points to the user,N,Self,0,ATK +10,Rune Axe (XII),復讐の刻,22370011.0
+XII,Gabranth,,Time of Vengeance,Glint+,NAT,Self,,,,0.01,Grants Soul Break Gauge +500,N,Self,0,ATK +10,Rune Axe (XII),復讐の刻,22370011.0
 XII,Gabranth,,Unbending Hatred,Glint,NAT,Self,,,,0.01,"Grants Attach Dark Stacking, Attach Dark and High Quick Cast 2",N,Self,250,ATK +10,Chain Mail (XII),黒鉄の憎悪,22370012.0
 XII,Larsa,,Blink Strike,Default,PHY,Single enemy,Physical,1.30,-,2.5,"One single attack (1.30), grants Physical Blink 1 to the user",N,Lowest HP% enemy,500,,-,ブリンクダガー,22440002.0
 XII,Larsa,,Archadian Draught,SSB,WHT,All allies,,,,2.5,"Restores HP (85), grants Haste",N,All allies,500,MND +10,Cloud Staff (XII),帝国の秘薬,22440001.0
@@ -1627,7 +1627,7 @@ XIII,Serah,,Artemis Zone,Glint+,NAT,Self,,,,0.01,"Grants Attach Ice Stacking, At
 XIII,Serah,,Absolute Zero,AASB,BLK,Single enemy,Magical,22.50,"Ice, Water, NE",2.5,"Fifteen single attacks (1.50 each), grants Awoken Farseer, Damage Cap +10000, Quick Cast, Double Crystarium Mode and Blue Arrow Follow-Up",N,Lowest HP% enemy,500,MAG +10,Genji Bow (XIII),アブソリュートゼロ,22260011.0
 XIII,Serah,,Artemis Frost,AOSB,BLK,Single enemy,Magical,62.50,"Ice, Water",2.5,"Twenty single attacks (1.82 each), followed by one single attack (26.50) capped at 99999",N,Lowest HP% enemy,750,MAG +10,Rune Feather (XIII),アルテミスフロスト,22260012.0
 XIII,Serah,,Strike Water,USB,BLK,Single enemy,Magical,,"Water, NE",2.5,"Ten single attacks (? each), grants Attach Water, Strike Water and Rain Arrow Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,N7 Armor S (XIII),ストライクウォータ,22260013.0
-XIII,Serah,,Artemis Charge,Glint+,NAT,Self,,,,0.01,Grants 500 SB points to the user,N,Self,0,MAG +10,Summoner's Glove (XIII),アルテミスチャージ,22260014.0
+XIII,Serah,,Artemis Charge,Glint+,NAT,Self,,,,0.01,Grants Soul Break Gauge +500 points,N,Self,0,MAG +10,Summoner's Glove (XIII),アルテミスチャージ,22260014.0
 XIII,Serah,,Artemis Field,Glint,NAT,Self,,,,0.01,"Grants Attach Water Stacking, Attach Water and Instant Cast 1 to the user",N,Self,250,MAG +10,Bloodguard (XIII),アルテミスフィールド,22260015.0
 XIII,Cid Raines,,Recovery Shift,Default,NAT,Self,,,,2.5,Grants High Regen,N,Self,500,,-,ヒールシフト,22410003.0
 XIII,Cid Raines,,Seraphic Ray,SSB,BLK,All enemies,Magical,14.20,Holy,2.5,"Five group attacks (2.84 each), causes Imperil Holy 20% for 25 seconds",N,All enemies,500,MAG +10,Raines's Gloves (XIII),セラフィックレイ,22410002.0

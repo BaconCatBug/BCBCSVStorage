@@ -337,8 +337,8 @@ Treaty-Blade,XII,Sword,,,6,25,120,0,172,0,0,95,0,Lightning damage +20%,Ashe,Nort
 Balmung,XII,Sword,,,6,25,180,0,0,0,0,95,0,Dark damage +20%,Gabranth,Frost Purge,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002394
 Ultima Blade,XII,Sword,,,6,25,120,0,173,0,0,95,0,,Ashe,Inspiring Flash,,6,25,83.0,,128.0,,,95.0,,8,35,135.0,,191.0,,,95.0,,21002278
 Sleep Blade,XII,Sword,,,6,25,120,0,0,0,176,95,0,Chance to cause Sleep,Larsa,Scintillating Potion,,6,25,83.0,,,,132.0,95.0,,8,35,135.0,,,,194.0,95.0,,21002390
-Qliphoth,XII,Sword,,,6,25,180,0,159,0,0,95,0,Dark damage +20%,Vayne,Writ of Conquest,,6,25,134.0,,114.0,,,95.0,,8,35,198.0,,177.0,,,95.0,,21002461
-Joyeuse,XII,Sword,,,6,25,120,0,0,0,176,95,0,,Larsa,Unlimited Potions,,6,25,83.0,,,,132.0,95.0,,8,35,135.0,,,,194.0,95.0,,21002254
+Qliphoth,XII,Sword,,,6,25,180,0,159,0,0,95,0,Dark damage +20%,Vayne,Military Manifesto,,6,25,134.0,,114.0,,,95.0,,8,35,198.0,,177.0,,,95.0,,21002461
+Joyeuse,XII,Sword,,,6,25,120,0,0,0,176,95,0,,Larsa,Soothing Wave,,6,25,83.0,,,,132.0,95.0,,8,35,135.0,,,,194.0,95.0,,21002254
 Blood Sword,XII,Sword,,,6,25,180,0,0,0,0,95,0,Dark damage +20%,Gabranth,Eternal Lament,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002486
 Gladius,XIII,Sword,,,6,25,167,0,0,0,0,95,0,RS: Lightning damage +20%,Lightning,Thunderfall,,6,25,121.0,,,,,95.0,,8,35,185.0,,,,,95.0,,21002092
 Razor Carbine,XIII,Sword,,,6,25,172,0,0,0,0,95,0,Lightning damage +20%,Lightning,Army of One,,6,25,126.0,,,,,95.0,,8,35,190.0,,,,,95.0,,21002102
@@ -346,7 +346,7 @@ Blazing Spirit,XIII,Sword,,,6,25,178,0,0,0,0,95,0,,Noel,Ice Javelin,,6,25,132.0,
 Hauteclaire,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Lightning,Blaze Slash,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002335
 Fragarach,XIII,Sword,,,6,25,181,0,0,0,0,95,0,,Noel,Blizzard Hunt,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002418
 Liberator,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Lightning,Army of One Evolved,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002432
-Survivor's Edge,XIII,Sword,,,6,25,181,0,0,0,0,95,0,,Noel,Javelin Hunt,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002516
+Survivor's Edge,XIII,Sword,,,6,25,181,0,0,0,0,95,0,,Noel,Hunting Javelin,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002516
 Vajradanda,XIII,Sword,,,6,25,180,0,0,0,0,95,0,Ice damage +20%,Noel,Blessing of Shadows,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002370
 Excalibur Zeta,XIV,Sword,,,6,25,172,0,0,0,0,95,0,Holy damage +20%,Minfilia,Call of the Stars,,6,25,126.0,,,,,95.0,,8,35,190.0,,,,,95.0,,21002270
 Sword of the Father,XV,Sword,,,6,25,172,0,0,0,0,95,0,,Noctis,Armiger,,6,25,126.0,,,,,95.0,,8,35,190.0,,,,,95.0,,21002264
@@ -354,8 +354,8 @@ Blade of Brennaere,XV,Sword,,,6,25,173,0,0,0,0,95,0,"Fire damage +20%, RS: Earth
 Sword of the Wise,XV,Sword,,,6,25,176,0,0,0,0,95,0,,Noctis,Armiger Wakes,,6,25,130.0,,,,,95.0,,8,35,194.0,,,,,95.0,,21002323
 Blade of the Mystic,XV,Sword,,,6,25,181,0,0,0,0,95,0,,Noctis,Airstride,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002401
 Claymore,XV,Sword,,,6,25,181,0,0,0,0,95,0,,Gladiolus,Cyclone,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21002321
-Hardedge,XV,Sword,,,6,25,180,0,0,0,0,95,0,Earth damage +20%,Gladiolus,Shield of the True King,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002404
-Force Stealer,XV,Sword,,,6,25,180,0,0,0,0,95,0,Earth damage +20%,Gladiolus,Rising Impulse,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002364
+Hardedge,XV,Sword,,,6,25,180,0,0,0,0,95,0,Earth damage +20%,Gladiolus,True Shield,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002404
+Force Stealer,XV,Sword,,,6,25,180,0,0,0,0,95,0,Earth damage +20%,Gladiolus,Impulse,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21002364
 Saintly Excalibur,FFT,Sword,,,6,25,168,0,0,0,0,95,0,"Holy damage +20%, RS: chance to cause Instant KO",Orlandeau,Thunder God,,6,25,122.0,,,,,95.0,,8,35,186.0,,,,,95.0,,21002218
 Ragnarok,FFT,Sword,,,6,25,169,0,0,0,0,95,0,"Holy damage +20%, RS: chance to cause Stun",Agrias,Holy Blade,,6,25,123.0,,,,,95.0,,8,35,187.0,,,,,95.0,,21002162
 Durandal,FFT,Sword,,,6,25,176,0,0,0,0,95,0,Holy damage +20%,Agrias,Loyal Blade,,6,25,130.0,,,,,95.0,,8,35,194.0,,,,,95.0,,21002303
@@ -633,7 +633,7 @@ Masamune,III,Katana,,,6,25,181,0,0,0,0,95,0,,Luneth,Storm of Blades,,6,25,135.0,
 Ama-no-Murakumo,III,Katana,,,6,25,180,0,0,0,0,95,0,Wind damage +20%,Luneth,Revelation of the Wind,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003085
 Kiku-ichimonji,IV,Katana,,,6,25,174,0,94,0,0,95,0,RS: Water damage +20%,Edge,Chaotic Moon,,6,25,128.0,,63.0,,,95.0,,8,35,192.0,,106.0,,,95.0,,21003035
 Ama-no-Murakumo,IV,Katana,,,6,25,180,0,94,0,0,95,0,Water damage +20%,Edge,Noxious Fangs,,6,25,134.0,,63.0,,,95.0,,8,35,198.0,,106.0,,,95.0,,21003061
-Kagenui,IV,Katana,,,6,25,181,0,94,0,0,95,0,,Edge,Purple Lightning,,6,25,135.0,,63.0,,,95.0,,8,35,199.0,,106.0,,,95.0,,21003054
+Kagenui,IV,Katana,,,6,25,181,0,94,0,0,95,0,,Edge,Azure Flash,,6,25,135.0,,63.0,,,95.0,,8,35,199.0,,106.0,,,95.0,,21003054
 Ama-no-Murakumo,V,Katana,,,6,25,181,0,0,0,0,95,0,,Gilgamesh,No Justice,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21003047
 Zanmato,V,Katana,,,6,25,180,0,0,0,0,95,0,Fire damage +20%,Gilgamesh,Weapons of War,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003097
 Koga Blade,V,Katana,,,6,25,181,0,94,0,0,95,0,,Kelger,Lupine Ferocity,,6,25,135.0,,63.0,,,95.0,,8,35,199.0,,106.0,,,95.0,,21003104
@@ -660,8 +660,8 @@ Kumokirimaru,XI,Katana,,,6,25,180,0,0,0,0,95,0,Ice damage +20%,Ayame,Shin Setsug
 Kazaridachi,XI,Katana,,,6,25,181,0,0,0,0,95,0,,Ayame,Ikishoten,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21003119
 Yagyu Darkblade,XII,Katana,,,6,25,173,0,0,0,0,95,0,,Vaan,Cruelest Azure,,6,25,127.0,,,,,95.0,,8,35,191.0,,,,,95.0,,21003065
 Ame-no-Murakumo,XII,Katana,,,6,25,180,0,0,0,0,95,0,Wind damage +20%,Vaan,License Acquired,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003064
-Kiku-ichimonji,XV,Katana,,,6,25,180,0,0,0,0,95,0,Fire damage +20%,Cor,Lion's Roar,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003080
-Kotetsu,XV,Katana,,,6,25,180,0,0,0,0,95,0,Fire damage +20%,Cor,Servant of Two Kings,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003079
+Kikuichimonji,XV,Katana,,,6,25,180,0,0,0,0,95,0,Fire damage +20%,Cor,Harangue,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003080
+Kotetsu,XV,Katana,,,6,25,180,0,0,0,0,95,0,Fire damage +20%,Cor,In Service of Kings,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003079
 Sasuke's Blade,FFT,Katana,,,6,25,170,0,0,0,0,95,0,,Ramza,History's Truth,,6,25,124.0,,,,,95.0,,8,35,188.0,,,,,95.0,,21003042
 Masamune,FFT,Katana,,,6,25,180,0,0,0,0,95,0,Dark damage +20%,Orlandeau,Swordplay Extraordinaire,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21003088
 Kiku-ichimonji,FFT,Katana,,,6,25,181,0,0,0,0,95,0,,Ramza,Blade of Truth,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21003115
@@ -855,7 +855,7 @@ Brionac,IV,Spear,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Kain,Dragoon Dive
 Dragoon Lance,IV,Spear,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Kain,Lance of the Dragon,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21006131
 Gilgamesh's Naginata,V,Spear,,,6,25,166,0,0,0,0,95,0,Chance to cause Paralyze,Gilgamesh,Strange Bedfellow,,6,25,120.0,,,,,95.0,,8,35,184.0,,,,,95.0,,21006055
 Dragoon Lance,VII,Spear,,,6,25,177,0,0,0,0,95,0,RS: Wind damage +20%,Cid (VII),Dynamite Boost,,6,25,131.0,,,,,95.0,,8,35,195.0,,,,,95.0,,21006095
-Longinus,VII,Spear,,,6,25,181,0,0,0,0,95,0,,Cid (VII),Proxy Leader Cid,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006113
+Spirit Lance,VII,Spear,,,6,25,181,0,0,0,0,95,0,,Cid (VII),Cid in Charge,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006113
 Viper Halberd (DoC),VII,Spear,,,6,25,181,0,0,0,0,95,0,,Shelke,Conducting Electricity,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006120
 Grow Lance (DoC),VII,Spear,,,6,25,180,0,0,0,0,95,0,Lightning damage +20%,Shelke,Transparent Thunderclap,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21006156
 Holy Lance,IX,Spear,,,6,25,181,0,0,0,0,95,0,,Freya,Moonblossom Dragon,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006102
@@ -876,7 +876,7 @@ Venus Gospel,XIII,Spear,,,6,25,180,0,0,0,0,95,0,Wind damage +20%,Fang,Destroy Di
 Laevateinn,XIII,Spear,,,6,25,181,0,0,0,0,95,0,,Fang,Dragon Blast,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006143
 Gae Bolg,XIV,Spear,,,6,25,179,0,0,0,0,95,0,,Estinien,Skydragon Dive,,6,25,133.0,,,,,95.0,,8,35,197.0,,,,,95.0,,21006108
 Stoss Spear,XV,Spear,,,6,25,176,0,0,0,0,95,0,,Aranea,Highwind (XV),,6,25,130.0,,,,,95.0,,8,35,194.0,,,,,95.0,,21006097
-Trident,XV,Spear,,,6,25,181,0,0,0,0,95,0,,Ignis,Gathering,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006127
+Storm Lance,XV,Spear,,,6,25,181,0,0,0,0,95,0,,Ignis,Regroup,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006127
 Stoss Spear+,XV,Spear,,,6,25,181,0,0,0,0,95,0,Lightning damage +20%,Aranea,True Air Superiority,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21006121
 Shapeshifter,Type-0,Spear,,,6,25,181,0,0,0,0,95,0,,Nine,Whirling Lance,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21006103
 Obsidian Spear,Core,Spear,,,5,20,129,0,0,0,0,95,0,,-,Spiral Charge,,5,20,94.0,,,,,95.0,,7,30,146.0,,,,,95.0,,21006086
@@ -886,8 +886,8 @@ Gungnir,II,Spear,,,5,20,130,0,68,0,0,95,0,,Gordon,Kashuan's Resolve,,5,20,95.0,,
 Radiant Lance,II,Spear,,,5,20,135,0,68,0,0,95,0,,Gordon,Egil's Blaze,,5,20,100.0,,45.0,,,95.0,,7,30,152.0,,80.0,,,95.0,,21006081
 Abel's Lance,II,Spear,,,5,20,141,0,0,0,0,95,0,,Ricard,Pride of Deist,,5,20,106.0,,,,,95.0,,7,30,158.0,,,,,95.0,,21006066
 Obelisk,II,Spear,,,5,20,147,0,0,0,0,95,0,,Leon,,Knight Superior,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21006106
-Partisan,II,Spear,,,5,20,147,0,68,0,0,95,0,,Gordon,Acknowledged Strength,,5,20,112.0,,45.0,,,95.0,,7,30,164.0,,80.0,,,95.0,,21006083
-Heavy Lance,II,Spear,,,5,20,147,0,68,0,0,95,0,,Gordon,,Budding Confidence,5,20,112.0,,45.0,,,95.0,,7,30,164.0,,80.0,,,95.0,,21006094
+Partisan,II,Spear,,,5,20,147,0,68,0,0,95,0,,Gordon,Brotherly Redemption,,5,20,112.0,,45.0,,,95.0,,7,30,164.0,,80.0,,,95.0,,21006083
+Heavy Lance,II,Spear,,,5,20,147,0,68,0,0,95,0,,Gordon,,Ascendant Prince,5,20,112.0,,45.0,,,95.0,,7,30,164.0,,80.0,,,95.0,,21006094
 Mythril Spear,II,Spear,,,5,20,147,0,68,0,0,95,0,,Firion,,Rebel's Just Cause,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21006134
 Gungnir,III,Spear,,,5,20,131,0,0,0,0,95,0,Wind damage +20%,Luneth,Eternal Wind,,5,20,96.0,,,,,95.0,,7,30,148.0,,,,,95.0,,21006015
 Blood Lance,IV,Spear,,,5,20,112,0,0,0,0,95,0,,Kain,Lancet,,5,20,79.0,,,,,95.0,,7,30,128.0,,,,,95.0,,21006011
@@ -915,7 +915,7 @@ Heavy Lance (CC),VII,Spear,,,5,20,147,0,0,0,0,95,0,,Angeal,,Beating Wings,5,20,1
 Spear (DoC),VII,Spear,,,5,20,139,0,0,0,0,95,0,Lightning damage +20%,Shelke,Synaptic Net Dive,,5,20,104.0,,,,,95.0,,7,30,156.0,,,,,95.0,,21006093
 Slash Lance,VII,Spear,,,5,20,143,0,0,0,0,95,0,,Shelke,,Edge of Eternity,5,20,108.0,,,,,95.0,,7,30,160.0,,,,,95.0,,21006098
 Partisan (DoC),VII,Spear,,,5,20,147,0,0,0,0,95,0,,Shelke,Technical Defense,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21006114
-Grow Lance,VII,Spear,,,5,20,147,0,0,0,0,95,0,,Cid (VII),,Journey to Space,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21006085
+Radiant Lance,VII,Spear,,,5,20,147,0,0,0,0,95,0,,Cid (VII),,Spacefarer,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21006085
 Harpoon,VIII,Spear,,,5,20,142,0,0,0,0,95,0,,Ward,Massive Anchor,,5,20,107.0,,,,,95.0,,7,30,159.0,,,,,95.0,,21006099
 Needle Fork,IX,Spear,,,5,20,119,0,67,0,0,95,0,Chance to cause Petrify,Quina,Mighty Guard (IX),,5,20,84.0,,42.0,,,95.0,,7,30,136.0,,80.0,,,95.0,,21006034
 Partisan,IX,Spear,,,5,20,122,0,0,0,0,95,0,,Freya,Dragon Breath,,5,20,87.0,,,,,95.0,,7,30,139.0,,,,,95.0,,21006053
@@ -984,7 +984,7 @@ Tidal Knuckles,-,Fist,,,S,50,308,0,0,0,0,95,0,Water damage +20%,,,,S,50,228.0,,,
 Rune Claw,VII,Fist,,,7,30,209,0,0,0,0,95,0,Earth damage +20%,Tifa,Infinite Zangan Style,,7,30,149.0,,,,,95.0,,9,40,229.0,,,,,95.0,,21007174
 Kaiser Knuckles,I,Fist,,,6,25,181,0,0,0,0,95,0,,Master,Pinnacle Puglist,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21007131
 Godhand,II,Fist,,,6,25,181,0,0,0,0,95,0,RS: Ice damage +20%,Josef,Heroic Soul,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21007092
-Tiger Fangs,II,Fist,,,6,25,181,0,0,0,0,95,0,,Josef,Heroic Fist,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21007141
+Tiger Fangs,II,Fist,,,6,25,181,0,0,0,0,95,0,,Josef,Hero's Smash,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21007141
 Metal Knuckles,III,Fist,,,6,25,176,0,0,0,0,95,0,RS: Fire damage +20%,Refia,Burning Devotion,,6,25,130.0,,,,,95.0,,8,35,194.0,,,,,95.0,,21007107
 Godhand,III,Fist,,,6,25,180,0,0,0,0,95,0,Fire damage +20%,Refia,Trine Flamefist,,6,25,134.0,,,,,95.0,,8,35,198.0,,,,,95.0,,21007153
 Dragon Claw,IV,Fist,,,6,25,181,0,0,0,0,95,0,,Yang,Shuddering Fist,,6,25,135.0,,,,,95.0,,8,35,199.0,,,,,95.0,,21007144
@@ -1040,7 +1040,7 @@ Giant's Gloves,II,Fist,,,5,20,101,0,0,0,0,95,0,,Josef,Noble Sacrifice,,5,20,72.0
 Dragon Claws,II,Fist,,,5,20,122,0,0,0,0,95,0,,Josef,Avalanche,,5,20,87.0,,,,,95.0,,7,30,139.0,,,,,95.0,,21007056
 Bracers,II,Fist,,,5,20,130,0,0,0,0,95,0,,Josef,Snows of Death,,5,20,95.0,,,,,95.0,,7,30,147.0,,,,,95.0,,21007069
 Shura Gloves,II,Fist,,,5,20,141,0,0,0,0,95,0,,Josef,Undaunted Hero,,5,20,106.0,,,,,95.0,,7,30,158.0,,,,,95.0,,21007088
-Genji Glove,II,Fist,,,5,20,147,0,0,0,0,95,0,,Josef,Heroic Roar,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007125
+Genji Gloves,II,Fist,,,5,20,147,0,0,0,0,95,0,,Josef,Hero's Roar,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007125
 Faerie Claws,IV,Fist,,,5,20,126,0,0,0,0,95,0,Chance to cause Confuse,Yang,Sylph's Providence,,5,20,91.0,,,,,95.0,,7,30,143.0,,,,,95.0,,21007021
 Hell Claws,IV,Fist,,,5,20,131,0,0,0,0,95,0,Chance to cause Poison,Yang,Exploding Volcano Kick,,5,20,96.0,,,,,95.0,,7,30,148.0,,,,,95.0,,21007070
 Cat Claws,IV,Fist,,,5,20,137,0,0,0,0,95,0,Chance to cause Sleep,Yang,Seven-Star Heavenly Fist,,5,20,102.0,,,,,95.0,,7,30,154.0,,,,,95.0,,21007089
@@ -1076,7 +1076,7 @@ Kaiser Knuckles,VII,Fist,,,5,20,144,0,0,0,0,95,0,,Tifa,Rolling Blaze,,5,20,109.0
 Mighty Glove,VII,Fist,,,5,20,147,0,0,0,0,95,0,,Tifa,Zangan Awakening,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007135
 Hyper Fist,VII,Fist,,,5,20,147,0,0,0,0,95,0,,Tifa,Rock Render,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007132
 Battle Gloves,VII,Fist,,,5,20,147,0,0,0,0,95,0,,Rude,Masterful Control,,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007134
-Work Glove,VII,Fist,,,5,20,147,0,0,0,0,95,0,,Tifa,,Tomboy Brawler,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007173
+Work Glove,VII,Fist,,,5,20,147,0,0,0,0,95,0,,Tifa,,First-Class Fighter,5,20,112.0,,,,,95.0,,7,30,164.0,,,,,95.0,,21007173
 Metal Knuckles,VIII,Fist,,,5,20,112,0,0,0,0,95,0,,,,,5,20,79.0,,,,,95.0,,7,30,128.0,,,,,95.0,,21007033
 Maverick,VIII,Fist,,,5,20,118,0,0,0,0,95,0,,Zell,Burning Rave,,5,20,85.0,,,,,95.0,,7,30,134.0,,,,,95.0,,21007034
 Gauntlet,VIII,Fist,,,5,20,122,0,0,0,0,95,0,,Zell,Meteor Barrage,,5,20,87.0,,,,,95.0,,7,30,139.0,,,,,95.0,,21007050
@@ -1160,7 +1160,7 @@ Svetovid,I,Rod,,,6,25,77,0,173,0,81,95,0,Water damage +20%,Meia,Fata Fiore,,6,25
 Malicious Revolt,I,Rod,,,6,25,77,0,173,0,81,95,0,Water damage +20%,Meia,Megiddo Flood,,6,25,50.0,,128.0,,58.0,95.0,,8,35,87.0,,191.0,,90.0,95.0,,21008263
 Mateus's Malice,II,Rod,,,6,25,77,0,168,0,81,95,0,,Emperor,Dire Apocalypse,,6,25,50.0,,123.0,,58.0,95.0,,8,35,87.0,,186.0,,90.0,95.0,,21008156
 Wizard's Rod,II,Rod,,,6,25,77,0,173,0,81,95,0,Earth damage +20%,Emperor,Repentance Thorns,,6,25,50.0,,128.0,,58.0,95.0,,8,35,87.0,,191.0,,90.0,95.0,,21008183
-Tempest Rod,II,Rod,,,6,25,77,0,173,0,81,95,0,Wind damage +20%,Emperor,Dominate Elements,,6,25,50.0,,128.0,,58.0,95.0,,8,35,87.0,,191.0,,90.0,95.0,,21008257
+Rod of Winds,II,Rod,,,6,25,77,0,173,0,81,95,0,Wind damage +20%,Emperor,Elemental Domination,,6,25,50.0,,128.0,,58.0,95.0,,8,35,87.0,,191.0,,90.0,95.0,,21008257
 Prism Rod,III,Rod,,,6,25,77,0,130,0,177,95,0,,Aria,Seaborne Encounter,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008173
 Holy Rod,III,Rod,,,6,25,77,0,130,0,176,95,0,Holy damage +20%,Arc,Heavenly Rains,,6,25,50.0,,86.0,,132.0,95.0,,8,35,87.0,,148.0,,194.0,95.0,,21008208
 Healing Rod,III,Rod,,,6,25,77,0,174,0,140,95,0,,Arc,Summon Leviath,,6,25,50.0,,129.0,,96.0,95.0,,8,35,87.0,,192.0,,158.0,95.0,,21008224
@@ -1185,8 +1185,8 @@ Holy Rod,V,Rod,,,6,25,77,0,130,0,177,95,0,,Lenna,Essence of Water,,6,25,50.0,,86
 Gaia Rod,V,Rod,,,6,25,77,0,173,0,81,95,0,Earth damage +20%,Krile,Gift of Hope,,6,25,50.0,,128.0,,58.0,95.0,,8,35,87.0,,191.0,,90.0,95.0,,21008231
 Empyrean Rod,V,Rod,,,6,25,77,0,173,0,140,95,0,Water damage +20%,Gogo (V),Sunken Rhapsody,,6,25,50.0,,128.0,,96.0,95.0,,8,35,87.0,,191.0,,158.0,95.0,,21008162
 Recovery Rod,V,Rod,,,6,25,77,0,130,0,177,95,0,,Lenna,Tycoon's Protection,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008234
-Oceanic Rod,V,Rod,,,6,25,77,0,173,0,140,95,0,Water damage +20%,Gogo (V),Sunken Fantasista,,6,25,50.0,,128.0,,96.0,95.0,,8,35,87.0,,191.0,,158.0,95.0,,21008241
-Mirage Rod,V,Rod,,,6,25,77,0,174,0,140,95,0,,Gogo (V),Surprise of the Abyss,,6,25,50.0,,129.0,,96.0,95.0,,8,35,87.0,,192.0,,158.0,95.0,,21008266
+Rod of the Depths,V,Rod,,,6,25,77,0,173,0,140,95,0,Water damage +20%,Gogo (V),Undersea Fantasia,,6,25,50.0,,128.0,,96.0,95.0,,8,35,87.0,,191.0,,158.0,95.0,,21008241
+Mirage Rod,V,Rod,,,6,25,77,0,174,0,140,95,0,,Gogo (V),Abyssal Revelation,,6,25,50.0,,129.0,,96.0,95.0,,8,35,87.0,,192.0,,158.0,95.0,,21008266
 Da Vinci Brush,VI,Rod,,,6,25,77,0,130,0,168,95,0,,Relm,Divine Portrait,,6,25,50.0,,86.0,,124.0,95.0,,8,35,87.0,,148.0,,186.0,95.0,,21008087
 Octopus Tentacle,VI,Rod,,,6,25,64,0,137,0,72,95,0,,-,Octopus Tentacle,,6,25,37.0,,92.0,,49.0,95.0,,8,35,74.0,,155.0,,81.0,95.0,,21008165
 Prism Rod,VI,Rod,,,6,25,77,0,130,0,177,95,0,,Mog,Twilight Requiem,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008172
@@ -1199,8 +1199,8 @@ Enhanced Pierce Rod,VII,Rod,,,6,25,122,0,169,0,0,95,0,RS: Lightning damage +20%,
 Healing Rod,VII,Rod,,,6,25,77,0,130,0,177,95,0,,Aerith,Innocent Cure,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008197
 Power Rod,VII,Rod,,,6,25,108,0,153,0,0,95,0,,Reno,Chain of Thunder,,6,25,76.0,,107.0,,,95.0,,8,35,120.0,,171.0,,,95.0,,21008198
 Gold Rod,VII,Rod,,,6,25,122,0,172,0,0,95,0,Lightning damage +20%,Reno,Overpowered Rod,,6,25,91.0,,127.0,,,95.0,,8,35,134.0,,190.0,,,95.0,,21008246
-Wonder Wand,VII,Rod,,,6,25,77,0,130,0,177,95,0,,Aerith,Planet's Pulse,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008237
-Seraphim Rod,VII,Rod,,,6,25,77,0,130,0,177,95,0,,Aerith,Breath of the Wind,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008265
+Wonder Wand,VII,Rod,,,6,25,77,0,130,0,177,95,0,,Aerith,Star Pulse,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008237
+Seraphim Rod,VII,Rod,,,6,25,77,0,130,0,177,95,0,,Aerith,Refreshing Breeze,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008265
 Faerie Tail,VIII,Rod,,,6,25,77,0,130,0,167,95,0,,Selphie,Slots Full Cure,,6,25,50.0,,86.0,,123.0,95.0,,8,35,87.0,,148.0,,185.0,95.0,,21008123
 Doom Mace,VIII,Rod,,,6,25,77,0,174,0,81,95,0,,Ultimecia,Sorceress Call,,6,25,50.0,,129.0,,58.0,95.0,,8,35,87.0,,192.0,,90.0,95.0,,21008205
 Stardust Nunchaku,VIII,Rod,,,6,25,77,0,130,0,177,95,0,,Selphie,Booyaka Slots,,6,25,50.0,,86.0,,133.0,95.0,,8,35,87.0,,148.0,,195.0,95.0,,21008253
@@ -1593,7 +1593,7 @@ Sagittarius,V,Bow,,,6,25,164,0,35,0,35,95,0,Wind damage +20%,Faris,Azure Bow,,6,
 Artemis Bow,XII,Bow,,,6,25,157,0,35,0,35,95,0,RS: Ice damage +20%,Fran,Vanquished Cries,,6,25,111.0,,21.0,,21.0,95.0,,8,35,175.0,,40.0,,40.0,95.0,,21010052
 Hunting Crossbow,XII,Bow,,,6,25,165,0,35,0,35,95,0,,Fran,Sparkchill Fang,,6,25,119.0,,21.0,,21.0,95.0,,8,35,183.0,,40.0,,40.0,95.0,,21010057
 Penetrator Crossbow,XII,Bow,,,6,25,146,0,35,0,35,95,0,,Fran,Chain of Ice,,6,25,100.0,,21.0,,21.0,95.0,,8,35,165.0,,40.0,,40.0,95.0,,21010077
-Sagittarius,XII,Bow,,,6,25,164,0,35,0,35,95,0,Ice damage +20%,Fran,Wild Dance,,6,25,118.0,,21.0,,21.0,95.0,,8,35,182.0,,40.0,,40.0,95.0,,21010056
+Sagittarius,XII,Bow,,,6,25,164,0,35,0,35,95,0,Ice damage +20%,Fran,WIld Frolic,,6,25,118.0,,21.0,,21.0,95.0,,8,35,182.0,,40.0,,40.0,95.0,,21010056
 Raging Arc,XIII,Bow,,,6,25,115,0,171,0,0,95,0,,Serah,Etro Arrow,,6,25,88.0,,126.0,,,95.0,,8,35,126.0,,189.0,,,95.0,,21010048
 Fellowship Arc,XIII,Bow,,,6,25,115,0,173,0,78,95,0,Ice damage +20%,Serah,Artemis Volley,,6,25,88.0,,128.0,,55.0,95.0,,8,35,126.0,,191.0,,87.0,95.0,,21010062
 Faerie's Bow,XIII,Bow,,,6,25,115,0,174,0,78,95,0,,Serah,Artemis Zone,,6,25,88.0,,129.0,,55.0,95.0,,8,35,126.0,,192.0,,87.0,95.0,,21010071
@@ -1628,7 +1628,7 @@ Killer Bow,XII,Bow,,,5,20,105,0,26,0,26,95,0,Chance to cause Instant KO,Fran,Sha
 Traitor's Bow,XII,Bow,,,5,20,109,0,26,0,26,95,0,,Fran,Mist Overload,,5,20,76.0,,16.0,,16.0,95.0,,7,30,125.0,,31.0,,31.0,95.0,,21010028
 Yoichi Bow,XII,Bow,,,5,20,115,0,26,0,26,95,0,,Fran,Pinpoint,,5,20,82.0,,16.0,,16.0,95.0,,7,30,131.0,,31.0,,31.0,95.0,,21010030
 Perseus Bow,XII,Bow,,,5,20,119,0,26,0,26,95,0,,Fran,Gaze of the Void,,5,20,86.0,,16.0,,16.0,95.0,,7,30,135.0,,31.0,,31.0,95.0,,21010044
-Burning Bow,XII,Bow,,,5,20,132,0,26,0,26,95,0,,Fran,,Cool Copilot,5,20,99.0,,16.0,,16.0,95.0,,7,30,148.0,,31.0,,31.0,95.0,,21010029
+Burning Bow,XII,Bow,,,5,20,132,0,26,0,26,95,0,,Fran,,Dead Shot,5,20,99.0,,16.0,,16.0,95.0,,7,30,148.0,,31.0,,31.0,95.0,,21010029
 Starseeker,XIII,Bow,,,5,20,81,0,121,0,0,95,0,,Serah,Ultima Arrow,,5,20,57.0,,87.0,,,95.0,,7,30,93.0,,138.0,,,95.0,,21010037
 Lunar Stinger,XIII,Bow,,,5,20,81,0,127,0,0,95,0,,Serah,Moonfrost Arrows,,5,20,57.0,,93.0,,,95.0,,7,30,93.0,,144.0,,,95.0,,21010040
 Meteorblaze,XIII,Bow,,,5,20,81,0,129,0,0,95,0,,Serah,Endless Blessings,,5,20,57.0,,95.0,,,95.0,,7,30,93.0,,146.0,,,95.0,,21010038
@@ -1663,7 +1663,7 @@ Fallen Angel's Harp,-,Instrument,,,S,50,141,0,300,0,161,95,0,Poison damage +20%,
 Siren's Flute,-,Instrument,,,S,50,141,0,171,0,300,95,0,Holy damage +20%,,,,S,50,99.0,,102.0,,221.0,95.0,,S,50,141.0,,171.0,,300.0,95.0,,21211014
 Apollo's Harp,I,Instrument,,,6,25,115,0,135,0,177,95,0,,Sarah,Song of Reunion,,6,25,88.0,,91.0,,133.0,95.0,,8,35,126.0,,153.0,,195.0,95.0,,21011052
 Lamia Harp,II,Instrument,,,6,25,115,0,135,0,177,95,0,,Hilda,Winning Waltz,,6,25,88.0,,91.0,,133.0,95.0,,8,35,126.0,,153.0,,195.0,95.0,,21011048
-Apollo's Harp,II,Instrument,,,6,25,115,0,135,0,177,95,0,,Hilda,Enduring Dignity,,6,25,88.0,,91.0,,133.0,95.0,,8,35,126.0,,153.0,,195.0,95.0,,21011062
+Apollo Harp,II,Instrument,,,6,25,115,0,135,0,177,95,0,,Hilda,Dignity Preserved,,6,25,88.0,,91.0,,133.0,95.0,,8,35,126.0,,153.0,,195.0,95.0,,21011062
 Rune Bell,III,Instrument,,,6,25,115,0,174,0,78,95,0,,Desch,Lightning Embodied,,6,25,88.0,,129.0,,55.0,95.0,,8,35,126.0,,192.0,,87.0,95.0,,21011053
 Loki Harp,III,Instrument,,,6,25,115,0,135,0,177,95,0,,Aria,Priestess's Miracle,,6,25,88.0,,91.0,,133.0,95.0,,8,35,126.0,,153.0,,195.0,95.0,,21011058
 Apollo's Harp,IV,Instrument,,,6,25,160,0,35,0,35,95,0,,Edward,Hero's Rime,,6,25,114.0,,21.0,,21.0,95.0,,8,35,178.0,,40.0,,40.0,95.0,,21011025
@@ -1782,7 +1782,7 @@ Rising Sun,-,Thrown,,,S,50,296,0,166,0,0,95,0,Fire damage +20%,,,,S,50,218.0,,96
 Twin Viper,-,Thrown,,,S,50,141,0,300,0,97,95,0,Earth damage +20%,,,,S,50,99.0,,221.0,,62.0,95.0,,S,50,141.0,,300.0,,97.0,95.0,,21213035
 Wind Slash,-,Thrown,,,S,50,141,0,300,0,97,95,0,Wind damage +20%,,,,S,50,99.0,,221.0,,62.0,95.0,,S,50,141.0,,300.0,,97.0,95.0,,21213036
 Owl of the Forest,VIII,Thrown,,,7,30,124,0,204,0,0,95,0,Earth damage +20%,Rinoa,Angel Wing Vast Earth,,7,30,91.0,,144.0,,,95.0,,9,40,135.0,,224.0,,,95.0,,21013119
-Fuma Shuriken,IV,Thrown,,,6,25,158,0,154,0,0,95,0,Water damage +20%,Edge,Eblan All Creation,,6,25,112.0,,109.0,,,95.0,,8,35,176.0,,172.0,,,95.0,,21013123
+Fuma Shuriken,IV,Thrown,,,6,25,158,0,154,0,0,95,0,Water damage +20%,Edge,Eblan Universe,,6,25,112.0,,109.0,,,95.0,,8,35,176.0,,172.0,,,95.0,,21013123
 Final Trump,VI,Thrown,,,6,25,159,0,0,0,0,95,0,,Setzer,Jokers Wild,,6,25,113.0,,,,,95.0,,8,35,177.0,,,,,95.0,,21013047
 Phantom Wheel,VI,Thrown,,,6,25,145,0,0,0,0,95,0,,-,Phantom Frenzy,,6,25,99.0,,,,,95.0,,8,35,164.0,,,,,95.0,,21013103
 Fuma Shuriken,VI,Thrown,,,6,25,164,0,94,0,0,95,0,Dark damage +20%,Shadow,Shadow Assassin,,6,25,118.0,,63.0,,,95.0,,8,35,182.0,,106.0,,,95.0,,21013032
@@ -1791,7 +1791,7 @@ Crystal Cross,VI,Thrown,,,6,25,164,0,0,0,0,95,0,Fire damage +20%,Locke,Adventure
 Rising Sun,VII,Thrown,,,6,25,156,0,94,0,0,95,0,RS: Water damage +20%,Yuffie,Clearest Tranquil,,6,25,110.0,,63.0,,,95.0,,8,35,174.0,,106.0,,,95.0,,21013039
 Conformer,VII,Thrown,,,6,25,164,0,94,0,0,95,0,Water damage +20%,Yuffie,Freewheeling Bloodfest,,6,25,118.0,,63.0,,,95.0,,8,35,182.0,,106.0,,,95.0,,21013066
 Oritsuru,VII,Thrown,,,6,25,165,0,94,0,0,95,0,,Yuffie,Freewheeling Gauntlet,,6,25,119.0,,63.0,,,95.0,,8,35,183.0,,106.0,,,95.0,,21013060
-Wing Edge,VII,Thrown,,,6,25,164,0,94,0,0,95,0,Water damage +20%,Yuffie,Refined Doom of the Living,,6,25,118.0,,63.0,,,95.0,,8,35,182.0,,106.0,,,95.0,,21013086
+Wing Edge,VII,Thrown,,,6,25,164,0,94,0,0,95,0,Water damage +20%,Yuffie,Sublime Doom,,6,25,118.0,,63.0,,,95.0,,8,35,182.0,,106.0,,,95.0,,21013086
 Twin Viper,VIII,Thrown,,,6,25,115,0,159,0,0,95,0,RS: Earth damage +20%,Rinoa,Angelstar,,6,25,88.0,,114.0,,,95.0,,8,35,126.0,,177.0,,,95.0,,21013035
 Conformer,VIII,Thrown,,,6,25,115,0,167,0,0,95,0,,Rinoa,Shiva,,6,25,88.0,,122.0,,,95.0,,8,35,126.0,,185.0,,,95.0,,21013054
 Fujin's Moon Ring,VIII,Thrown,,,6,25,115,0,167,0,0,95,0,RS: Wind damage +20%,Fujin,Into the Storm,,6,25,88.0,,122.0,,,95.0,,8,35,126.0,,185.0,,,95.0,,21013056
@@ -1835,7 +1835,7 @@ Wildfire,KH,Thrown,,,6,25,165,0,163,0,0,95,0,,Axel,Explosion,,6,25,119.0,,110.0,
 Ninja's Trump,I,Thrown,,,5,20,81,0,123,0,62,95,0,,-,Balloon,,5,20,57.0,,89.0,,45.0,95.0,,7,30,93.0,,140.0,,70.0,95.0,,21013046
 Moonring Blade,III,Thrown,,,5,20,104,0,0,0,0,95,0,,Refia,Spellbreak Volley,,5,20,71.0,,,,,95.0,,7,30,120.0,,,,,95.0,,21013024
 Rising Sun,III,Thrown,,,5,20,110,0,0,0,0,95,0,,Refia,Blazing Fists,,5,20,77.0,,,,,95.0,,7,30,126.0,,,,,95.0,,21013029
-Shuriken,IV,Thrown,,,5,20,132,0,68,0,0,95,0,,Edge,,Brash Prince,5,20,99.0,,45.0,,,95.0,,7,30,148.0,,80.0,,,95.0,,21013025
+Shuriken,IV,Thrown,,,5,20,132,0,68,0,0,95,0,,Edge,,Unequaled Master,5,20,99.0,,45.0,,,95.0,,7,30,148.0,,80.0,,,95.0,,21013025
 Hawkeye,VI,Thrown,,,5,20,95,0,0,0,0,92,0,,-,Blinding Shot,,5,20,65.0,,,,,92.0,,7,30,110.0,,,,,92.0,,21013005
 Rising Sun,VI,Thrown,,,5,20,97,0,0,0,0,95,0,,Locke,Mirage Dive,,5,20,68.0,,,,,95.0,,7,30,112.0,,,,,95.0,,21013007
 Sniper,VI,Thrown,,,5,20,97,0,0,0,0,95,0,Chance to cause Sap,,,,5,20,68.0,,,,,95.0,,7,30,112.0,,,,,95.0,,21013013
@@ -1929,7 +1929,7 @@ Alchemist P,X,Gun,,,6,25,165,0,0,0,0,95,0,,Paine,Cool Vacation,,6,25,119.0,,,,,9
 Arcturus,XII,Gun,,,6,25,152,0,0,0,0,95,0,RS: Fire damage +20%,Balthier,S-85 Cyclotrone,,6,25,107.0,,,,,95.0,,8,35,170.0,,,,,95.0,,21015042
 Fomalhaut,XII,Gun,,,6,25,162,0,0,0,0,95,0,,Balthier,Makara,,6,25,116.0,,,,,95.0,,8,35,180.0,,,,,95.0,,21015054
 Mithuna,XII,Gun,,,6,25,164,0,0,0,0,95,0,Fire damage +20%,Balthier,Tales of the Past,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21015071
-Polaris,XII,Gun,,,6,25,165,0,0,0,0,95,0,,Balthier,The Leading Man,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21015089
+Polaris,XII,Gun,,,6,25,165,0,0,0,0,95,0,,Balthier,Leading Man,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21015089
 Aldebarans,XIII,Gun,,,6,25,162,0,0,0,0,95,0,,Sazh,Gifted Pilot,,6,25,116.0,,,,,95.0,,8,35,180.0,,,,,95.0,,21015041
 Ferdinand,XIV,Gun,,,6,25,163,0,0,0,0,95,0,,Cid (XIV),Gauss Round,,6,25,117.0,,,,,95.0,,8,35,181.0,,,,,95.0,,21015066
 Cocytus,XV,Gun,,,6,25,160,0,0,0,0,95,0,,Prompto,Trigger Happy (XV),,6,25,114.0,,,,,95.0,,8,35,178.0,,,,,95.0,,21015064
@@ -1947,7 +1947,7 @@ Research Dept. Pistol,VII,Gun,,,5,20,128,0,0,0,0,95,0,,Elena,Elite Operator,,5,2
 Peacemaker,VII,Gun,,,5,20,126,0,137,0,0,95,0,,Vincent,Flame Penalty,,5,20,93.0,,103.0,,,95.0,,7,30,142.0,,154.0,,,95.0,,21015063
 Winchester,VII,Gun,,,5,20,126,0,137,0,0,95,0,,Vincent,Forsaken Power,,5,20,93.0,,103.0,,,95.0,,7,30,142.0,,154.0,,,95.0,,21015036
 Commander,VII,Gun,,,5,20,132,0,0,0,0,95,0,,Elena,,Faint Respect,5,20,99.0,,,,,95.0,,7,30,148.0,,,,,95.0,,21015077
-Shortbarrel R,VII,Gun,,,5,20,132,0,0,0,0,95,0,,Rufus,Rain of Terror,,5,20,99.0,,,,,95.0,,7,30,148.0,,,,,95.0,,21015059
+Shortbarrel R,VII,Gun,,,5,20,132,0,0,0,0,95,0,,Rufus,Reign of Terror,,5,20,99.0,,,,,95.0,,7,30,148.0,,,,,95.0,,21015059
 Valiant,VIII,Gun,,,5,20,95,0,0,0,0,95,0,,Irvine,Fast Ammo,,5,20,64.0,,,,,95.0,,7,30,111.0,,,,,95.0,,21015002
 Running Fire,VIII,Gun,,,5,20,93,0,0,0,0,95,0,,-,Gatling Ammo,,5,20,62.0,,,,,95.0,,7,30,109.0,,,,,95.0,,21015012
 Machine Gun,VIII,Gun,,,5,20,108,0,0,0,0,95,0,,Laguna,Desperado,,5,20,75.0,,,,,95.0,,7,30,124.0,,,,,95.0,,21015023
@@ -2024,8 +2024,8 @@ Water Ball,X,Blitzball,,,6,25,156,0,0,0,0,95,0,Water damage +20%,Wakka,Aurochs S
 Blitz Ace,X,Blitzball,,,6,25,159,0,0,0,0,95,0,Water damage +20%,Tidus,Day to Remember,,6,25,113.0,,,,,95.0,,8,35,177.0,,,,,95.0,,21030009
 Soul King,X,Blitzball,,,6,25,160,0,0,0,0,95,0,Dark damage +20%,Jecht,Ultimate Jecht Rush,,6,25,114.0,,,,,95.0,,8,35,178.0,,,,,95.0,,21030012
 Beast Blitz,X,Blitzball,,,6,25,164,0,0,0,0,95,0,Water damage +20%,Tidus,Quick Rush,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21030014
-Auroch Blitz,X,Blitzball,,,6,25,165,0,0,0,0,95,0,,Wakka,Center Attack,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21030015
-Noisebreaker,X,Blitzball,,,6,25,164,0,0,0,0,95,0,"Water damage +20%, Chance to cause Silence",Wakka,Ace Lecture,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21030013
+Aurochs Blitz,X,Blitzball,,,6,25,165,0,0,0,0,95,0,,Wakka,Centre Attack,,6,25,119.0,,,,,95.0,,8,35,183.0,,,,,95.0,,21030015
+Noisebreaker,X,Blitzball,,,6,25,164,0,0,0,0,95,0,"Water damage +20%, Chance to cause Silence",Wakka,Ace Lesson,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21030013
 Comrade Ball,X,Blitzball,,,6,25,164,0,0,0,0,95,0,Dark damage +20%,Jecht,Jecht Dream,,6,25,118.0,,,,,95.0,,8,35,182.0,,,,,95.0,,21030017
 Official Ball,X,Blitzball,,,5,20,95,0,0,0,0,95,0,,Wakka,Status Reels,,5,20,65.0,,,,,95.0,,7,30,110.0,,,,,95.0,,21030001
 All-Rounder,X,Blitzball,,,5,20,103,0,0,0,0,95,0,,Wakka,Attack Reels,,5,20,72.0,,,,,95.0,,7,30,119.0,,,,,95.0,,21030004
@@ -2182,8 +2182,8 @@ Mystery Veil,VIII,Hat,,,6,25,0,112,45,165,34,0,105,,Rinoa,Grand Rondo,,6,25,,90.
 Hypno Crown,X,Hat,,,6,25,0,112,35,165,44,0,105,,Yuna,Calm Prayer,,6,25,,90.0,25.0,126.0,34.0,,105.0,8,35,,121.0,38.0,181.0,47.0,,105.0,22051066
 Wizard's Petasos,XI,Hat,,,6,25,0,111,45,164,34,0,105,Lightning damage +20%,Shantotto,Federation Demon,,6,25,,89.0,35.0,125.0,24.0,,105.0,8,35,,120.0,48.0,180.0,37.0,,105.0,22051164
 Green Ribbon,XI,Hat,,,6,25,19,111,35,164,34,0,105,Water damage +20%,Lion,Dancing Edge (XI),,6,25,10.0,89.0,25.0,125.0,24.0,,105.0,8,35,22.0,120.0,38.0,180.0,37.0,,105.0,22051128
-Black Mask,XII,Hat,,,6,25,19,112,35,165,34,0,105,Dark resistance (minor),Vayne,Dark Reign,,6,25,10.0,90.0,25.0,126.0,24.0,,105.0,8,35,22.0,121.0,38.0,181.0,37.0,,105.0,22051207
-White Mask,XII,Hat,,,6,25,0,112,35,165,44,0,105,Holy resistance (minor),Larsa,Just Reign,,6,25,,90.0,25.0,126.0,34.0,,105.0,8,35,,121.0,38.0,181.0,47.0,,105.0,22051206
+Black Mask,XII,Hat,,,6,25,19,112,35,165,34,0,105,Dark resistance (minor),Vayne,Dark Conquest,,6,25,10.0,90.0,25.0,126.0,24.0,,105.0,8,35,22.0,121.0,38.0,181.0,37.0,,105.0,22051207
+White Mask,XII,Hat,,,6,25,0,112,35,165,44,0,105,Holy resistance (minor),Larsa,Alabaster Path,,6,25,,90.0,25.0,126.0,34.0,,105.0,8,35,,121.0,38.0,181.0,47.0,,105.0,22051206
 Hypno Crown,XII,Hat,,,6,25,0,112,45,165,34,0,105,,Ashe,Conqueror's Descendent,,6,25,,90.0,35.0,126.0,24.0,,105.0,8,35,,121.0,48.0,181.0,37.0,,105.0,22051139
 Adaman Hat,XII,Hat,,,6,25,19,100,35,147,34,0,105,,Vayne,Chain of Dark,,6,25,10.0,77.0,25.0,107.0,24.0,,105.0,8,35,22.0,109.0,38.0,163.0,37.0,,105.0,22051044
 Hairpin,Beyond,Hat,,,6,25,0,112,45,165,34,0,105,,Serafie,Gossip Collector,,6,25,,90.0,35.0,126.0,24.0,,105.0,8,35,,121.0,48.0,181.0,37.0,,105.0,22051212
@@ -2200,8 +2200,8 @@ Matoya's Hat,I,Hat,,,5,20,0,88,38,129,27,0,105,,Matoya,,Mystic Master,5,20,,71.0
 Thief's Bandana,I,Hat,,,5,20,17,88,28,129,27,0,105,Wind damage +20%,Thief (I),,Thief's Fortune,5,20,10.0,71.0,21.0,99.0,20.0,,105.0,7,30,20.0,96.0,31.0,144.0,30.0,,105.0,22051117
 Golden Hairpin,I,Hat,,,5,20,0,88,28,130,37,0,105,,Sarah,,Windsong,5,20,,71.0,21.0,100.0,30.0,,105.0,7,30,,96.0,31.0,145.0,40.0,,105.0,22051145
 Leila's Bandana,II,Hat,,,5,20,17,88,28,130,27,0,105,Water damage +20%,Leila,,Maiden of the Sea,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051087
-Twist Headband,II,Hat,,,5,20,17,88,28,130,27,0,105,,Josef,,Daughter's Love,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051153
-Royal Crown,II,Hat,,,5,20,0,88,38,130,27,0,105,,Emperor,,Blood-stained History,5,20,,71.0,31.0,100.0,20.0,,105.0,7,30,,96.0,41.0,145.0,30.0,,105.0,22051202
+Twist Headband,II,Hat,,,5,20,17,88,28,130,27,0,105,,Josef,,A Father's Love,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051153
+Royal Crown,II,Hat,,,5,20,0,88,38,130,27,0,105,,Emperor,,Bloody Past,5,20,,71.0,31.0,100.0,20.0,,105.0,7,30,,96.0,41.0,145.0,30.0,,105.0,22051202
 Scholar Hat,III,Hat,,,5,20,0,72,27,110,22,0,105,,-,Apothecary Lore,,5,20,,55.0,20.0,77.0,12.0,,105.0,7,30,,80.0,30.0,127.0,27.0,,105.0,22051024
 Lamia's Tiara,III,Hat,,,5,20,0,88,28,130,37,0,105,Fire resistance (minor),Aria,,Duty First,5,20,,71.0,21.0,100.0,30.0,,105.0,7,30,,96.0,31.0,145.0,40.0,,105.0,22051122
 Cat-Ear Hood,III,Hat,,,5,20,17,88,28,130,27,0,105,,Refia,,The Road Ahead,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051125
@@ -2283,7 +2283,7 @@ Witch's Hat,XIII,Hat,,,5,20,0,51,24,100,21,0,0,,-,Witchcraft,,5,20,,36.0,18.0,70
 Guardian Corps Cap,XIII,Hat,,,5,20,17,88,28,130,27,0,105,,Lightning,,Stoic Warrior,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051157
 Cherub's Crown,XIII,Hat,,,5,20,0,88,28,130,37,0,105,Instant KO Immunity (minor),Vanille,Quick Curasa,,5,20,,71.0,21.0,100.0,30.0,,105.0,7,30,,96.0,31.0,145.0,40.0,,105.0,22051160
 Goggle Mask,XIII,Hat,,,5,20,0,88,38,130,27,0,105,,Nabaat,,Top of the Class,5,20,,71.0,31.0,100.0,20.0,,105.0,7,30,,96.0,41.0,145.0,30.0,,105.0,22051179
-Grimoire Hat,XIII,Hat,,,5,20,17,88,28,130,27,0,105,,Noel,,Youthful Vitality,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051161
+Grimoire Hat,XIII,Hat,,,5,20,17,88,28,130,27,0,105,,Noel,,Vitality Overflowing,5,20,10.0,71.0,21.0,100.0,20.0,,105.0,7,30,20.0,96.0,31.0,145.0,30.0,,105.0,22051161
 Evoker's Horn,XIV,Hat,,,5,20,0,64,27,110,23,0,105,,-,Virus,,5,20,,45.0,20.0,79.0,16.0,,105.0,7,30,,74.0,30.0,126.0,26.0,,105.0,22051048
 Wizard's Petasos,XIV,Hat,,,5,20,0,79,38,116,27,0,105,,Papalymo,Swiftcast Fira,,5,20,,58.0,31.0,83.0,20.0,,105.0,7,30,,89.0,41.0,133.0,30.0,,105.0,22051071
 Healer's Circlet,XIV,Hat,,,5,20,0,83,28,121,37,0,105,Sleep immunity (minor),Y'shtola,Asylum,,5,20,,66.0,21.0,90.0,30.0,,105.0,7,30,,91.0,31.0,136.0,40.0,,105.0,22051072
@@ -2388,7 +2388,7 @@ Luneth's Guise,III,Light Armor,,,6,25,19,152,0,152,0,0,100,,Luneth,Master Dragoo
 Summoner Rydia,IV,Light Armor,,,6,25,0,151,19,151,19,0,100,Water damage +20%,Rydia,Past and Present,,6,25,,110.0,10.0,110.0,10.0,,100.0,8,35,,167.0,22.0,167.0,22.0,,100.0,22053336
 Rosa's Guise,IV,Light Armor,,,6,25,0,152,0,152,19,0,100,,Rosa,White Mage Wonder (IV),,6,25,,111.0,,111.0,10.0,,100.0,8,35,,168.0,,168.0,22.0,,100.0,22053231
 Lightseeker's Guise,IV,Light Armor,,,6,25,19,152,0,152,0,0,100,,Kain,Dragon's Descent,,6,25,10.0,111.0,,111.0,,,100.0,8,35,22.0,168.0,,168.0,,,100.0,22053367
-Edge’s Guise,IV,Light Armor,,,6,25,19,151,19,151,0,0,100,Water damage +20%,Edge,Trinity Attack,,6,25,10.0,110.0,10.0,110.0,,,100.0,8,35,22.0,167.0,22.0,167.0,,,100.0,22053431
+Edge’s Guise,IV,Light Armor,,,6,25,19,151,19,151,0,0,100,Water damage +20%,Edge,Triune,,6,25,10.0,110.0,10.0,110.0,,,100.0,8,35,22.0,167.0,22.0,167.0,,,100.0,22053431
 Faris's Longcoat,V,Light Armor,,,6,25,19,146,0,146,0,0,100,"Slow immunity (minor), RS: Stop immunity (minor)",Faris,Phantom,,6,25,10.0,105.0,,105.0,,,100.0,8,35,22.0,162.0,,162.0,,,100.0,22053126
 Lenna's Dress,V,Light Armor,,,6,25,0,146,0,146,19,0,100,"Holy damage +20%, RS: Silence immunity (minor)",Lenna,Moogle Boost,,6,25,,105.0,,105.0,10.0,,100.0,8,35,,162.0,,162.0,22.0,,100.0,22053158
 Beastmaster's Guise,V,Light Armor,,,6,25,0,151,19,151,0,0,100,Fire damage +20%,Krile,Raging Hellfire,,6,25,,110.0,10.0,110.0,,,100.0,8,35,,167.0,22.0,167.0,,,100.0,22053274
@@ -2432,10 +2432,10 @@ Etro's Shelter,XIII,Light Armor,,,6,25,19,151,0,151,0,0,100,Lightning damage +20
 Academy Uniform,XIII,Light Armor,,,6,25,0,151,19,151,0,0,100,Holy damage +20%,Hope,Reflecting Arc,,6,25,,110.0,10.0,110.0,,,100.0,8,35,,167.0,22.0,167.0,,,100.0,22053062
 Snow's Guise,XIII,Light Armor,,,6,25,19,151,0,151,0,0,100,Ice damage +20%,Snow,Icefist Smash,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053338
 Guardian Corps Uniform,XIII,Light Armor,,,6,25,19,152,0,152,0,0,100,,Lightning,Rending Thunder,,6,25,10.0,111.0,,111.0,,,100.0,8,35,22.0,168.0,,168.0,,,100.0,22053318
-Spacetime Guardian,XIII,Light Armor,,,6,25,19,151,0,151,0,0,100,Ice damage +20%,Noel,Blizzard Fang,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053151
+Spacetime Guardian,XIII,Light Armor,,,6,25,19,151,0,151,0,0,100,Ice damage +20%,Noel,Icefang Lance,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053151
 N7 Armor S,XIII,Light Armor,,,6,25,0,151,19,151,0,0,100,Water damage +20%,Serah,Strike Water,,6,25,,110.0,10.0,110.0,,,100.0,8,35,,167.0,22.0,167.0,,,100.0,22053278
 Scion Striker's Attire,XIV,Light Armor,,,6,25,19,151,0,151,0,0,100,Fire damage +20%,Yda,Fire Tackle,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053421
-Cor's Fatigues,XV,Light Armor,,,6,25,19,151,0,151,0,0,100,Fire damage +20%,Cor,Strength of the Former King,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053283
+Cor's Fatigues,XV,Light Armor,,,6,25,19,151,0,151,0,0,100,Fire damage +20%,Cor,Predecessor's Might,,6,25,10.0,110.0,,110.0,,,100.0,8,35,22.0,167.0,,167.0,,,100.0,22053283
 Magitek Suit,XV,Light Armor,,,6,25,19,152,0,152,0,0,100,,Aranea,Rush Superiority,,6,25,10.0,111.0,,111.0,,,100.0,8,35,22.0,168.0,,168.0,,,100.0,22053441
 Battle Jacket,XV,Light Armor,,,6,25,19,152,0,152,0,0,100,,Prompto,Bullet Fan,,6,25,10.0,111.0,,111.0,,,100.0,8,35,22.0,168.0,,168.0,,,100.0,22053280
 Oracle's Dress,XV,Light Armor,,,6,25,0,151,19,151,19,0,100,Holy damage +20%,Lunafreya,Leviathan's Pact,,6,25,,110.0,10.0,110.0,10.0,,100.0,8,35,,167.0,22.0,167.0,22.0,,100.0,22053447
@@ -2477,7 +2477,7 @@ Violet Robe,II,Light Armor,,,5,20,0,119,17,119,0,0,100,,Emperor,Clever Ruse,,5,2
 Hilda's Cloak,II,Light Armor,,,5,20,0,119,0,119,17,0,100,,Hilda,,Noble Blood,5,20,,88.0,,88.0,10.0,,100.0,7,30,,134.0,,134.0,20.0,,100.0,22053323
 Silver Despot,II,Light Armor,,,5,20,0,119,17,119,0,0,100,,Emperor,,Despotic Stratagem,5,20,,88.0,10.0,88.0,,,100.0,7,30,,134.0,20.0,134.0,,,100.0,22053241
 Cursed Cloak,II,Light Armor,,,5,20,0,103,0,103,0,0,100,"Dark damage +20%, Dark weakness",,,,5,20,,72.0,,72.0,,,100.0,7,30,,119.0,,119.0,,,100.0,22053359
-Minerva Bustier,II,Light Armor,,,5,20,0,119,17,119,0,0,100,,Maria,,Search for Brother,5,20,,88.0,10.0,88.0,,,100.0,7,30,,134.0,20.0,134.0,,,100.0,22053425
+Minerva Bustier,II,Light Armor,,,5,20,0,119,17,119,0,0,100,,Maria,,Searching Sister,5,20,,88.0,10.0,88.0,,,100.0,7,30,,134.0,20.0,134.0,,,100.0,22053425
 Darkening Cloak,III,Light Armor,,,5,20,0,114,17,114,0,0,100,Dark damage +20%,Cloud of Darkness,Anti-air Particle Beam,,5,20,,83.0,10.0,83.0,,,100.0,7,30,,129.0,20.0,129.0,,,100.0,22053167
 Refia's Tunic,III,Light Armor,,,5,20,17,117,0,117,0,0,100,Fire resistance (minor),Refia,,Deadly Charm,5,20,10.0,86.0,,86.0,,,100.0,7,30,20.0,132.0,,132.0,,,100.0,22053168
 Aria's Presence,III,Light Armor,,,5,20,0,117,0,117,17,0,100,Water resistance (minor),Aria,Life of Devotion,,5,20,,86.0,,86.0,10.0,,100.0,7,30,,132.0,,132.0,20.0,,100.0,22053224
@@ -2713,7 +2713,7 @@ Root of Evil I,V,Heavy Armor,,,6,25,0,187,19,125,0,0,105,,Exdeath,Balance of Pow
 Shield Armor,VI,Heavy Armor,,,6,25,19,187,0,125,0,0,105,,Leo,Indomitable Will,,6,25,10.0,148.0,,102.0,,,105.0,8,35,22.0,202.0,,134.0,,,105.0,22054101
 Diamond Armor,VIII,Heavy Armor,,,6,25,19,187,0,125,0,0,105,,Laguna,Junction Freeze,,6,25,10.0,148.0,,102.0,,,105.0,8,35,22.0,202.0,,134.0,,,105.0,22054116
 Chaos Cuirass,XI,Heavy Armor,,,6,25,19,185,0,125,0,0,105,Dark damage +20%,Zeid,Darksheen Blade,,6,25,10.0,146.0,,102.0,,,105.0,8,35,22.0,200.0,,134.0,,,105.0,22054083
-Diamond Armor,XII,Heavy Armor,,,6,25,19,185,19,125,0,0,105,Dark damage +20%,Vayne,Eminence,,6,25,10.0,146.0,10.0,102.0,,,105.0,8,35,22.0,200.0,22.0,134.0,,,105.0,22054076
+Diamond Armor,XII,Heavy Armor,,,6,25,19,185,19,125,0,0,105,Dark damage +20%,Vayne,Soaring Spirits,,6,25,10.0,146.0,10.0,102.0,,,105.0,8,35,22.0,200.0,22.0,134.0,,,105.0,22054076
 Reks's Guise,XII,Heavy Armor,,,6,25,19,185,0,125,0,0,105,Lightning damage +20%,Reks,Dalmasca Spiral,,6,25,10.0,146.0,,102.0,,,105.0,8,35,22.0,200.0,,134.0,,,105.0,22054097
 Delita's Armor,FFT,Heavy Armor,,,6,25,19,187,0,125,0,0,105,,Delita,Somebody to Love,,6,25,10.0,148.0,,102.0,,,105.0,8,35,22.0,202.0,,134.0,,,105.0,22054105
 Death Armor,Core,Heavy Armor,,,5,20,0,108,20,64,0,0,105,,-,Hand of Doom,,5,20,,79.0,20.0,47.0,,,105.0,7,30,,123.0,20.0,72.0,,,105.0,22054041
@@ -2792,7 +2792,7 @@ Divine Robe,Core,Robe,,,5,20,17,95,17,146,0,0,105,,Wedge,,Divine Squad,5,20,10.0
 Gaia Gear,I,Robe,,,6,25,0,122,19,184,19,0,105,Petrify immunity (minor),Matoya,Crystal Power,,6,25,,90.0,10.0,144.0,10.0,,105.0,8,35,,134.0,22.0,200.0,22.0,,105.0,22055070
 Light Robe,II,Robe,,,6,25,0,122,0,184,19,0,105,Holy damage +20%,Minwu,Light of Mysidia,,6,25,,90.0,,144.0,10.0,,105.0,8,35,,134.0,,200.0,22.0,,105.0,22055083
 Gaia Gear,II,Robe,,,6,25,0,122,19,184,0,0,105,Earth damage +20%,Maria,Meteor Shower LXIV,,6,25,,90.0,10.0,144.0,,,105.0,8,35,,134.0,22.0,200.0,,,105.0,22055095
-Black Robe,II,Robe,,,6,25,0,122,19,184,0,0,105,Earth damage +20%,Emperor,Calamitous Void,,6,25,,90.0,10.0,144.0,,,105.0,8,35,,134.0,22.0,200.0,,,105.0,22055052
+Black Robes,II,Robe,,,6,25,0,122,19,184,0,0,105,Earth damage +20%,Emperor,Nihilistic Glamour,,6,25,,90.0,10.0,144.0,,,105.0,8,35,,134.0,22.0,200.0,,,105.0,22055052
 Evoker's Robe,III,Robe,,,6,25,0,122,19,184,0,0,105,Holy damage +20%,Arc,Divine Wave,,6,25,,90.0,10.0,144.0,10.0,,105.0,8,35,,134.0,22.0,200.0,22.0,,105.0,22055096
 Professor's Robe,IV,Robe,,,6,25,0,122,19,186,0,0,105,,Tellah,Sage's Resolve,,6,25,,90.0,10.0,146.0,,,105.0,8,35,,134.0,22.0,202.0,,,105.0,22055082
 Professor's Robe,VI,Robe,,,6,25,0,122,19,186,0,0,105,,Strago,Blue Field,,6,25,,90.0,10.0,146.0,,,105.0,8,35,,134.0,22.0,202.0,,,105.0,22055088
@@ -2840,8 +2840,8 @@ Monk Robe,X,Robe,,,5,20,0,76,0,114,0,0,105,,-,Blessing of Spira,,5,20,,53.0,,86.
 High Summoner's Robe,X,Robe,,,5,20,0,87,17,133,17,0,105,Holy damage +20%,Braska,Summoner's Dream,,5,20,,64.0,10.0,103.0,10.0,,105.0,7,30,,99.0,20.0,148.0,20.0,,105.0,22055047
 Chanter's Djellaba,XII,Robe,,,5,20,0,78,0,121,0,0,105,,,,,5,20,,55.0,,91.0,,,105.0,7,30,,90.0,,136.0,,,105.0,22055029
 Traveler's Vestment,XII,Robe,,,5,20,0,85,0,131,17,0,105,Earth resistance (minor),Penelo,Mincing Minuet,,5,20,,62.0,,101.0,10.0,,105.0,7,30,,97.0,,146.0,20.0,,105.0,22055037
-Jade Gown,XII,Robe,,,5,20,17,95,0,146,0,0,105,,Fran,,Master of Weapons,5,20,10.0,72.0,,115.0,,,105.0,7,30,20.0,107.0,,161.0,,,105.0,22055109
-Light Woven Shirt,XII,Robe,,,5,20,0,95,0,146,17,0,105,,Larsa,,Prodigious Wisdom,5,20,,72.0,,115.0,10.0,,105.0,7,30,,107.0,,161.0,20.0,,105.0,22055036
+Jade Gown,XII,Robe,,,5,20,17,95,0,146,0,0,105,,Fran,,Steady Copilot,5,20,10.0,72.0,,115.0,,,105.0,7,30,20.0,107.0,,161.0,,,105.0,22055109
+Light Woven Shirt,XII,Robe,,,5,20,0,95,0,146,17,0,105,,Larsa,,Precocious Wisdom,5,20,,72.0,,115.0,10.0,,105.0,7,30,,107.0,,161.0,20.0,,105.0,22055036
 Purge Robe,XIII,Robe,,,5,20,0,76,0,121,0,0,105,Silence immunity (minor),-,Purging Light,,5,20,,53.0,,88.0,,,105.0,7,30,,88.0,,138.0,,,105.0,22055030
 Healer's Robe,XIV,Robe,,,5,20,0,80,0,125,20,0,105,,Y'shtola,Medica II,,5,20,,55.0,,93.0,20.0,,105.0,7,30,,93.0,,141.0,20.0,,105.0,22055033
 Evoker's Doublet,XIV,Robe,,,5,20,0,90,17,137,17,0,105,,Alphinaud,Deployment Tactics,,5,20,,67.0,10.0,107.0,10.0,,105.0,7,30,,102.0,20.0,152.0,20.0,,105.0,22055054
@@ -2880,7 +2880,7 @@ Kefka's Gloves,VI,Bracer,,,6,25,32,124,34,121,25,0,105,Dark damage +20%,Kefka,Ru
 Cloud's Gloves,VII,Bracer,,,6,25,42,125,24,122,23,0,105,Wind damage +20%,Cloud,Climirage,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056126
 Tifa's Gloves,VII,Bracer,,,6,25,42,125,24,122,23,0,105,Earth damage +20%,Tifa,Meteor Combo,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056055
 Imperial Guard,VII,Bracer,,,6,25,34,125,34,122,23,0,105,,Reno,Pyramid Pinnacle,,6,25,24.0,102.0,24.0,90.0,13.0,,105.0,8,35,38.0,134.0,38.0,134.0,27.0,,105.0,22056206
-Exquisite Wristwatch,VII,Bracer,,,6,25,42,125,24,122,23,0,105,Dark damage +20%,Rufus,Oblivious Unfilial Son,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056256
+Premium Wristwatch,VII,Bracer,,,6,25,42,125,24,122,23,0,105,Dark damage +20%,Rufus,Recreant Son,,6,25,30.0,102.0,14.0,90.0,13.0,,105.0,8,35,46.0,134.0,28.0,134.0,27.0,,105.0,22056256
 Armlet,VII,Bracer,,,6,25,32,124,34,121,25,0,105,Earth damage +20%,Red XIII,Earth Expanse,,6,25,20.0,101.0,24.0,89.0,15.0,,105.0,8,35,36.0,133.0,38.0,133.0,29.0,,105.0,22056068
 Selphie's Bracelet,VIII,Bracer,,,6,25,32,125,24,122,33,0,105,,Selphie,Trabia Slots,,6,25,20.0,102.0,14.0,90.0,23.0,,105.0,8,35,36.0,134.0,28.0,134.0,37.0,,105.0,22056122
 Bright Armlet,X,Bracer,,,6,25,34,123,34,120,25,0,105,Blind immunity (minor),Kimahri,Undimmed Spirit,,6,25,22.0,100.0,24.0,88.0,15.0,,105.0,8,35,38.0,132.0,38.0,132.0,29.0,,105.0,22056141
@@ -2956,7 +2956,7 @@ Mystile,VII,Bracer,,,5,20,34,99,18,95,18,0,105,,Yuffie,Freewheeling Reflection,,
 Genji Glove,VII,Bracer,,,5,20,34,99,18,95,18,0,105,,Sephiroth,Jenova's Might,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056221
 Angeal's Gloves (CC),VII,Bracer,,,5,20,34,99,18,95,18,0,105,,Angeal,Unleashed Wrath,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056104
 Gauntlet (DoC),VII,Bracer,,,5,20,24,99,28,95,18,0,105,,Vincent,,Beast Aspect,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056247
-Shinra Alpha,VII,Bracer,,,5,20,34,99,18,95,18,0,105,,Rufus,,President's Plot,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056207
+Shinra Alpha,VII,Bracer,,,5,20,34,99,18,95,18,0,105,,Rufus,,Presidental Prerogative,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056207
 Aegis Armlet,VII,Bracer,,,5,20,24,99,28,95,18,0,105,,Red XIII,,Warrior's Amulet,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056052
 Red Glove (CC),VII,Bracer,,,5,20,34,99,18,95,18,0,105,,Genesis,,Will of Rebellion,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056278
 Esthar Bracers,VIII,Bracer,,,5,20,21,78,18,80,18,0,105,,-,First Aid,,5,20,15.0,60.0,11.0,56.0,12.0,,105.0,7,30,24.0,86.0,21.0,92.0,21.0,,105.0,22056025
@@ -2996,7 +2996,7 @@ Crimson Bangle,X,Bracer,,,5,20,24,99,28,95,18,0,105,Fire resistance (minor),Lulu
 Cerulean Bangle,X,Bracer,,,5,20,24,99,28,95,18,0,105,Water resistance (minor),Lulu,Aqueous Beauty,,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056259
 Cerulean Bracer,X,Bracer,,,5,20,34,99,18,95,18,0,105,Water resistance (minor),Auron,Scorching Shank,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056049
 Guardian Bangle,X,Bracer,,,5,20,24,99,28,95,18,0,105,,Lulu,,Harshest Judge,5,20,16.0,81.0,21.0,71.0,11.0,,105.0,7,30,28.0,107.0,31.0,107.0,21.0,,105.0,22056252
-Medical Armguard,X,Bracer,,,5,20,34,99,18,95,18,0,105,,Wakka,,Championship Victory,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056114
+Medical Armguard,X,Bracer,,,5,20,34,99,18,95,18,0,105,,Wakka,,Victory Awaits,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056114
 Ochiudo's Kote,XI,Bracer,,,5,20,26,93,18,89,19,0,105,,Ayame,Tachi Jinpu,,5,20,18.0,75.0,11.0,65.0,13.0,,105.0,7,30,30.0,101.0,21.0,101.0,22.0,,105.0,22056110
 Tactician Magician's Cuffs,XI,Bracer,,,5,20,24,93,28,90,19,0,105,,Shantotto,Play Rough,,5,20,16.0,75.0,21.0,65.0,13.0,,105.0,7,30,28.0,102.0,31.0,102.0,22.0,,105.0,22056097
 Royal Squire's Mufflers,XI,Bracer,,,5,20,31,96,18,92,18,0,105,,Curilla,,Templar's Charge,5,20,23.0,78.0,11.0,68.0,11.0,,105.0,7,30,35.0,104.0,21.0,104.0,21.0,,105.0,22056098
@@ -3035,9 +3035,9 @@ Bronze Bangle,XV,Bracer,,,5,20,31,96,18,92,18,0,105,,Noctis,,Divine Revelation,5
 Power Wristband,XV,Bracer,,,5,20,24,96,18,92,28,0,105,,Iris,,Amicitia Line,5,20,16.0,78.0,11.0,68.0,21.0,,105.0,7,30,28.0,104.0,21.0,104.0,31.0,,105.0,22056152
 Aranea's Gauntlet,XV,Bracer,,,5,20,33,97,18,93,18,0,105,Lightning resistance (minor),Aranea,,Soaring Valkyrie,5,20,25.0,79.0,11.0,69.0,11.0,,105.0,7,30,37.0,105.0,21.0,105.0,21.0,,105.0,22056166
 Iron Bangle,XV,Bracer,,,5,20,33,97,18,93,18,0,105,,Prompto,,Common Valor,5,20,25.0,79.0,11.0,69.0,11.0,,105.0,7,30,37.0,105.0,21.0,105.0,21.0,,105.0,22056164
-Gold Bangle,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Ignis,,Continuous Self Improvement,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056204
-Niella Bracelet,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Cor,,Veteran Warrior,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056194
-Carbon Bangle,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Cor,Blade of the Immortal,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056202
+Gold Bangle,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Ignis,,Overcoming Adversity,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056204
+Niello Bracelet,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Cor,,Stern Veteran,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056194
+Carbon Bangle,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Cor,Immortal Blade,,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056202
 Prompto's Gloves,XV,Bracer,,,5,20,34,99,18,95,18,0,105,,Prompto,,More than Friends,5,20,26.0,81.0,11.0,71.0,11.0,,105.0,7,30,38.0,107.0,21.0,107.0,21.0,,105.0,22056199
 Nu Khai Armband,FFT,Bracer,,,5,20,26,89,18,85,19,0,105,Blind immunity (minor),Ramza,Hail of Stones,,5,20,18.0,71.0,11.0,61.0,13.0,,105.0,7,30,30.0,97.0,21.0,97.0,22.0,,105.0,22056064
 Genji Gloves,FFT,Bracer,,,5,20,26,95,18,91,19,0,105,,Ramza,Chant,,5,20,18.0,77.0,11.0,67.0,13.0,,105.0,7,30,30.0,103.0,21.0,103.0,22.0,,105.0,22056119
@@ -3214,7 +3214,7 @@ Fateful Coin,VI,Accessory,,,5,1,30,0,0,0,0,0,0,,,,,5,20,30.0,,,,,,,7,30,30.0,,,,
 Locke's Bandana,VI,Accessory,,,5,1,15,0,0,0,0,0,0,Fire resistance (moderate),,,,5,20,15.0,,,,,,,7,30,15.0,,,,,,,23080236
 Aria Bouquet,VI,Accessory,,,5,1,30,0,0,0,0,0,0,,,,,5,20,30.0,,,,,,,7,30,30.0,,,,,,,23080174
 Crystal Orb,VI,Accessory,,,5,1,0,0,0,15,0,0,0,Confuse immunity (moderate),,,,5,20,,,,15.0,,,,7,30,,,,15.0,,,,23080188
-Alarm Earrings,VI,Accessory,,,5,1,0,0,0,0,0,0,0,"Ice resistance (moderate), Paralyze immunity (moderate)",,,,5,20,,,,,,,,7,30,,,,,,,,23080345
+Alarm Earring,VI,Accessory,,,5,1,0,0,0,0,0,0,0,"Ice resistance (moderate), Paralyze immunity (moderate)",,,,5,20,,,,,,,,7,30,,,,,,,,23080345
 Gold Hairpin,VI,Accessory,,,5,1,0,0,0,0,15,0,0,Fire resistance (moderate),,,,5,20,,,,,15.0,,,7,30,,,,,15.0,,,23080132
 Celes's Pendant,VI,Accessory,,,5,1,0,0,0,30,0,0,0,,,,,5,20,,,,30.0,,,,7,30,,,,30.0,,,,23080293
 Celestriad,VI,Accessory,,,5,1,0,0,0,0,15,0,0,Confuse immunity (moderate),,,,5,20,,,,,15.0,,,7,30,,,,,15.0,,,23080255
@@ -3326,7 +3326,7 @@ Lightning's Pendant,XIII,Accessory,,,5,1,0,0,0,0,0,0,0,Paralyze immunity (major)
 Aurora Ring,XIII,Accessory,,,5,1,0,0,0,0,0,0,0,Lightning and Water resistance (moderate),,,,5,20,,,,,,,,7,30,,,,,,,,23080279
 Serah's Earring,XIII,Accessory,,,5,1,0,0,0,0,0,0,0,"Ice resistance (moderate), Sap immunity (moderate)",,,,5,20,,,,,,,,7,30,,,,,,,,23080519
 Nora's Necklace,XIII,Accessory,,,5,1,0,15,0,20,0,0,0,,,,,5,20,,15.0,,20.0,,,,7,30,,15.0,,20.0,,,,23080534
-Amulet of Peace,XIII,Accessory,,,5,1,15,0,0,0,0,0,0,Instant KO immunity (moderate),,,,5,20,15.0,,,,,,,7,30,15.0,,,,,,,23080492
+Serenity Sachet,XIII,Accessory,,,5,1,15,0,0,0,0,0,0,Instant KO immunity (moderate),,,,5,20,15.0,,,,,,,7,30,15.0,,,,,,,23080492
 Tremor Earrings,XIV,Accessory,,,5,1,0,0,15,0,0,0,0,Earth resistance (moderate),,,,5,20,,,15.0,,,,,7,30,,,15.0,,,,,23080206
 Inferno Bangle,XIV,Accessory,,,5,1,0,0,0,0,0,0,0,Fire and Earth resistance (moderate),,,,5,20,,,,,,,,7,30,,,,,,,,23080207
 Vortex Ring,XIV,Accessory,,,5,1,15,0,0,0,0,0,0,Wind resistance (moderate),,,,5,20,15.0,,,,,,,7,30,15.0,,,,,,,23080205

@@ -1148,7 +1148,7 @@ IX,Garnet,,Enveloping Warmth,SSB,NAT,All allies,,,,2.5,"DEF and MAG +30% for 25 
 IX,Garnet,,Trial by Lightning,BSB,NAT,All enemies,,,,2.5,"Causes Imperil Lightning 20% for 25 seconds, ATK and MAG +30% to all allies for 25 seconds, grants Haste and Burst Mode to the user",N,All enemies,500,MAG +10,Staff of Ramuh (IX),雷帝の試練,20360007.0
 IX,Garnet,,Trance Ramuh,USB,SUM,All enemies,Magical,14.70,"Lightning, NE",2.5,"Seven group attacks (2.10 each), min. 1100, MAG and MND +30% to all allies for 25 sec., grants Attach Lightning and Auto Storm's Retribution to the user",N,All enemies,500,MAG +10,Holy Rod (IX),トランス召喚・ラムウ,20360008.0
 IX,Garnet,,Resilient Memories,CSB,NAT,All allies,,,,2.5,"Activates Lightning Chain (max 150, field +50%), MAG +50% for 25 seconds",N,All allies,500,MAG +10,Garnet's Guise (IX),嵐にも消されぬ記憶,20360009.0
-IX,Garnet,,Decisive Thunderclap,AOSB,SUM,Single enemy,Magical,79.50,Lightning,2.5,Three single attacks (26.5 each) capped at 99999,N,Lowest HP% enemy,750,MAG +10,Empyrean Rod (IX),決意の雷鳴,20360011.0
+IX,Garnet,,Decisive Thunderclap,AOSB,SUM,Single enemy,Magical,79.50,Lightning,2.5,Three single attacks (26.50 each) capped at 99999,N,Lowest HP% enemy,750,MAG +10,Empyrean Rod (IX),決意の雷鳴,20360011.0
 IX,Garnet,,Maiden's Summon,Glint,SUM,Single enemy,Magical,7.50,"Lightning, NE",0.01,"Six single attacks (1.25 each), grants High Quick Cast 2 to the user",N,Lowest HP% enemy,250,MAG +10,Flash Hat (IX),美姫の召喚魔法,20360012.0
 IX,Garnet,,Secret Bloodline,USB,SUM,Single enemy,Magical,17.00,"Lightning, NE",2.5,"Ten single attacks (1.70 each), grants Lightning Radiant Shield: 75% to all allies, grants Divine Roar Follow-Up to the user",N,Lowest HP% enemy,500,MAG +10,Rubber Suit (IX),秘められし血脈,20360013.0
 IX,Garnet,,Storm Serenade,AASB,SUM,Single enemy,Magical,22.50,"Lightning, NE",2.5,"Fifteen single attacks (1.50 each), causes Imperil Lightning 20% for 25 seconds, grants Attach Lightning, Awoken Enchant and Damage Cap +10000 to the user",N,Lowest HP% enemy,500,MAG +10,Faerie Rod (IX),雷雲セレナーデ,20360014.0
@@ -1178,6 +1178,9 @@ IX,Steiner,,Knight's Oath,BSB,PHY,Single enemy,Physical,7.52,"Fire, Lightning, I
 IX,Steiner,,Ironclad Vow,Glint,NAT,All allies,,,,0.01,"Grants Stoneskin: 30%, RES +100% for 25 seconds",N,All allies,250,ATK +10,Golden Shield (IX),堅守の誓い,20570010.0
 IX,Steiner,,Sworn Protector,CSB,NAT,All allies,,,,2.5,"Activates IX Chain (max 150, field +50%), grants Haste, ATK and MAG +30% for 25 seconds",N,All allies,500,ATK +10,Sun Blade (IX),まもりたいもの,20570011.0
 IX,Steiner,,Steiner Rush,USB,PHY,Single enemy,Physical,6.90,"Fire, Lightning, Ice, NE",2.5,"Ten single attacks (0.69 each), grants Instant Cast 1 to all allies, grants Pluto Knight Triblade Follow-Up to the user",N,Lowest HP% enemy,500,ATK +10,Falchion (IX),盲進スタイナー,20570012.0
+IX,Steiner,,Double Climhazzard,AASB,PHY,Single enemy,Physical,9.00,"Fire, Lightning, Ice, NE",2.5,"Fifteen single attacks (0.60 each), grants Instant Cast 1, Awoken Spellblade, Damage Cap +10000, Assault Spellblade Mode and Charging! to the user",N,Lowest HP% enemy,500,ATK +10,Rune Blade (IX),W・クライムハザード,20570013.0
+IX,Steiner,,Ultimate Delta Slash,AOSB,PHY,Single enemy,Physical,24.00,"Fire, Lightning, Ice",2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Brave Blade (IX),神技・氷炎雷鳴剣,20570014.0
+IX,Steiner,,Always Loyal,Glint+,NAT,All allies,,,,0.01,"Grants Last Stand, grants Instant Cast 1 to the user",N,All allies,0,ATK +10,Master Sword (IX),いつでも忠心,20570015.0
 IX,Freya,,Reis's Wind,Default,WHT,All allies,,,,2.5,Grants Low Regen,N,All allies,500,,-,レーゼの風,22110002.0
 IX,Freya,,Dragon Breath,SB,PHY,Single enemy,Physical,5.15,-,3.0,"Five single ranged jump attacks (1.03 each), DEF and RES -50% for 25 seconds",N,Lowest HP% ally,500,,Partisan (IX),ドラゴンブレス,22110001.0
 IX,Freya,,Cherry Blossom,SSB,PHY,All enemies,Physical,5.85,Wind,2.5,"Three group ranged attacks (1.95 each), grants No Air Time 3 to the user",N,All enemies,500,ATK +10,Dragon Knight's Greatcoat (IX),桜華狂咲,22110003.0
@@ -1196,6 +1199,9 @@ IX,Quina,,Frog Drop,SSB,PHY,All enemies,Physical,5.96,-,2.5,"Four group attacks 
 IX,Quina,,Pumpkin Head,BSB,PHY,Random enemies,Physical,7.50,-,2.5,"Five random ranged attacks (1.50 each), ATK, DEF, MAG and RES -40% for 25 seconds, grants Haste and Burst Mode to the user",N,Random enemies,500,ATK +10,Qu Garb (IX),パンプキンヘッド,20840005.0
 IX,Quina,,Culinary Curiosity,USB,NAT,All allies,,,,2.5,"ATK +50% for 25 seconds, grants Protect, Shell and Haste",N,All allies,500,ATK +10,Gastro Fork (IX),求道者の調理,20840006.0
 IX,Quina,,Angel's Banquet,BSB,NAT,All allies,,,,2.5,"Removes negative effects, grants Astra and HP Stock (2000), grants Haste and Burst Mode to the user",N,All allies,500,ATK +10,Silver Knife (IX),天使のランチ,20840007.0
+IX,Quina,,Gourmet Find!,AASB,NAT,All allies,,,,0.01,"Grants ATK and MND +50%, Haste and Physical Quick Cast, grants Awoken Frog Catcher and Golden Frog Follow-Up to the user",N,All allies,500,ATK +10,Golden Fork (IX),美味を発見！,20840008.0
+IX,Quina,,Angelic White Wind,Glint+,NAT,All allies,,,,0.01,Grants Regenga,N,All allies,0,ATK +10,Carmagnole (IX),天使のホワイトウインド,20840009.0
+IX,Quina,,Delta Deflation,Glint,NAT,Single enemy,,,,0.01,"Causes Imperil Water 20%, Imperil Earth 20% and Imperil Poison 20%, grants Instant Cast 1 to the user",N,Lowest HP% enemy,250,ATK +10,Needle Knife (IX),デルタデフレス,20840010.0
 IX,Eiko,,Mass Shell,Default,WHT,All allies,,,,2.5,Grants Shell,N,All allies,500,,-,全体シェル,20620001.0
 IX,Eiko,,Withering Winds,SB,SUM,All enemies,Magical,7.17,Wind,3.0,"One group attack (7.17), minimum damage 1050, MAG -50% for 25 seconds",N,All enemies,500,,Hypnocrown (IX),千年の風化,20620002.0
 IX,Eiko,,Emerald Light,SB,WHT,All allies,,,,3.0,"Restores HP (50), grants Haste",N,All allies,500,,Golem's Flute (IX),エメラルドの光,20620003.0
@@ -1208,6 +1214,7 @@ IX,Eiko,,Sleight of Eiko,Glint,NAT,All allies,,,,0.01,Grants Haste and Physical 
 IX,Eiko,,Terra Homing,AASB,SUM,Single enemy,Magical,19.80,"Holy, Wind, NE",0.01,"Fifteen single attacks (1.32 each), restores HP (85) to all allies, grants Attach Wind, Awoken Bond and Damage Cap +10000 to the user",N,Lowest HP% enemy,500,"MAG +5, MND +5",Moogle's Flute (IX),テラホーミング,20620011.0
 IX,Eiko,,Trance Regenga,USB,WHT,Self,,,,0.01,"Grants Attach Wind with Stacking to the user, grants Regenga and High Quick Cast 2 to all allies",N,Self,500,MND +10,Light Robe (IX),トランス・リジェネガ,20620012.0
 IX,Eiko,,Eiko's Secret Weapon,Glint+,NAT,Self,,,,0.01,"Grants Attach Wind Stacking, Attach Wind and Summoning Quick Cast to the user",N,Self,0,MND +10,Carbuncle's Flute (IX),エーコのひみつへーき,20620013.0
+IX,Eiko,,Blast Homing,AOSB,SUM,Single enemy,Magical,79.50,"Holy, Wind",2.5,Three single attacks (26.50 each) capped at 99999,N,Lowest HP% enemy,750,MAG +10,Golden Skullcap (IX),ブラストホーミング,20620014.0
 IX,Amarant,,No Mercy (IX),Default,PHY,Single enemy,Physical,1.50,-,2.5,One single ranged attack (1.50),N,Lowest HP% enemy,500,,-,雑魚ちらし,20870001.0
 IX,Amarant,,Aura (IX),SB,NAT,All allies,,,,3.0,Grants Shell and High Regen,N,All allies,500,,Scissor Fangs (IX),オーラ,20870002.0
 IX,Amarant,,Scarlet Elan,SB,PHY,All enemies,Physical,4.17,-,2.5,"Three group attacks (1.39 each), ATK +30% to all allies for 25 seconds",N,All enemies,500,,Dragon's Claws (IX),焔色の絶技,20870003.0
@@ -1216,6 +1223,9 @@ IX,Amarant,,Fists of Flame,BSB,PHY,All enemies,Physical,4.92,"Fire, NE",2.5,"Six
 IX,Amarant,,Faithful Fist,USB,PHY,Single enemy,Physical,7.10,"Fire, NE",2.5,"Ten single attacks (0.71 each), grants Attach Fire to the user, grants Fire Radiant Shield: 75% to all allies",N,Lowest HP% enemy,500,ATK +10,Tiger Fangs (IX),拳の確信,20870006.0
 IX,Amarant,,Detonating Fist,USB,PHY,Single enemy,Physical,6.20,"Lightning, Fire, NE",0.01,"Ten single attacks (0.62 each), causes Imperil Fire 20% and Imperil Lightning 20% for 25 seconds, grants Monk High Quick Cast 2 to the user",N,Lowest HP% enemy,500,ATK +10,Dual Claw (IX),爆裂秘孔拳,20870007.0
 IX,Amarant,,Outlaw Spirit,Glint,NAT,Self,,,,0.01,"Grants Attach Fire Stacking, Attach Fire and 100% Critical 2 to the user",N,Self,250,ATK +10,Kaiser Knuckles (IX),アウトロースピリット,20870008.0
+IX,Amarant,,Outlaw Style,AASB,PHY,Single enemy,Physical,9.00,"Fire, NE",2.5,"Fifteen single attacks (0.60 each), grants Attach Fire, Fire Radiant Shield: 75%, Critical Damage +50%, Awoken Fire, Damage Cap +10000, and Makarov Counter Mode to the user",N,Lowest HP% enemy,500,ATK +10,Hell Claws (IX),裏稼業の流儀,20870009.0
+IX,Amarant,,Outlaw Combination,AOSB,PHY,Single enemy,Physical,24.00,"Fire, Lightning",2.5,Three single attacks (8.00 each) capped at 99999,N,Lowest HP% enemy,750,ATK +10,Ehrgeiz (IX),アウトローコンボ,20870010.0
+IX,Amarant,,Outlaw Soul,Glint+,NAT,Self,,,,0.01,"Grants Attach Fire Stacking, Attach Fire and Instant Cast 1 to the user",N,Self,0,ATK +10,Adaman Knuckles (IX),アウトローソウル,20870011.0
 IX,Beatrix,,Blessed Cure,Default,WHT,Single ally,,,,2.5,Restores HP (55),N,Lowest HP% ally,500,,-,聖白魔法・ケアル,22050001.0
 IX,Beatrix,,Seiken Stock Break,SB,PHY,All enemies,Physical,4.02,Holy,3.0,"Three group attacks (1.34 each), causes Sap (20%)",N,All enemies,500,,Save The Queen (IX),聖剣技ストックブレイク,22050002.0
 IX,Beatrix,,Rose of May,SB,PHY,Single enemy,Physical,5.16,-,3.0,"Four single attacks (1.29 each), DEF +50% to all allies for 25 seconds",N,Lowest HP% enemy,500,,Thunder Gloves (IX),ローズ・オブ・メイ,22050003.0

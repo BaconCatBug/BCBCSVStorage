@@ -10,35 +10,30 @@ sheet_gid_MG= "195881060"
 sheet_gid_LM= "1881349203"
 
 buffer = open("https://docs.google.com/spreadsheets/d/#{google_sheet_id}/export?format=csv&gid=#{sheet_gid_SB}").read
-numCards = CSV.parse(buffer).length - 1 #CSV counts the header row; we only want the number of cards.
 File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\SoulBreaks.csv", 'wb') do |file|
     file << buffer
 end
 
 buffer = open("https://docs.google.com/spreadsheets/d/#{google_sheet_id}/export?format=csv&gid=#{sheet_gid_CM}").read
-numCards = CSV.parse(buffer).length - 1 #CSV counts the header row; we only want the number of cards.
 File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\Commands.csv", 'wb') do |file|
     file << buffer
 
 end
 
 buffer = open("https://docs.google.com/spreadsheets/d/#{google_sheet_id}/export?format=csv&gid=#{sheet_gid_RL}").read
-numCards = CSV.parse(buffer).length - 1 #CSV counts the header row; we only want the number of cards.
-File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\Relics.csv", 'wb') do |file|
+File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\Relics.csv", 'wb',) do |file|
     file << buffer
 
 end
 
 
 buffer = open("https://docs.google.com/spreadsheets/d/#{google_sheet_id}/export?format=csv&gid=#{sheet_gid_AB}").read
-numCards = CSV.parse(buffer).length - 1 #CSV counts the header row; we only want the number of cards.
 File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\Abilities.csv", 'wb') do |file|
     file << buffer
 
 end
 
 buffer = open("https://docs.google.com/spreadsheets/d/#{google_sheet_id}/export?format=csv&gid=#{sheet_gid_MG}").read
-numCards = CSV.parse(buffer).length - 1 #CSV counts the header row; we only want the number of cards.
 File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\Magicite.csv", 'wb') do |file|
     file << buffer
 
@@ -46,7 +41,6 @@ end
 
 
 buffer = open("https://docs.google.com/spreadsheets/d/#{google_sheet_id}/export?format=csv&gid=#{sheet_gid_LM}").read
-numCards = CSV.parse(buffer).length - 1 #CSV counts the header row; we only want the number of cards.
 File.open("C:\\Users\\BaconCatBug\\Documents\\GitHub\\BCBCSVStorage\\LegendMateria.csv", 'wb') do |file|
     file << buffer
 
@@ -54,7 +48,9 @@ end
 
 sleep(2)
 time = Time.now.utc.strftime("%Y-%m-%d-%H:%M")
+puts 'python'
 system 'python StripColumns.py'
+system 'python FFRKDataFormat.py'
 puts 'add'
 system 'git add *.csv'
 puts 'commit'

@@ -5,7 +5,7 @@ from pandas import read_csv, to_numeric, concat
 
 # Initialisation
 
-
+print('Format Start')
 google_sheet_id = '1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk'
 sheet_id_RL = '1623354916'
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_id_RL
@@ -409,5 +409,8 @@ df_base = df_base.sort_values(by=['ID'])
 df_synergy.drop(df_synergy.columns[range(19)], axis=1, inplace=True)
 df_synergy.drop('Name', axis=1, inplace=True)
 df_synergy = df_synergy.sort_values(by=['ID'])
-df_base = concat([df_base, df_synergy], axis=1)
-df_base.to_csv('Relics_Processed.csv', index=None, header=True, quoting=QUOTE_ALL)
+# df_base = concat([df_base, df_synergy], axis=1)
+df_base.to_csv('Relics_Processed_Base.csv', index=None, header=True, quoting=QUOTE_ALL)
+df_synergy.to_csv('Relics_Processed_Synergy.csv', index=None, header=True, quoting=QUOTE_ALL)
+
+print('Format End')

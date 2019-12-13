@@ -10,4 +10,3 @@ python FFRK_Soul_Break_etc_Data_Format.py
 git add *
 git commit -m '%datestamp%'
 git push
-pause

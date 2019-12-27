@@ -2353,6 +2353,8 @@
 "Core","Elarra","","Fabula Priestess","RW","NAT","All allies","","","","0.01","Restores HP for 100% of the target's maximum HP","N","All allies","-","","-","ファブラ・プリースト","22860004",""
 "Core","Elarra","","Fabula Medium","RW","NAT","All allies","","","","0.01","Removes Haunted","N","All allies","-","","-","ファブラ・メディウム","22860006",""
 "Core","Elarra","","Fabula Mage","RW","NAT","Single enemy","","","","0.01","One single attack that deals 99999 damage","N","Lowest HP% enemy","-","","-","ファブラ・メイジ","22860007",""
+"Core","Elarra","","Fabula Sorcerer: Earth","RW","NAT","","","","","2.50","Activates Earth Chain (max 99, field +20%)","N","All allies","-","","-","ファブラ・ソーサラー","23210011",""
+"Core","Elarra","","Fabula Sorcerer: Lightning","RW","NAT","","","","","2.50","Activates Lightning Chain (max 99, field +20%)","N","All allies","-","","-","ファブラ・ソーサラー","23210012",""
 "Core","Dr. Mog","","Sentinel's Tome","RW","NAT","All allies","","","","3.00","DEF and RES +200% for 26 seconds","N","All allies","-","","-","原書・鉄壁のグリモア","23060001",""
 "Core","Dr. Mog","","Tactician's Tome","RW","NAT","All allies","","","","2.50","Grants Haste, ATK and MAG +30% for 26 seconds","N","All allies","-","","-","原書・戦術のグリモア","23060002",""
 "Core","Dr. Mog","","Chronicle of the Water Crystal","RW","NAT","-","","","","0.01","Reduces to 0 the damage taken by all party members for 10 seconds","N","-","-","","-","秘録「水晶史話」","23060003",""

@@ -404,11 +404,11 @@ df_synergy['Eva'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
 
 df_base.drop(df_base.columns[range(19)], axis=1, inplace=True)
 df_base.drop('Name', axis=1, inplace=True)
-df_base = df_base.sort_values(by=['ID','CorrectedRealm'])
+df_base = df_base.sort_values(by=['ID'])
 
 df_synergy.drop(df_synergy.columns[range(19)], axis=1, inplace=True)
 df_synergy.drop('Name', axis=1, inplace=True)
-df_synergy = df_synergy.sort_values(by=['ID','CorrectedRealm'])
+df_synergy = df_synergy.sort_values(by=['ID'])
 df_base = concat([df_base, df_synergy], axis=1)
 # df_base.to_csv('Relics_Processed_Base.csv', index=None, header=True, quoting=QUOTE_ALL)
 df_base.to_csv('Relics_Processed.csv', index=None, header=True, quoting=QUOTE_ALL)

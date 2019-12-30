@@ -404,7 +404,7 @@ df_synergy['Eva'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
 
 df_base.drop(df_base.columns[range(19)], axis=1, inplace=True)
 df_base.drop('Name', axis=1, inplace=True)
-df_base = df_base.sort_values(by=['ID'])
+df_base = df_base.sort_values(by=['ID','CorrectedRealm'])
 
 df_synergy.drop(df_synergy.columns[range(19)], axis=1, inplace=True)
 df_synergy.drop('Name', axis=1, inplace=True)

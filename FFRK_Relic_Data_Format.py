@@ -43,29 +43,28 @@ synergyMap = {'3': 15, '5': 20, '10': 30, '15': 40, '20': 50, '25': 60, '30': 70
               '45': 100, '50': 110, '55': 120}
 
 # Stuff
-df_base = df_import[['ID']]
-df_base = df_base.rename(columns={'ID': 'ID_Zero'})
-df_base['Brar'] = df_import[['Brar']].fillna(0)
-df_base['Blvl'] = df_import[['Blv']].fillna(0)
-df_base['Batk'] = df_import[['Batk']].fillna(0)
-df_base['Bdef'] = df_import[['Bdef']].fillna(0)
-df_base['Bmag'] = df_import[['Bmag']].fillna(0)
-df_base['Bres'] = df_import[['Bres']].fillna(0)
-df_base['Bmnd'] = df_import[['Bmnd']].fillna(0)
-df_base['Bacc'] = df_import[['Bacc']].fillna(0)
-df_base['Beva'] = df_import[['Beva']].fillna(0)
-df_base['Mrar'] = df_import[['Mrar']].fillna(0)
-df_base['Mlvl'] = df_import[['Mlv']].fillna(0)
-df_base['Matk'] = df_import[['Matk']].fillna(0)
-df_base['Mdef'] = df_import[['Mdef']].fillna(0)
-df_base['Mmag'] = df_import[['Mmag']].fillna(0)
-df_base['Mres'] = df_import[['Mres']].fillna(0)
-df_base['Mmnd'] = df_import[['Mmnd']].fillna(0)
-df_base['Macc'] = df_import[['Macc']].fillna(0)
-df_base['Meva'] = df_import[['Meva']].fillna(0)
-df_base['GL']   = df_import[['GL']].fillna(0)
-dropstuff = df_base[df_base['GL'] == 0 ].index
-df_base.drop(dropstuff , inplace=True)
+df_base = df_import[['ID']] df_base = df_base.rename(columns={'ID': 
+'ID_Zero'}) df_base['Brar'] = df_import[['Brar']].fillna(0) 
+df_base['Blvl'] = df_import[['Blv']].fillna(0) df_base['Batk'] = 
+df_import[['Batk']].fillna(0) df_base['Bdef'] = 
+df_import[['Bdef']].fillna(0) df_base['Bmag'] = 
+df_import[['Bmag']].fillna(0) df_base['Bres'] = 
+df_import[['Bres']].fillna(0) df_base['Bmnd'] = 
+df_import[['Bmnd']].fillna(0) df_base['Bacc'] = 
+df_import[['Bacc']].fillna(0) df_base['Beva'] = 
+df_import[['Beva']].fillna(0) df_base['Mrar'] = 
+df_import[['Mrar']].fillna(0) df_base['Mlvl'] = 
+df_import[['Mlv']].fillna(0) df_base['Matk'] = 
+df_import[['Matk']].fillna(0) df_base['Mdef'] = 
+df_import[['Mdef']].fillna(0) df_base['Mmag'] = 
+df_import[['Mmag']].fillna(0) df_base['Mres'] = 
+df_import[['Mres']].fillna(0) df_base['Mmnd'] = 
+df_import[['Mmnd']].fillna(0) df_base['Macc'] = 
+df_import[['Macc']].fillna(0) df_base['Meva'] = 
+df_import[['Meva']].fillna(0) df_base['GL'] = 
+df_import[['GL']].fillna(0) df_base = 
+df_base.drop(df_base[(df_base['ID_Zero'] == 21030005) & (df_base['GL'] 
+== 0)].index)
 df_base = df_base.drop('GL', 1)
 
 

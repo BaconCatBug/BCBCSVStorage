@@ -63,9 +63,10 @@ df_base['Mres'] = df_import[['Mres']].fillna(0)
 df_base['Mmnd'] = df_import[['Mmnd']].fillna(0)
 df_base['Macc'] = df_import[['Macc']].fillna(0)
 df_base['Meva'] = df_import[['Meva']].fillna(0)
-#dropstuff = df_base[df_base['GL'] == 0 ].index
-#df_base.drop(dropstuff , inplace=True)
-#df_base = df_base.drop('GL', 1)
+df_base['GL']   = df_import[['GL']].fillna(0)
+dropstuff = df_base[df_base['GL'] == 0 ].index
+df_base.drop(dropstuff , inplace=True)
+df_base = df_base.drop('GL', 1)
 
 
 df_base['ID'] = df_import[['ID']] + 'B'

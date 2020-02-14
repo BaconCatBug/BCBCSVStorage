@@ -64,7 +64,8 @@ df_base['Mmnd'] = df_import[['Mmnd']].fillna(0)
 df_base['Macc'] = df_import[['Macc']].fillna(0)
 df_base['Meva'] = df_import[['Meva']].fillna(0)
 df_base['GL']   = df_import[['GL']].fillna(0)
-df_base = df_base.drop(df_base[(df_base['ID_Zero'] == 21030005) & (df_base['GL'] == 0)].index)
+df_base = df_base.drop(df_base[(df_base.ID_Zero == '21030005') & (df_base.GL == "x")].index)
+df_base = df_base.drop(df_base[(df_base.ID_Zero == '22051070') & (df_base.GL == "x")].index)
 df_base = df_base.drop('GL', 1)
 
 

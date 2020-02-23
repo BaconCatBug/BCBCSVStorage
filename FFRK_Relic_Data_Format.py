@@ -70,7 +70,7 @@ df_base = df_base.drop('GL', 1)
 
 
 
-df_base['ID'] = df_import[['ID']] + 'B'
+df_base['ID'] = df_import[['ID']] + '0'
 # df_base['Name'] = ''
 df_base['Name'] = df_import[['Name']]
 df_base['Realm'] = df_import[['Realm']]
@@ -150,7 +150,7 @@ df_base['LegendMateria'] = df_import[['Legend Materia']]
 
 #################################################
 df_plus = df_base.copy()
-df_plus['ID'] = df_plus['ID_Zero'] + 'P'
+df_plus['ID'] = df_plus['ID_Zero'] + '1'
 # Name
 # Realm
 df_plus['Rarity'] = where(to_numeric(df_plus['CorrectedType']) != 3, to_numeric(df_plus['Rarity']) + 1,
@@ -202,7 +202,7 @@ df_plus.drop(df_plus[to_numeric(df_plus.BaseRarity) > 99].index, inplace=True)
 df_plus.drop(df_plus[to_numeric(df_plus.CorrectedType) == 3].index, inplace=True)
 ##########################################
 df_plus_plus = df_base.copy()
-df_plus_plus['ID'] = df_plus_plus['ID_Zero'] + 'PP'
+df_plus_plus['ID'] = df_plus_plus['ID_Zero'] + '2'
 # Name
 # Realm
 df_plus_plus['Rarity'] = where(to_numeric(df_plus_plus['CorrectedType']) != 3,
@@ -264,7 +264,7 @@ df_plus_plus.drop(df_plus_plus[to_numeric(df_plus_plus.BaseRarity) > 99].index, 
 df_plus_plus.drop(df_plus_plus[to_numeric(df_plus_plus.CorrectedType) == 3].index, inplace=True)
 ##########################################
 df_plus_plus_plus = df_base.copy()
-df_plus_plus_plus['ID'] = df_plus_plus_plus['ID_Zero'] + 'PPP'
+df_plus_plus_plus['ID'] = df_plus_plus_plus['ID_Zero'] + '3'
 # Name
 # Realm
 df_plus_plus_plus['Rarity'] = where(to_numeric(df_plus_plus_plus['CorrectedType']) != 3,

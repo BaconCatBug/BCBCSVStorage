@@ -1712,7 +1712,7 @@
 "XII","Gabranth","","Ruinous Hatred","CSB","NAT","All allies","","","","2.50","Activates Dark Chain (max 150, field +50%), ATK +50% for 25 seconds","N","All allies","500","ATK +10","Death Sickle (XII)","亡国の憎悪","22370009",""
 "XII","Gabranth","","Endless Wail","AASB","PHY","Single enemy","Physical","9.00","Dark, NE","2.50","Fifteen single attacks (0.60 each), grants Attach Dark, Awoken Judge, Damage Cap +10000 and Quick Cast to the user","N","Lowest HP% enemy","500","ATK +10","Blood Sword (XII)","果て無き慟哭","22370010",""
 "XII","Gabranth","","Hour of Vengeance","Glint+","NAT","Self","","","","0.01","Grants Soul Break Gauge +500","N","Self","0","ATK +10","Rune Axe (XII)","復讐の刻","22370011",""
-"XII","Gabranth","","Darksteel Wrath","Glint","NAT","Self","","","","0.01","Grants Attach Dark Stacking, Attach Dark and High Quick Cast 2","N","Self","250","ATK +10","Chain Mail (XII)","黒鉄の憎悪","22370012",""
+"XII","Gabranth","","Darksteel Wrath","Glint","NAT","Self","","","","0.01","Grants Attach Dark Stacking, Attach Dark and High Quick Cast 2","N","Self","250","ATK +10","Chainmail (XII)","黒鉄の憎悪","22370012",""
 "XII","Larsa","","Blink Strike","Default","PHY","Single enemy","Physical","1.30","-","2.50","One single attack (1.30), grants Physical Blink 1 to the user","N","Lowest HP% enemy","500","","-","ブリンクダガー","22440002",""
 "XII","Larsa","","Archadian Draught","SSB","WHT","All allies","","","","2.50","Restores HP (85), grants Haste","N","All allies","500","MND +10","Cloud Staff (XII)","帝国の秘薬","22440001","1"
 "XII","Larsa","","Manufacted Marvel","SSB","NAT","All allies","","","","2.50","Grants Protect, Shell and Stoneskin: 30%","N","All allies","500","MND +10","Staff of the Magi (XII)","人造破魔石の輝き","22440003","1"

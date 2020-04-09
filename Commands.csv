@@ -516,7 +516,7 @@
 "Ramza","Unsung Hero","","Noble Blade","PHY","Single","Physical","2.50","Holy","1.65","Two single attacks (1.25 each), removes positive effects","Y","Lowest HP% enemy","50","Knight","戦士の剣","30510181"
 "Ramza","Unsung Hero","","Steel","NAT","Single ally","","","","1.65","Grants 80 Soul Break points","Y","Random ally","50","Support","はげます","30510182"
 "Ramza","Battle Cry (FFT)","","Warrior's Dance","PHY","Single enemy","Physical","2.70","Holy, NE","1.65","Five single attacks (0.54 each)","Y","Lowest HP% enemy","0","Support","戦士の剣舞","30512121"
-"Ramza","Battle Cry (FFT)","","Warrior's Will","NAT","Self","","","","1.65","","N","Self","180","Support","戦士の闘志","30512122"
+"Ramza","Battle Cry (FFT)","","Warrior's Will","NAT","Self","","","","1.65","-","N","Self","180","Support","戦士の闘志","30512122"
 "Agrias","Divine Ruination","","Devotion's Blade","PHY","Single enemy","Physical","2.50","Holy","1.65","Two single attacks (1.25 each), grants Sentinel to the user","Y","Lowest HP% enemy","50","Knight","忠の剣技","30510521"
 "Agrias","Divine Ruination","","Faith's Blade","PHY","Single enemy","Physical","2.50","Holy","1.65","Two single attacks (1.25 each), RES +40% to the user for 20 seconds","Y","Lowest HP% enemy","50","Knight","信の剣技","30510522"
 "Delita","Hero-King","","Godfire Blade","PHY","Single enemy","Physical","2.32","Holy, Fire","1.65","Four single attacks (0.58 each), 50% additional critical damage","Y","Lowest HP% enemy","50","Spellblade","聖炎斬","30510811"

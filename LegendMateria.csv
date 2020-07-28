@@ -235,7 +235,7 @@
 "IV","Barbariccia","","Tower Master","-","35% chance to dualcast abilities that deal Wind damage","","-","妖艶なる塔の支配者","201042201",""
 "IV","Barbariccia","","Ruler of the Wind","LMR","Grants [Attach Wind] at the beginning of the battle","MAG +10","Barbariccia's Guise (IV)","風を操る妖女","201042202","1"
 "V","Lenna","","Princess's Love","-","WHT abilities restore 15% more HP","","-","姫の慈愛","201050200",""
-"V","Lenna","","Overflowing Love","-","40% chance to grant [Heals +30%] to the user after using a WHT attack","","-","慈愛に満ちた心","201050201",""
+"V","Lenna","","Overflowing Love","-","40% chance to grant [Heals +30%] to the user after using a WHT ability or soulbreak","","-","慈愛に満ちた心","201050201",""
 "V","Lenna","","Impartial Kindness","LMR","25% chance to cast an ability (WHT: group, restores HP (25)) after using a White Magic ability, can trigger on dualcasts","MND +10","Laurel Crown (V)","わけへだてなき優しさ","201050202","1"
 "V","Galuf","","Walker of Worlds","-","Monk abilities deal 15% more damage","","-","第二世界の烈士","201050500",""
 "V","Galuf","","Timeless Valor","-","ATK +2% for each hit dealt with Monk abilities, up to +50%","","-","後世に伝えし勇猛","201050501",""

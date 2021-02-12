@@ -1,0 +1,2 @@
+python RunScripts.py
+exit

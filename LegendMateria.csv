@@ -34,7 +34,7 @@
 "I","Garland","","Frenzied Warrior","LMR","Restores HP for 100% of the user's maximum HP and grants [Extended Quick Cast] when HP fall below 20%","ATK +10","Demon Mail (I)","狂乱の古強者","201010202","1"
 "I","Garland","","Timeless Hatred","LMR","25% chance to dualcast Darkness abilities","ATK +10","Garland's Cloak (I)","時を越えた憎悪","201010203","4"
 "I","Garland","","Battlelust","LMR","Grants [Attach Dark] at the beginning of the battle","ATK +10","Demon Shield (I)","溢れる戦闘欲","201010204","4"
-"I","Garland","","Onslaught (Garland)","LMR+","?% chance to cast an ability (PHY: single, 4x ? physical Dark/NE) after dealing damage with a Dark attack","ATK +10","Giant's Gloves (I)","遊撃【ガーランド】","201010205",""
+"I","Garland","","Onslaught (Garland)","LMR+","35% chance to cast an ability (PHY: single, 4x 0.54 physical Dark/NE) after dealing damage with a Dark ability","ATK +10","Giant's Gloves (I)","遊撃【ガーランド】","201010205",""
 "I","Sarah","","Gracious Princess","-","WHT abilities restore 15% more HP","","-","心優しい姫","201010300",""
 "I","Sarah","","Beloved Princess","-","35% chance to dualcast White Magic abilities","","-","民に愛されし姫君","201010302",""
 "I","Sarah","","Warriors' Ballad","LMR","25% chance to cast an ability (WHT: group, restores HP (25)) after using a Bard ability","MND +10","Princess Veil (I)","戦う者たちを想う歌","201010301","1"

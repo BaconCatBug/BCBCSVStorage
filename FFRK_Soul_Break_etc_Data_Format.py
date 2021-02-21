@@ -46,7 +46,6 @@ url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?for
 df_import = read_csv(url, dtype=str)
 df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
 df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
 df_import.to_csv('SoulBreaks.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 

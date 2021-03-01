@@ -860,6 +860,7 @@
 "FFT","Montblanc","","Time Mage Flair","-","Grants [Haste] and [Instant Cast 3] at the beginning of the battle","","-","時魔道士の資質","201501301",""
 "FFT","Montblanc","","Magic Crutch","LMR","35% chance to grant [Quick Cast 1] to the user after using a BLK attack","MAG +10","Silken Robe (A) (FFT)","補うための魔法の知識","201501302","1"
 "FFT","Montblanc","","Kindhearted Moogle","LMR","25% chance to cast an ability (NAT: group, ATK/MAG/MND -30%) after using a Dancer ability","MAG +10","Circlet (A) (FFT)","親切なモーグリ","201501303","4"
+"FFT","Montblanc","","Trance (Montblanc)","LMR+","Restores HP for 100% of the user's maximum HP and grants [Instant ATB 1] and [Montblanc Trance] when HP fall below 20%","MAG +10","Galmia Set (A) (FFT)","底力【モンブラン】","201501304",""
 "FFT","Alma","","Sanguine Sister","-","WHT abilities restore 15% more HP","","-","明朗活発な妹","201501400",""
 "FFT","Alma","","Saint Reborn","-","35% chance to dualcast White Magic abilities","","-","聖者の生まれ変わり","201501401",""
 "FFT","Alma","","Brother's Keeper","LMR","27% chance to grant [Magical Blink 1] to the target after using a single-target White Magic ability that restores HP on an ally","MND +10","Wizard's Rod (FFT)","兄を案じる心","201501402","1"

@@ -27,18 +27,18 @@ sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_CM
 df_import = read_csv(url, dtype=str)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
 df_import["Element"].replace({"-":"NE"},inplace=True)
-df_import.to_csv('Commands.csv', index=None, header=True, quoting=QUOTE_ALL)
+selected_columns = df_import[["Character","Source","Img","Name","Type","Target","Formula","Multiplier","Element","Time","Effects","Counter","Auto Target","SB","School","Name (JP)","ID"]]
+df_export = selected_columns.copy()
+df_export.to_csv('Commands.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_LM
 df_import = read_csv(url, dtype=str)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.to_csv('LegendMateria.csv', index=None, header=True, quoting=QUOTE_ALL)
+selected_columns = df_import[["ID","Character","Name","Effect"]]
+df_export = selected_columns.copy()
+df_export.to_csv('LegendMateria.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 sleep(1)
 
@@ -52,20 +52,18 @@ sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_SB
 df_import = read_csv(url, dtype=str)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.to_csv('SoulBreaks.csv', index=None, header=True, quoting=QUOTE_ALL)
+selected_columns = df_import[["Realm","Character","Img","Name","Tier","Type","Target","Formula","Multiplier","Element","Time","Effects","Counter","Auto Target","Points","Mastery Bonus","Honing Effects","Relic","Name (JP)","ID"]]
+df_export = selected_columns.copy()
+df_export.to_csv('SoulBreaks.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_LB
 df_import = read_csv(url, dtype=str)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop('Img', axis=1, inplace=True)
-df_import.drop(df_import.tail(16).index, inplace = True) 
-df_import.to_csv('LimitBreaks.csv', index=None, header=True, quoting=QUOTE_ALL)
+selected_columns = df_import[["Realm","Character","Name","Tier","Type","Target","Formula","Multiplier","Element","Time","Effects","Counter","Auto Target","Minimum LB Points","Limit Break Bonus","Mastery Bonus","Relic","Name (JP)","ID"]]
+df_export = selected_columns.copy()
+df_export.drop(df_import.tail(16).index, inplace = True) 
+df_export.to_csv('LimitBreaks.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 sleep(1)
 

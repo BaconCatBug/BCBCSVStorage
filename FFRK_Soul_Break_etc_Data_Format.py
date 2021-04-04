@@ -65,6 +65,7 @@ df_export = selected_columns.copy()
 df_export.drop(df_import.tail(16).index, inplace = True) 
 df_export.to_csv('LimitBreaks.csv', index=None, header=True, quoting=QUOTE_ALL)
 
+"""
 sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_other
@@ -80,3 +81,4 @@ df_import = read_csv(url, dtype=str)
 selected_columns = df_import[["ID","Common Name","Effects","Default Duration","MND Modifier","Exclusive Status"]]
 df_export = selected_columns.copy()
 df_export.to_csv('Status.csv', index=None, header=True, quoting=QUOTE_ALL)
+"""

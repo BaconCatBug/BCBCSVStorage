@@ -71,15 +71,14 @@ sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_other
 df_import = read_csv(url, dtype=str)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[2], axis=1, inplace=True)
-df_import.to_csv('Other.csv', index=None, header=True, quoting=QUOTE_ALL)
+selected_columns = df_import[["ID","Source","Name","Type","Target","Formula","Multiplier","Element","Time","Effects","Counter","Auto Target","SB","School"]]
+df_export = selected_columns.copy()
+df_export.to_csv('Other.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_status
 df_import = read_csv(url, dtype=str)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.drop(df_import.columns[len(df_import.columns)-1], axis=1, inplace=True)
-df_import.to_csv('Status.csv', index=None, header=True, quoting=QUOTE_ALL)
+selected_columns = df_import[["ID","Common Name","Effects","Default Duration","MND Modifier","Exclusive Status"]]
+df_export = selected_columns.copy()
+df_export.to_csv('Status.csv', index=None, header=True, quoting=QUOTE_ALL)

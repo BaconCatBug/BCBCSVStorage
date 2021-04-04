@@ -1,7 +1,6 @@
 # coding=utf-8
 from csv import QUOTE_ALL
-from numpy import where, ceil
-from pandas import read_csv, to_numeric, concat
+from pandas import read_csv
 
 google_sheet_id = '1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk'
 # Soul Breaks

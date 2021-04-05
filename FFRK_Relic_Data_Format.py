@@ -2,7 +2,6 @@
 from csv import QUOTE_ALL
 from numpy import where, ceil
 from pandas import read_csv, to_numeric, concat
-
 # Initialisation
 
 # print('Format Start')

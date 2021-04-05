@@ -20,9 +20,9 @@ correctedTypeMap = {'Dagger': '1 ', 'Sword': '1 ', 'Katana': '1 ', 'Axe': '1 ', 
                     'Gambling Gear': '1', 'Doll': '1', 'Shield': '2', 'Hat': '2', 'Helm': '2',
                     'Light Armor': '2', 'Heavy Armor': '2', 'Robe': '2', 'Bracer': '2', 'Accessory': '3'}
 
-correctedTypeMap2 = {'Dagger': 'Weapon ', 'Sword': 'Weapon ', 'Katana': 'Weapon ', 'Axe': 'Weapon ',
-                     'Hammer': 'Weapon ', 'Spear': 'Weapon ', 'Fist': 'Weapon ', 'Rod': 'Weapon ',
-                     'Staff': 'Weapon ', 'Bow': 'Weapon', 'Instrument': 'Weapon', 'Whip': 'Weapon',
+correctedTypeMap2 = {'Dagger': 'Weapon', 'Sword': 'Weapon', 'Katana': 'Weapon', 'Axe': 'Weapon',
+                     'Hammer': 'Weapon', 'Spear': 'Weapon', 'Fist': 'Weapon', 'Rod': 'Weapon',
+                     'Staff': 'Weapon', 'Bow': 'Weapon', 'Instrument': 'Weapon', 'Whip': 'Weapon',
                      'Thrown': 'Weapon', 'Book': 'Weapon', 'Gun': 'Weapon', 'Blitzball': 'Weapon',
                      'Hairpin': 'Weapon', 'Gun-Arm': 'Weapon', 'Gambling Gear': 'Weapon', 'Doll': 'Weapon',
                      'Shield': 'Armor', 'Hat': 'Armor', 'Helm': 'Armor', 'Light Armor': 'Armor',

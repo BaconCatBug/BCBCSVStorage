@@ -78,8 +78,9 @@ sleep(1)
 
 url = 'https://docs.google.com/spreadsheets/d/' + google_sheet_id + '/export?format=csv&gid=' + sheet_gid_other
 df_import = read_csv(url, dtype=str)
-selected_columns = df_import[["Source","Name","Type","Target","Formula","Multiplier","Element","Time","Effects","Counter","Auto Target","SB","School","ID"]]
+selected_columns = df_import[["Source","Name","Type","Target","Formula","Multiplier","Element","Time","Effects","Counter","Auto Target","SB","School","ID","Source Type"]]
 df_export = selected_columns.copy()
+df_export = df_export[df_export["Source Type"] != "Record Materia"]
 df_export.to_csv('Other.csv', index=None, header=True, quoting=QUOTE_ALL)
 
 sleep(1)

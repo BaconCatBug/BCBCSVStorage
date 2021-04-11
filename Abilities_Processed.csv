@@ -390,6 +390,8 @@
 "PHY","Single enemy","Physical","6.60","Ice","1.65","Six single attacks (1.10 each)","Lowest HP% enemy","90","10","30191331"
 "PHY","Single enemy","Physical","6.30","Earth","1.65","Six single attacks (1.05/1.15 each) if Ursula isn't/is alive","Lowest HP% enemy","90","10","30191341"
 "PHY","Single enemy","Physical","6.60","Earth","1.65","Six single attacks (1.10 each), cast time 0.825 if Yang is alive","Lowest HP% enemy","90","10","30191351"
+"PHY","Single enemy","Physical","7.10","Ice","1.65","One single attack (7.10) capped at 99999","Lowest HP% enemy","90","10","30191361"
+"PHY","Single enemy","Physical","5.70","Ice","1.65","Six single attacks (0.95 each)","Lowest HP% enemy","90","10","30191371"
 "PHY","Single enemy","Physical","1.40","-","1.20","One single attack (1.40), heals the user for 30% of the damage dealt","Highest HP% enemy","60","10","30201001"
 "PHY","Single enemy","","","","1.20","Causes [Slow] (50%), if successful grants [Haste] to the user","Random enemy without status","65","10","30201011"
 "PHY","Single enemy","","","","1.20","[DEF -40%] for 20 seconds, [DEF +50%] to the user for 20 seconds","Random enemy","75","10","30201021"

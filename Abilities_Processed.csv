@@ -74,7 +74,7 @@
 "BLK","Single","Magical","21.00","Lightning","1.65","Six single attacks (3.50 each)","Lowest HP% enemy","90","10","30111471"
 "BLK","Single","Magical","21.00","Fire","1.65","Six single attacks (3.50 each)","Lowest HP% enemy","90","10","30111481"
 "BLK","Single","Magical","17.50","Ice","0.01","Five single attacks (3.50 each)","Lowest HP% enemy","70","10","30111491"
-"BLK","Single","Magical","13.20","Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark, Poison, NE","1.65","Four single attacks (3.30 each)","All enemies","90","10","30111501"
+"BLK","Single","Magical","13.20","Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark, Poison, NE","1.65","Four single attacks (3.30 each)","Lowest HP% enemy","90","10","30111501"
 "BLK","Single","Magical","21.00","Fire","1.65","Six single attacks (3.50 each)","Lowest HP% enemy","90","10","30111511"
 "BLK","Single","Magical","21.00","Water","1.65","Six single attacks (3.50 each)","Lowest HP% enemy","90","10","30111521"
 "BLK","Single enemy","Magical","9.90","Dark, Earth, Wind","1.65","Three single attacks (3.30 each), causes [Imperil Dark 10% (5s)], [Imperil Earth 10% (5s)] and [Imperil Wind 10% (5s)]","Lowest HP% enemy","90","10","30111531"

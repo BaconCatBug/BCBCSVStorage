@@ -2121,7 +2121,7 @@
 "75% Damage Reduction Barrier 2","Reduces damage taken by 75% for the next two attack","-","-","-","51482"
 "Void Dominance","Grants [Instant ATB 3], [Instant Cast 3] and Evil Heart +3 to the user after using three of Void Seeker or Devouring Darkroot, removed after using three of Void Seeker or Devouring Darkroot, removed if the user hasn't Synchro Mode","-","-","-","51483"
 "Almagest","Grants Boundless Ambition +1 to the user after using six of Void Seeker or Devouring Darkroot, removed after using six of Void Seeker or Devouring Darkroot, removed if the user hasn't Synchro Mode","-","-","-","51484"
-"Warrior of Hope Mode","Increases Holy damage by 10%/30%/50% if the user has Buff Holy 10%/40%/60%+, removed if the user hasn't Synchro Mode","-","-","-","51485"
+"Warrior of Hope Mode","Increases Holy ability damage by 10%/30%/50% if the user has Buff Holy 10%/40%/60%+, removed if the user hasn't Synchro Mode","-","-","-","51485"
 "Radiant Boost","Grants [Radiant Boost 50% Critical Chance]/[Radiant Boost 75% Critical Chance]/[Radiant Boost 100% Critical Chance] to the user after using 2/4/6+2n of Shining Swordthrust or Lucent Boost, grants [Buff Holy 10% (15s)] to the user after using two of Shining Swordthrust or Lucent Boost","15","-","-","51486"
 "Radiant Boost 50% Critical Chance","Critical chance =50%, lasts for 2 turns","-","-","-","51487"
 "Radiant Boost 75% Critical Chance","Critical chance =75%, lasts for 2 turns","-","-","-","51488"

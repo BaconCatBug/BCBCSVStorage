@@ -580,6 +580,7 @@
 "PHY","Single enemy","Physical","6.60","Lightning","1.65","Six single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30261251"
 "PHY","Single enemy","Physical","3.00","Fire, Earth, Wind, Poison","1.65","Three single ranged attacks (1.00 each), causes [Imperil Fire 10% (5s)], [Imperil Earth 10% (5s)], [Imperil Wind 10% (5s)] and [Imperil Poison 10% (5s)]","Lowest HP% enemy","90","10","30261261"
 "PHY","Single enemy","Physical","3.40","Poison","1.65","Four single ranged attacks (0.85 each), 50% chance to cause [Imperil Poison 10%] for 15 seconds","Lowest HP% enemy","90","10","30261271"
+"PHY","Single enemy","Physical","5.95","Fire","1.65","Seven single ranged attacks (0.85 each)","Lowest HP% enemy","90","10","30261281"
 "PHY","Single","Physical","2.20","Dark","1.65","One single attack (2.20), grants [Dark Bargain] to the user for 20 seconds","Lowest HP% enemy","70","10","30271001"
 "PHY","Single","Physical","3.80","Dark","1.65","Four single attacks (0.95 each), damages the user for 15% max HP","Lowest HP% enemy","75","10","30271011"
 "BLK","Single","Magical","9.00","Dark","1.65","Four single attacks (2.25 each), 3.50 multiplier if the user has any Doom","Lowest HP% enemy","75","10","30271021"

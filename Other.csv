@@ -220,6 +220,7 @@
 "Boundless Dreams Follow-Up","Boundless Dreams","PHY","Single enemy","Physical","2.00","Wind, Holy, NE","0.01","Four single attacks (0.50), 100% additional critical chance, 100% hit rate","Y","Lowest HP% enemy","0","Knight","31540494"
 "Freewheeling Ascension Follow-Up","Freewheeling Ascension","NAT","Single enemy","","","","0.01","Causes [Imperil Earth 10% (15s)], grants [Buff Earth 10% (15s)] to the user","Y","Lowest HP% enemy","0","Ninja","31540707"
 "Awoken Chosen","Disaster","PHY","Single enemy","Physical","4.26","Dark, Fire, NE","0.01","Six single attacks (0.71 each), 100% hit rate","Y","Lowest HP% enemy","0","Samurai","31541157"
+"Awoken Self-Proclaimed SOLDIER","Spindrive (VII)","PHY","Single enemy","Physical","4.26","Wind, Dark, NE","0.01","Six single attacks (0.71 each), 100% hit rate, grants [Damage Cap +10000 1] to the user every second cast","Y","Lowest HP% enemy","0","Combat","31541174"
 "EX: SeeD","Shattering Finish","PHY","All enemies","Physical","2.60","Ice, NE","0.01","Four group attacks (0.65 each), 100% hit rate","Y","All enemies","0","Combat","30511677"
 "EX: Lion","Renzokuken Ice Fang","PHY","Single enemy","Physical","1.12","Ice, NE","0.01","4/5/6/7/8 single attacks (0.28/0.30/0.32/0.34/0.36 each) scaling with uses, 20/25/30/35/40% additional critical chance","Y","Lowest HP% enemy","0","Spellblade","30547021"
 "EX: Heart of the Lion","Renzokuken Fire Fang","PHY","Single enemy","Physical","2.00","Fire, NE","0.01","Five single attacks (0.40 each), 100% hit rate","Y","Lowest HP% enemy","0","Spellblade","30547112"

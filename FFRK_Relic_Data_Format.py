@@ -7,11 +7,17 @@ from pandas import read_csv, to_numeric, concat
 # print('Format Start')
 google_sheet_id = '1f8OJIQhpycljDQ8QNDk_va1GJ1u7RVoMaNjFcHH0LKk'
 sheet_id_RL = '1623354916'
+sheet_id_HA = '559973931'
 url = 'https://docs.google.com/spreadsheets/d/' + \
     google_sheet_id + '/export?format=csv&gid=' + sheet_id_RL
+    
+url2 = 'https://docs.google.com/spreadsheets/d/' + \
+    google_sheet_id + '/export?format=csv&gid=' + sheet_id_HA
 
-df_import = read_csv(url, dtype=str)
+df_import_relics = read_csv(url, dtype=str)
+df_import_ha = read_csv(url, dtype=str)
 
+df_import = concat([df_import_relics, df_import_ha], axis=0, ignore_index=True)
 # Maps
 correctedTypeMap = {'Dagger': '1 ', 'Sword': '1 ', 'Katana': '1 ', 'Axe': '1 ', 'Hammer': '1 ', 'Spear': '1 ',
                     'Fist': '1 ', 'Rod': '1 ', 'Staff': '1 ', 'Bow': '1', 'Instrument': '1', 'Whip': '1',

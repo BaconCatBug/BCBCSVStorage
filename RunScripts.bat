@@ -1,2 +1,2 @@
 python RunScripts.py
-exit
+pause

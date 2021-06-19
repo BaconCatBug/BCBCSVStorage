@@ -15,9 +15,13 @@ url2 = 'https://docs.google.com/spreadsheets/d/' + \
     google_sheet_id + '/export?format=csv&gid=' + sheet_id_HA
 
 df_import_relics = read_csv(url, dtype=str)
-df_import_ha = read_csv(url, dtype=str)
-
+df_import_ha = read_csv(url2, dtype=str)
+df_import_ha.to_csv('a.csv', index=None,
+               header=True, quoting=QUOTE_ALL)
+df_import_ha.rename(columns={'Fixed Passive Effects':'Effect'}, inplace=True)
 df_import = concat([df_import_relics, df_import_ha], axis=0, ignore_index=True)
+df_import.to_csv('b.csv', index=None,
+               header=True, quoting=QUOTE_ALL)
 # Maps
 correctedTypeMap = {'Dagger': '1 ', 'Sword': '1 ', 'Katana': '1 ', 'Axe': '1 ', 'Hammer': '1 ', 'Spear': '1 ',
                     'Fist': '1 ', 'Rod': '1 ', 'Staff': '1 ', 'Bow': '1', 'Instrument': '1', 'Whip': '1',

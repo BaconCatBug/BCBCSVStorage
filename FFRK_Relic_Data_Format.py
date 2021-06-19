@@ -18,7 +18,7 @@ df_import_relics = read_csv(url, dtype=str)
 df_import_ha = read_csv(url2, dtype=str)
 df_import_ha.rename(columns={'Fixed Passive Effects':'Effect'}, inplace=True)
 df_import_ha.replace(to_replace=[r"\\t|\\n|\\r", "\t|\n|\r"], value=[" | "," | "], regex=True, inplace=True)
-df_import_ha.replace({'Rarity': 'S', 'Brar':'S'}, 101, inplace=True)
+df_import_ha.replace({'Rarity': 'S', 'Brar':'S'}, 'HA', inplace=True)
 df_import = concat([df_import_relics, df_import_ha], axis=0, ignore_index=True)
 # Maps
 correctedTypeMap = {'Dagger': '1 ', 'Sword': '1 ', 'Katana': '1 ', 'Axe': '1 ', 'Hammer': '1 ', 'Spear': '1 ',
@@ -45,7 +45,7 @@ correctedRealmMap = {'Core': '0', 'I': '1', 'II': '2', 'III': '3', 'IV': '4', 'V
                      'VIII': '8', 'IX': '9', 'X': '10', 'XI': '11', 'XII': '12', 'XIII': '13', 'XIV': '14', 'XV': '15',
                      'FFT': '50', 'KH': '70', 'Type-0': '60', 'Beyond': '90', '-': '99'}
 
-correctedRarityMap = {'S': '100', '8': '8', '7': '7',
+correctedRarityMap = {'HA':'101','S': '100', '8': '8', '7': '7',
                       '6': '6', '5': '5', '4': '4', '3': '3', '2': '2', '1': '1'}
 
 synergyMap = {'3': 15, '5': 20, '10': 30, '15': 40, '20': 50, '25': 60, '30': 70, '35': 80, '40': 90,

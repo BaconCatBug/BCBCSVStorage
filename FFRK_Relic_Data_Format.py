@@ -121,37 +121,37 @@ df_base['Level'] = where(
 df_base['Level'] = where((to_numeric(df_base['Rarity']) > 1) & (to_numeric(df_base['Rarity']) < 10) & (
     to_numeric(df_base['CorrectedType']) != 3), (to_numeric(df_base['Rarity']) - 1) * 5, df_base['Level'])
 
-df_base['Atk'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Atk'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Batk']) + (
         to_numeric(df_base['Matk']) - to_numeric(df_base['Batk'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Atk'])
 
-df_base['Def'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Def'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Bdef']) + (
         to_numeric(df_base['Mdef']) - to_numeric(df_base['Bdef'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Def'])
 
-df_base['Mag'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Mag'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Bmag']) + (
         to_numeric(df_base['Mmag']) - to_numeric(df_base['Bmag'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Mag'])
 
-df_base['Res'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Res'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Bres']) + (
         to_numeric(df_base['Mres']) - to_numeric(df_base['Bres'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Res'])
 
-df_base['Mnd'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Mnd'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Bmnd']) + (
         to_numeric(df_base['Mmnd']) - to_numeric(df_base['Bmnd'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Mnd'])
 
-df_base['Acc'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Acc'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Bacc']) + (
         to_numeric(df_base['Macc']) - to_numeric(df_base['Bacc'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Acc'])
 
-df_base['Eva'] = where((to_numeric(df_base['Rarity']) < 101) & (
+df_base['Eva'] = where((
     to_numeric(df_base['CorrectedType']) != 3), ceil((to_numeric(df_base['Beva']) + (
         to_numeric(df_base['Meva']) - to_numeric(df_base['Beva'])) / ((to_numeric(df_base['Mlvl']) - 1) / (
             to_numeric(df_base['Level']) - 1)))), df_base['Eva'])
@@ -175,43 +175,45 @@ df_plus['Level'] = where(to_numeric(df_plus['Rarity']) == 1 & (to_numeric(df_plu
                          df_plus['Level'])
 df_plus['Level'] = where((to_numeric(df_plus['Rarity']) > 1) & (to_numeric(df_plus['Rarity']) < 10) & (
     to_numeric(df_plus['CorrectedType']) != 3), (to_numeric(df_plus['Rarity']) - 1) * 5, df_plus['Level'])
+df_plus['Level'] = where((to_numeric(df_plus['Rarity']) > 100) & (
+    to_numeric(df_plus['CorrectedType']) != 3), 65, df_plus['Level'])
 
-df_plus['Atk'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Atk'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Batk']) + (
         to_numeric(df_plus['Matk']) - to_numeric(df_plus['Batk'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Atk'])
 
-df_plus['Def'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Def'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Bdef']) + (
         to_numeric(df_plus['Mdef']) - to_numeric(df_plus['Bdef'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Def'])
 
-df_plus['Mag'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Mag'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Bmag']) + (
         to_numeric(df_plus['Mmag']) - to_numeric(df_plus['Bmag'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Mag'])
 
-df_plus['Res'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Res'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Bres']) + (
         to_numeric(df_plus['Mres']) - to_numeric(df_plus['Bres'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Res'])
 
-df_plus['Mnd'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Mnd'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Bmnd']) + (
         to_numeric(df_plus['Mmnd']) - to_numeric(df_plus['Bmnd'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Mnd'])
 
-df_plus['Acc'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Acc'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Bacc']) + (
         to_numeric(df_plus['Macc']) - to_numeric(df_plus['Bacc'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Acc'])
 
-df_plus['Eva'] = where((to_numeric(df_plus['Rarity']) < 10) & (
+df_plus['Eva'] = where((
     to_numeric(df_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus['Beva']) + (
         to_numeric(df_plus['Meva']) - to_numeric(df_plus['Beva'])) / ((to_numeric(df_plus['Mlvl']) - 1) / (
             to_numeric(df_plus['Level']) - 1)))), df_plus['Eva'])
 
-df_plus.drop(df_plus[to_numeric(df_plus.BaseRarity) > 99].index, inplace=True)
+df_plus.drop(df_plus[to_numeric(df_plus.BaseRarity) == 100].index, inplace=True)
 df_plus.drop(df_plus[to_numeric(df_plus.CorrectedType)
                      == 3].index, inplace=True)
 ##########################################
@@ -232,51 +234,46 @@ df_plus_plus['Level'] = where(
     (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
         to_numeric(df_plus_plus['CorrectedType']) != 3), (to_numeric(df_plus_plus['Rarity']) - 1) * 5,
     df_plus_plus['Level'])
+df_plus_plus['Level'] = where((to_numeric(df_plus_plus['Rarity']) > 100) & (
+    to_numeric(df_plus_plus['CorrectedType']) != 3), 80, df_plus_plus['Level'])
 
-df_plus_plus['Atk'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Atk'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Batk']) + (
             to_numeric(df_plus_plus['Matk']) - to_numeric(df_plus_plus['Batk'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Atk'])
 
-df_plus_plus['Def'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Def'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Bdef']) + (
             to_numeric(df_plus_plus['Mdef']) - to_numeric(df_plus_plus['Bdef'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Def'])
 
-df_plus_plus['Mag'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Mag'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Bmag']) + (
             to_numeric(df_plus_plus['Mmag']) - to_numeric(df_plus_plus['Bmag'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Mag'])
 
-df_plus_plus['Res'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Res'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Bres']) + (
             to_numeric(df_plus_plus['Mres']) - to_numeric(df_plus_plus['Bres'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Res'])
 
-df_plus_plus['Mnd'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Mnd'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Bmnd']) + (
             to_numeric(df_plus_plus['Mmnd']) - to_numeric(df_plus_plus['Bmnd'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Mnd'])
 
-df_plus_plus['Acc'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Acc'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Bacc']) + (
             to_numeric(df_plus_plus['Macc']) - to_numeric(df_plus_plus['Bacc'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Acc'])
 
-df_plus_plus['Eva'] = where(
-    (to_numeric(df_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus['Rarity']) < 10) & (
+df_plus_plus['Eva'] = where((
         to_numeric(df_plus_plus['CorrectedType']) != 3), ceil((to_numeric(df_plus_plus['Beva']) + (
             to_numeric(df_plus_plus['Meva']) - to_numeric(df_plus_plus['Beva'])) / ((to_numeric(
                 df_plus_plus['Mlvl']) - 1) / (to_numeric(df_plus_plus['Level']) - 1)))), df_plus_plus['Eva'])
 
 df_plus_plus.drop(df_plus_plus[to_numeric(
-    df_plus_plus.BaseRarity) > 99].index, inplace=True)
+    df_plus_plus.BaseRarity) == 100].index, inplace=True)
 df_plus_plus.drop(df_plus_plus[to_numeric(
     df_plus_plus.CorrectedType) == 3].index, inplace=True)
 ##########################################
@@ -293,62 +290,60 @@ df_plus_plus_plus['Level'] = where(
     to_numeric(df_plus_plus_plus['Rarity']) == 1 & (
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), '3',
     df_plus_plus_plus['Level'])
+
 df_plus_plus_plus['Level'] = where(
     (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3),
     (to_numeric(df_plus_plus_plus['Rarity']) - 1) * 5, df_plus_plus_plus['Level'])
 
-df_plus_plus_plus['Atk'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Level'] = where((to_numeric(df_plus_plus_plus['Rarity']) > 100) & (
+    to_numeric(df_plus_plus_plus['CorrectedType']) != 3), 99, df_plus_plus_plus['Level'])
+
+df_plus_plus_plus['Atk'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Batk']) + (to_numeric(df_plus_plus_plus['Matk']) - to_numeric(
                 df_plus_plus_plus['Batk'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Atk'])
 
-df_plus_plus_plus['Def'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Def'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Bdef']) + (to_numeric(df_plus_plus_plus['Mdef']) - to_numeric(
                 df_plus_plus_plus['Bdef'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Def'])
 
-df_plus_plus_plus['Mag'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Mag'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Bmag']) + (to_numeric(df_plus_plus_plus['Mmag']) - to_numeric(
                 df_plus_plus_plus['Bmag'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Mag'])
 
-df_plus_plus_plus['Res'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Res'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Bres']) + (to_numeric(df_plus_plus_plus['Mres']) - to_numeric(
                 df_plus_plus_plus['Bres'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Res'])
 
-df_plus_plus_plus['Mnd'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Mnd'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Bmnd']) + (to_numeric(df_plus_plus_plus['Mmnd']) - to_numeric(
                 df_plus_plus_plus['Bmnd'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Mnd'])
 
-df_plus_plus_plus['Acc'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Acc'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Bacc']) + (to_numeric(df_plus_plus_plus['Macc']) - to_numeric(
                 df_plus_plus_plus['Bacc'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Acc'])
 
-df_plus_plus_plus['Eva'] = where(
-    (to_numeric(df_plus_plus_plus['Rarity']) > 1) & (to_numeric(df_plus_plus_plus['Rarity']) < 10) & (
+df_plus_plus_plus['Eva'] = where((
         to_numeric(df_plus_plus_plus['CorrectedType']) != 3), ceil((to_numeric(
             df_plus_plus_plus['Beva']) + (to_numeric(df_plus_plus_plus['Meva']) - to_numeric(
                 df_plus_plus_plus['Beva'])) / ((to_numeric(df_plus_plus_plus['Mlvl']) - 1) / (
                     to_numeric(df_plus_plus_plus['Level']) - 1)))), df_plus_plus_plus['Eva'])
 
-df_plus_plus_plus.drop(df_plus_plus_plus[to_numeric(
-    df_plus_plus_plus.BaseRarity) > 5].index, inplace=True)
+df_plus_plus_plus.drop(df_plus_plus_plus[(to_numeric(
+    df_plus_plus_plus.BaseRarity) > 5) & (to_numeric(
+    df_plus_plus_plus.BaseRarity) < 101)].index, inplace=True)
 df_plus_plus_plus.drop(df_plus_plus_plus[to_numeric(
     df_plus_plus_plus.CorrectedType) == 3].index, inplace=True)
 
@@ -358,6 +353,12 @@ df_base = df_base.append(df_plus_plus_plus)
 ##########################################
 df_synergy = df_base.copy()
 df_synergy['Synergy'] = 'Yes'
+df_synergy['Level'] = where(to_numeric(
+    df_synergy['Level']) == 99, '209', df_synergy['Level'])
+df_synergy['Level'] = where(to_numeric(
+    df_synergy['Level']) == 80, '190', df_synergy['Level'])
+df_synergy['Level'] = where(to_numeric(
+    df_synergy['Level']) == 65, '175', df_synergy['Level'])
 df_synergy['Level'] = where(to_numeric(
     df_synergy['Level']) == 50, '160', df_synergy['Level'])
 df_synergy['Level'] = where(to_numeric(
@@ -381,7 +382,7 @@ df_synergy['Level'] = where(to_numeric(
 df_synergy['Level'] = where(to_numeric(
     df_synergy['Level']) == 3, '18', df_synergy['Level'])
 
-df_synergy['Atk'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Atk'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Batk']) + (
         to_numeric(df_synergy['Matk']) - to_numeric(df_synergy['Batk'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Atk'])
@@ -389,7 +390,7 @@ df_synergy['Atk'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
 df_synergy['Atk'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
                           ceil(to_numeric(df_synergy['Atk']) * 1.5), df_synergy['Atk'])
 
-df_synergy['Def'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Def'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Bdef']) + (
         to_numeric(df_synergy['Mdef']) - to_numeric(df_synergy['Bdef'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Def'])
@@ -397,7 +398,7 @@ df_synergy['Def'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
 df_synergy['Def'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
                           ceil(to_numeric(df_synergy['Def']) * 1.5), df_synergy['Def'])
 
-df_synergy['Mag'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Mag'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Bmag']) + (
         to_numeric(df_synergy['Mmag']) - to_numeric(df_synergy['Bmag'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Mag'])
@@ -405,7 +406,7 @@ df_synergy['Mag'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
 df_synergy['Mag'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
                           ceil(to_numeric(df_synergy['Mag']) * 1.5), df_synergy['Mag'])
 
-df_synergy['Res'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Res'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Bres']) + (
         to_numeric(df_synergy['Mres']) - to_numeric(df_synergy['Bres'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Res'])
@@ -413,7 +414,7 @@ df_synergy['Res'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
 df_synergy['Res'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
                           ceil(to_numeric(df_synergy['Res']) * 1.5), df_synergy['Res'])
 
-df_synergy['Mnd'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Mnd'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Bmnd']) + (
         to_numeric(df_synergy['Mmnd']) - to_numeric(df_synergy['Bmnd'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Mnd'])
@@ -421,7 +422,7 @@ df_synergy['Mnd'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
 df_synergy['Mnd'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
                           ceil(to_numeric(df_synergy['Mnd']) * 1.5), df_synergy['Mnd'])
 
-df_synergy['Acc'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Acc'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Bacc']) + (
         to_numeric(df_synergy['Macc']) - to_numeric(df_synergy['Bacc'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Acc'])
@@ -429,7 +430,7 @@ df_synergy['Acc'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
 df_synergy['Acc'] = where((to_numeric(df_synergy['CorrectedType']) == 3),
                           ceil(to_numeric(df_synergy['Acc']) * 1.5), df_synergy['Acc'])
 
-df_synergy['Eva'] = where((to_numeric(df_synergy['Rarity']) < 101) & (
+df_synergy['Eva'] = where((
     to_numeric(df_synergy['CorrectedType']) != 3), ceil((to_numeric(df_synergy['Beva']) + (
         to_numeric(df_synergy['Meva']) - to_numeric(df_synergy['Beva'])) / ((to_numeric(
             df_synergy['Mlvl']) - 1) / (to_numeric(df_synergy['Level']) - 1)))), df_synergy['Eva'])

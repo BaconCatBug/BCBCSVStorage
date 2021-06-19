@@ -18,7 +18,7 @@ df_import_relics = read_csv(url, dtype=str)
 df_import_ha = read_csv(url2, dtype=str)
 df_import_ha.rename(columns={'Fixed Passive Effects':'Effect'}, inplace=True)
 df_import_ha.replace(to_replace=[r"\\t|\\n|\\r", "\t|\n|\r"], value=[" | "," | "], regex=True, inplace=True)
-df_import_ha.replace({'Rarity': 100}, 101, inplace=True)
+df_import_ha.replace({'Rarity': 'S'}, 101, inplace=True)
 df_import = concat([df_import_relics, df_import_ha], axis=0, ignore_index=True)
 # Maps
 correctedTypeMap = {'Dagger': '1 ', 'Sword': '1 ', 'Katana': '1 ', 'Axe': '1 ', 'Hammer': '1 ', 'Spear': '1 ',

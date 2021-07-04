@@ -358,7 +358,7 @@
 "PHY","Single enemy","Physical","6.65","Lightning, Dark, NE","1.50","Seven single ranged jump attacks (0.95 each), air time (2.50 sec.)","Lowest HP% enemy","90","10","30181261"
 "PHY","Single enemy","Physical","5.50","Wind","1.65","Five single ranged jump attacks (1.10 each), restores 1000 HP to all allies","Lowest HP% enemy","90","10","30181271"
 "PHY","Single enemy","Physical","6.90","Wind, Lightning, Water, Dark","1.50","Six single ranged jump attacks (1.15 each), air time (2.50 sec.)","Lowest HP% enemy","90","10","30181281"
-"PHY","Single enemy","Physical","6.60","Wind","1.65","Six single ranged jump attacks (1.10 each)","Lowest HP% enemy","90","","30181291"
+"PHY","Single enemy","Physical","6.60","Wind","1.65","Six single ranged jump attacks (1.10 each)","Lowest HP% enemy","90","10","30181291"
 "PHY","Single","Physical","2.00","-","1.65","One single attack (1.50), always deals a critical hit, 50% hit rate","Highest HP% enemy","60","10","30191001"
 "PHY","Single","Physical","1.70","-","1.65","One single ranged attack (1.70)","Lowest HP% enemy","60","10","30191011"
 "NAT","Self","Magical","1.50","-","1.65","Restores HP (80), damages undeads, [ATK +20%] for 25 seconds","Self","65","10","30191021"

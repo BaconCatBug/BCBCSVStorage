@@ -710,6 +710,7 @@
 "201130302","Vanille","Gentle Atonement","25% chance to cast an ability (WHT: single, 2.00 magical Holy, DEF/RES -20%) after using a White Magic ability"
 "201130303","Vanille","Constant Companion","25% chance to grant [Heals +30%] for 10 seconds to the user after using a WHT ability"
 "201130304","Vanille","Hour of Awakening","35% chance to grant [Quick Cast 1] to the user after using a Support ability"
+"201130305","Vanille","Hastening (Vanille)","Grants [Quick Cast 3] after using three White Magic/Support abilities"
 "201130400","Sazh","Happy Pappy","Support abilities deal 15% more damage"
 "201130401","Sazh","Fatherly Love","Increases the duration of stat buffs by 40%"
 "201130402","Sazh","Struggling Father","Grants [Haste] and [Instant Cast 1] at the beginning of the battle"

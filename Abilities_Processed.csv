@@ -204,7 +204,7 @@
 "NAT","Single enemy","Hybrid","-","Fire, Ice, Lightning, Earth, Wind, Water, Holy, Dark, Poison, NE","1.65","Three single ranged hybrid attacks (1.00 or 3.30 each)","Lowest HP% enemy","120","10","30161251"
 "NAT","Single ally","","","","1.65","Transfers the user's Soul Break points to the target, grants [Quick Cast 1]","Random ally prioritizing self last","100","10","30161261"
 "NAT","Single ally","","","","0.83","Transfers the user's Soul Break points to the target (maximum of 500 Soul Break points), grants [Quick Cast 2] to the user","Random ally prioritizing self last","100","10","30161271"
-"NAT","All allies","","","","1.65","Grants [10% Damage Reduction Barrier 1], grants [Exertion ATK and MAG +5%/10%/20%/30%], grants [Exertion 1/2/3/3] to the user if the user has Exertion Mode 0/1/2/3","All allies","100","10","30161281"
+"NAT","All allies","","","","1.65","Grants [10% Damage Reduction Barrier 1], grants [Exertion ATK and MAG +5%/10%/20%/30%], grants [Exertion 1/2/3/3] to the user if the user has Exertion 0/1/2/3","All allies","100","10","30161281"
 "NAT","Single ally","","","","1.65","Transfers the user's Soul Break points to the target (maximum of 500 Soul Break points), grants [Quick Cast 1] to the user","Random ally prioritizing self last","100","10","30161291"
 "NAT","All allies","","","","1.65","Restores 1000 HP","All allies","180","10","30161301"
 "PHY","Single","Physical","1.10","-","1.20","One single attack (1.10), 100% hit rate","Lowest HP% enemy","60","10","30171001"

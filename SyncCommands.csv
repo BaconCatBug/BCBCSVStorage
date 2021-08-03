@@ -118,6 +118,8 @@
 "Cecil (Paladin)","Shine Braver","Healing Force","2","Holy","WHT","All allies","","","","1.65","Restores HP (25)","N","All allies","90","White Magic","ヒールフォース","30542917","106"
 "Golbez","Dark Meteor","Void Whip","1","Dark","BLK","Single enemy","Magical","18.30","Dark, NE","1.65","Six single attacks (3.05 each), grants [Dark +30% Boost 1] to the user","Y","Lowest HP% enemy","90","Darkness","ヴォイドウェイブ","30549864","107"
 "Golbez","Dark Meteor","Void Hand","2","Dark","BLK","Single enemy","Magical","16.40","Dark, NE","1.65","One single attack (16.40) capped at 99999","Y","Lowest HP% enemy","90","Darkness","ダークメテオ","30549865","107"
+"Golbez","Darkglow","Void Intimidation","1","Dark","BLK","Single enemy","Magical","18.30","Dark, NE","1.65","Six single attacks (3.05 each), causes [Imperil Dark 10% (5s)]","Y","Lowest HP% enemy","90","Darkness","漆黒の威圧","31541410","107"
+"Golbez","Darkglow","Everlasting Darkness","2","Dark","NAT","Self","","","","0.01","Grants [Dualcast Dark 1] and [Dark Ability +50% Boost 1]","N","Self","70","Darkness","呪縛の常闇","31541411","107"
 "Rosa","Theme of Love","Blessed Prayer","1","White Magic","WHT","All allies","","","","1.65","Restores HP (25)","N","All allies","100","White Magic","祝福のいのり","30542673","2"
 "Rosa","Theme of Love","Wondrous Prayer","2","White Magic","NAT","All allies","","","","0.01","Grants [Magical Blink 1]","N","All allies","70","White Magic","奇跡のいのり","30542674","2"
 "Rosa","Angelic Light","Light of Love","1","White Magic","WHT","Single enemy","Magical","9.10","Holy, NE","1.65","Three single attacks (9.10 each), restores HP (17.50/20/25) to all allies if 0-1/2-3/4+ allies have any Attach Holy","","","","White Magic","愛の祝福","31541377","2"

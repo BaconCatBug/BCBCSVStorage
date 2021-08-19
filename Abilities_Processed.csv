@@ -631,7 +631,7 @@
 "NAT","Single enemy","Hybrid","-","Dark","1.65","Six single hybrid attacks (1.10 or 3.50 each)","Lowest HP% enemy","90","10","30271321"
 "PHY","Single enemy","Physical","6.60","Dark","1.65","Six single attacks (1.10 each)","Lowest HP% enemy","90","10","30271331"
 "PHY","Single enemy","Physical","5.50","Dark","1.65","Five single attacks (1.10 each), grants [HP Stock (3000)] to the user","Lowest HP% enemy","90","10","30271341"
-"BLK","Single enemy","Magical","?","Dark, Lightning","1.65","Five single attacks (? each)","Lowest HP% enemy","90","10","30271351"
+"BLK","Single enemy","Magical","17.50","Dark, Lightning","1.65","Five single attacks (3.50 each)","Lowest HP% enemy","90","10","30271351"
 "PHY","Single enemy","Physical","6.60","Dark","1.65","Six single attacks (1.10 each)","Lowest HP% enemy","90","10","30271361"
 "PHY","Single enemy","Physical","3.40","Water","1.65","Four single ranged attacks (0.85 each), 0.95 multiplier when equipping a ranged weapon","Lowest HP% enemy","75","10","30281001"
 "PHY","All enemies","Physical","1.50","Water","1.65","One group ranged attack (1.50), 1.70 multiplier when equipping a ranged weapon","All enemies","70","10","30281011"

@@ -348,6 +348,8 @@
 "Versatile Bomb Follow-Up","Versatile Bomb","PHY","Single enemy","Physical","3.00","Water, NE","0.01","2/4/6 single ranged attacks (0.50 each) if 0-1/2-3/4+ of the target's stats are lowered, grants [Water Ability +15% Boost 1]/[Water Ability +30% Boost 1] if 2/4+ of the target's stats are lowered","Y","Lowest HP% enemy","0","Machinist","31541232"
 "Awoken Salvage","Hydro Grenade","PHY","Single enemy","Physical","4.32","Water, NE","0.01","Six single ranged attacks (0.72 each), 100% hit rate","Y","Lowest HP% enemy","0","Machinist","31541238"
 "Lively Girl Mode","Help to Position","NAT","Single enemy","","","","0.01","Causes [Imperil Water 10% (15s)]/[Imperil Prismatic 10% (15s)]","N","Lowest HP% enemy","0","Thief","31541239"
+"Grand Summoner's Resolve Mode","Grand Summoner's Resolve","SUM","Single enemy","Magical","?","Fire, NE","0.01","Four single attacks (? each)","N","Lowest HP% enemy","0","Summoning","31520058"
+"Dual Awoken Kindred Mode Two (Yuna)","Dual Prayer for the Future","WHT","All allies","","","","0.01","Restores HP (55), grants [HP Stock (2000)] and [Quick Cast 1]","N","Lowest HP% enemy","0","White Magic","31541512"
 "Abyssal Bite Follow-Up","Abyssal Bite","PHY","Single enemy","Physical","2.24","Dark, NE","0.01","Seven single attacks (0.32 each), damages the user for 15% max HP","Y","Lowest HP% enemy","0","Darkness","30549066"
 "Glimpse of Divinity Follow-Up","Glimpse of Divinity","NAT","Single enemy","","","","0.01","Causes [Imperil Holy 10%] for 15 seconds","N","Lowest HP% enemy","0","White Magic","30542165"
 "Accomplice Follow-Up","Accomplice","NAT","Single enemy","","","","0.01","Causes [Imperil Water 10% (15s)], grants [Buff Water 10% (15s)] to the user","Y","Lowest HP% enemy","0","Thief","30108001"

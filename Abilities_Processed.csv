@@ -436,7 +436,7 @@
 "PHY","Single enemy","Physical","3.20","Poison","1.20","Four single attacks (0.80 each), causes [Imperil Poison 10% (15s)] every second activation","Lowest HP% enemy","80","10","30201261"
 "PHY","Single enemy","Physical","6.60","Fire","1.20","Six single ranged attacks (1.10 each)","Lowest HP% enemy","80","10","30201271"
 "PHY","Single enemy","Physical","5.50","Wind, Fire","1.20","Five single ranged attacks (1.10 each)","Lowest HP% enemy","80","10","30201281"
-"PHY","Single enemy","Physical","?","Fire","?","Six single attacks (? each)","Lowest HP% enemy","?","10","30201291"
+"PHY","Single enemy","Physical","6.60","Fire","1.20","Six single attacks (1.10 each)","Lowest HP% enemy","80","10","30201291"
 "NAT","Self","","","","1.65","Grants [Protect]","Self","60","12","30211001"
 "NAT","Self","","","","1.65","Grants [Draw Fire] for 25 seconds","Self","65","10","30211002"
 "PHY","Single","","","","1.65","Damages for 2 * (user's maximum HP - user's current HP)","Random enemy","75","10","30211011"

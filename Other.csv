@@ -60,7 +60,7 @@
 "Chain of Arms Mode","Plummet","PHY","Single enemy","Physical","5.28","Ice, NE","0.01","One single attack (5.28) capped at 99999, 100% hit rate","Y","Lowest HP% enemy","0","Samurai","31540909"
 "Awoken Mastery","Weapon Waltz","PHY","Single enemy","Physical","5.60","Holy, Ice, Fire, NE","0.01","4/6/8 single attacks (0.70 each) if the user's HP is greater than or equal to 0/34/67%, 100% hit rate","Y","Lowest HP% enemy","0","Samurai","31540918"
 "Enhanced Mastery Mode","Straightarrow","PHY","Single enemy","Physical","1.90","Holy, Ice, Fire, NE","0.01","Five single ranged attacks (0.38 each)","Y","Lowest HP% enemy","0","Samurai","31540925"
-"Stalwart Archer Mode","Crash VIII","BLK","Single enemy","Magical","8.16","Earth, NE","0.01","Four single attacks (2.04 each)","Y","Lowest HP% enemy","0","Black Magic","31541000"
+"Stout Archer Mode","Mash VIII","BLK","Single enemy","Magical","8.16","Earth, NE","0.01","Four single attacks (2.04 each)","Y","Lowest HP% enemy","0","Black Magic","31541000"
 "Splash Toxin Follow-Up","Splash Toxin","PHY","Single enemy","Physical","1.28","Water, Poison, NE","0.01","Four single attacks (0.32 each), 100% hit rate","Y","Lowest HP% enemy","0","Thief","31541115"
 "Heroic Bravado Mode","Morale Boost","NAT","All allies","","","","0.01","Grants [Last Stand], grants [Buff Ice 50% (5s)] to the user, removes Heroic Bravado Mode from the user","N","All allies","0","Monk","31541135"
 "Giant's Fist Follow-Up","Giant's Fist","PHY","Single enemy","Physical","1.00","Earth, NE","0.01","One single attack (1.00), 100% hit rate, 100% additional critical chance, grants [Damage Cap +10000 1] to the user after every third use","Y","Lowest HP% enemy","0","Monk","31541295"

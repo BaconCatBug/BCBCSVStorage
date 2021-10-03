@@ -97,6 +97,7 @@
 "BLK","Single enemy","Magical","15.25","Poison","1.80","Five single attacks (3.05 each), causes [Poison] (30%)","Lowest HP% enemy","90","10","30111701"
 "BLK","Single","Magical","17.50","Dark, Earth, Wind","1.65","Five single attacks (3.50 each)","Lowest HP% enemy","90","10","30111721"
 "BLK","Single","Magical","21.00","Wind, Lightning","2.60","Six single attacks (3.50 each)","Lowest HP% enemy","90","10","30111711"
+"BLK","Single","Magical","17.50","Ice, Dark","1.65","Five single attacks (3.50 each)","Lowest HP% enemy","90","10","30111741"
 "WHT","Single","Magical","1.20","Holy","1.50","Restores HP (30), damages undeads","Lowest HP% ally","60","12","30121001"
 "WHT","Single","Magical","2.00","Holy","1.50","Restores HP (55), damages undeads","Lowest HP% ally","60","12","30121002"
 "WHT","Single","Magical","3.00","Holy","1.50","Restores HP (80), damages undeads","Lowest HP% ally","65","12","30121003"

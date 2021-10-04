@@ -119,7 +119,7 @@
 "Gloomshade Blessing","Stat Boon","","Ultra Ruinous Omen","NAT","Lowest HP% enemy","","0.01","One single attack that deals 99999 damage, grants [Buff Dark 20% (15s)] to all allies","","161000104"
 "Argent Sage's Blessing","Lord's Seal: Dark","","Ultra Arcane Zantetsuken","BLK","Lowest HP% enemy","11.00","0.01","One single attack (11.00) capped at 99999, ignores RES","Magical","161000117"
 "Argent Sage's Blessing","Lord's Seal: Dark","","Ultra Zantetsuken","PHY","Lowest HP% enemy","3.70","0.01","One single attack (3.70) capped at 99999, ignores DEF","Physical","161000118"
-"Poison Blessing","Stat Boon","","?","NAT","Lowest HP% enemy","","0.01","One single attack that deals 99999 damage, grants [Buff Poison 20% (15s)] to all allies","","161000149"
+"Octovenom Blessing","Stat Boon","","Ultra Octopus Ink","NAT","Lowest HP% enemy","","0.01","One single attack that deals 99999 damage, grants [Buff Poison 20% (15s)] to all allies","","161000149"
 "Argent Sage's Blessing","Lord's Seal: Poison","","Ultra Arcane Zantetsuken","BLK","Lowest HP% enemy","11.00","0.01","One single attack (11.00) capped at 99999, ignores RES","Magical","161000152"
 "Argent Sage's Blessing","Lord's Seal: Poison","","Ultra Zantetsuken","PHY","Lowest HP% enemy","3.70","0.01","One single attack (3.70) capped at 99999, ignores DEF","Physical","161000153"
 "Empower Fire","","","-","-","-","","","","","161000121"

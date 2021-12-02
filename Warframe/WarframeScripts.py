@@ -68,7 +68,6 @@ try:
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')
     df_previous_hour_merged['datetime'] = df_previous_hour_merged['datetime'].astype(str).str[:-6]
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
-
     print('Ducat Data Processed')
     # Fuck Comments
     print('Downloading Relic Data')

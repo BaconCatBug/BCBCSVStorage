@@ -14,6 +14,8 @@ try:
     from openpyxl import load_workbook
     from numpy import arange
     from os import path
+    import lxml
+    import cchardet
 except ModuleNotFoundError:
     print('OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!')
     print('You didn\'t install the packages like I told you to. Please run \"pip install bs4 requests pandas\" in a cmd window to install the required packages!')
@@ -32,7 +34,7 @@ try:
     print('Downloading Ducat Data')
     url_ducats = "https://warframe.market/tools/ducats"
     # Scrapes the given URL
-    soup = str(BeautifulSoup(get(url_ducats).content, "html.parser")).replace('\n', '')
+    soup = str(BeautifulSoup(get(url_ducats).content, "lxml")).replace('\n', '')
     print('Ducat Data Downloaded')
     print('Processing Ducat Data')
     # Finds the needed json string for item data, previous hour data, and previous day data.

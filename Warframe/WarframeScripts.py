@@ -78,10 +78,10 @@ try:
     for x in range(0, retry_attempts):
         try:
             soup = str(BeautifulSoup(get(url_relics).content, "html.parser")).replace('\n', '')
-            print('Saving Local Data')
-            with open(relic_data_txt_name, 'w') as f:
-                f.write(soup)
-            break
+            #print('Saving Local Data')
+            #with open(relic_data_txt_name, 'w') as f:
+            #    f.write(soup)
+            #break
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 

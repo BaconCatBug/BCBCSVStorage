@@ -74,13 +74,7 @@ try:
     print('Downloading Relic Data')
     url_relics = "https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html"
     relic_data_txt_name = 'RelicData.txt'
-
-    if path.isfile(relic_data_txt_name):
-        with open(relic_data_txt_name) as f:
-            soup = str(f.readlines())
-        print("Loaded Local Relic Data")
-    else:
-        print("Loading Remote Item Data")
+    print("Loading Remote Item Data")
 
         for x in range(0, retry_attempts):
             try:

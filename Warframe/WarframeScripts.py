@@ -58,6 +58,8 @@ try:
     df_previous_day_merged = df_previous_day_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_day_merged = df_previous_day_merged.sort_values(by='item_name')
     df_previous_day_merged['datetime'] = df_previous_day_merged['datetime'].astype(str).str[:-6]
+    df_previous_day_merged = df_previous_day_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume')
+    df_previous_day_merged = df_previous_day_merged.reset_index(drop=True)
 
     # Reads and sanitises the previous hour data into a pandas dataframe
     df_previous_hour = read_json(previous_hour)
@@ -69,6 +71,7 @@ try:
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')
     df_previous_hour_merged['datetime'] = df_previous_hour_merged['datetime'].astype(str).str[:-6]
+    df_previous_hour_merged = df_previous_hour_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume')
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
     print('Ducat Data Processed')
     # Fuck Comments

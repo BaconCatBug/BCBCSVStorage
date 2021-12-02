@@ -130,6 +130,11 @@ try:
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Systems Blueprint',value=r'Systems', regex=True)
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Neuroptics Blueprint',value=r'Neuroptics', regex=True)
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Chassis Blueprint',value=r'Chassis', regex=True)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Cerebrum Blueprint',value=r'Cerebrum', regex=True)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Carapace Blueprint',value=r'Carapace', regex=True)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Buckle Blueprint',value=r'Buckle', regex=True)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Band Blueprint',value=r'Band', regex=True)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Wings Blueprint',value=r'Wings', regex=True)
     #print(df_even_more_parsed_relics.head(5))
     #df_even_more_parsed_relics['Relic_Name'] = df_even_more_parsed_relics['Relic_Name'].str.split(n=1).str[1]
     #df_axi = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Axi'].reset_index(drop=True)

@@ -82,7 +82,9 @@ try:
 
     for x in range(0, retry_attempts):
         try:
-            soup = str(BeautifulSoup(get(url_relics).content, "html.parser")).replace('\n', '')
+            headers = {"Range": "bytes=0-1"}  # first 100 bytes
+            soup = str(BeautifulSoup(get(url_relics,headers).content, "html.parser")).replace('\n', '')
+            print(soup)
             #print('Saving Local Data')
             #with open(relic_data_txt_name, 'w') as f:
             #    f.write(soup)

@@ -82,7 +82,7 @@ try:
 
     for x in range(0, retry_attempts):
         try:
-            headers = {"Range": "bytes=0-200"}  # first 100 bytes
+            headers = {"Range": "bytes=0-500"}  # first 100 bytes
             soup = str(BeautifulSoup(get(url_relics,headers=headers).content, "lxml")).replace('\n', '')
             print(soup)
             #print('Saving Local Data')

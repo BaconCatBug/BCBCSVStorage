@@ -71,7 +71,7 @@ try:
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')
     df_previous_hour_merged['datetime'] = df_previous_hour_merged['datetime'].astype(str).str[:-6]
-    df_previous_hour_merged = df_previous_hour_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume','Relic_Name','C1','C2','C3','U1','U2','Rare','Refinement'])
+    df_previous_hour_merged = df_previous_hour_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume'])
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
     print('Ducat Data Processed')
     # Fuck Comments
@@ -142,6 +142,8 @@ try:
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Exceptional'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Flawless'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Radiant'].index)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(columns=['Relic_Name','C1','C2','C3','U1','U2','Rare','Refinement'])
+    
     #print(df_even_more_parsed_relics.head(5))
     #df_even_more_parsed_relics['Relic_Name'] = df_even_more_parsed_relics['Relic_Name'].str.split(n=1).str[1]
     #df_axi = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Axi'].reset_index(drop=True)

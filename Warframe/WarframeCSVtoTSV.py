@@ -15,4 +15,7 @@ with open('Prime-Relic Data.csv','r') as csvin, open('Prime-Relic Data.txt', 'w'
     for row in csvin:
         tsvout.writerow(row)
         
- 
+sttime = datetime.now().strftime('%Y%m%d_%H:%M:%S - ')
+log = 'log.txt'
+    with open(log, 'a') as logfile:
+        logfile.write(sttime + '\n')

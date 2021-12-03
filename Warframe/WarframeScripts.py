@@ -83,8 +83,7 @@ try:
     for x in range(0, retry_attempts):
         try:
             headers = {"Range": "bytes=0-500"}  # first 100 bytes
-            #soup = str(BeautifulSoup(get(url_relics,headers=headers).content, "lxml")).replace('\n', '')
-            soup = str(get(url_relics).content).replace('\n', '')
+            soup = str(BeautifulSoup(get(url_relics,headers=headers).content, "lxml")).replace('\n', '')
             #soup = str(BeautifulSoup(get(url_relics).content, "lxml")).replace('\n', '')
             #print('Saving Local Data')
             #with open(relic_data_txt_name, 'w') as f:
@@ -93,7 +92,7 @@ try:
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
-    #print(bread)
+    print(soup)
 
     print('Relic Data Downloaded')
     print('Processing Relic Data')

@@ -1,2 +1,0 @@
-python "WarframeGitScripts.py"
-pause

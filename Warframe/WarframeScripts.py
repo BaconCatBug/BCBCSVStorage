@@ -16,7 +16,6 @@ try:
     from os import path
     import lxml
     import cchardet
-    from sys import stdout
 except ModuleNotFoundError:
     print('OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!')
     print('You didn\'t install the packages like I told you to. Please run \"pip install bs4 requests pandas\" in a cmd window to install the required packages!')
@@ -93,10 +92,7 @@ try:
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
-    with open('filename.txt', 'w') as f:
-        stdout = f  # Change the standard output to the file we created.
-        print(soup)
-        stdout = original_stdout  # Reset the standard output to its original value
+    print(soup, file = 'a.txt/')
 
     print('Relic Data Downloaded')
     print('Processing Relic Data')

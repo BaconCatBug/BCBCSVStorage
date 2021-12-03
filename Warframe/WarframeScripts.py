@@ -142,6 +142,7 @@ try:
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Exceptional'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Flawless'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Radiant'].index)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Class'] == 'Requiem'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(columns=['Relic_Name','C1','C2','C3','U1','U2','Rare','Refinement'])
     
     #print(df_even_more_parsed_relics.head(5))

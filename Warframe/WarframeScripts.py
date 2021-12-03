@@ -49,17 +49,17 @@ try:
     df_items = df_items.reindex(columns=['id', 'item_name'])
 
     # Reads and sanitises the previous day data into a pandas dataframe
-    df_previous_day = read_json(previous_day)
-    df_previous_day = df_previous_day.drop(columns=['id', 'plat_worth', 'median'])
-    df_previous_day = df_previous_day.rename(columns={'item': 'id'})
+    #df_previous_day = read_json(previous_day)
+    #df_previous_day = df_previous_day.drop(columns=['id', 'plat_worth', 'median'])
+    #df_previous_day = df_previous_day.rename(columns={'item': 'id'})
     # Merges the item data and previous day data on the id column, drops the redundant id column, then renames the column names for export
-    df_previous_day_merged = df_items.merge(df_previous_day, how='inner', on='id')
-    df_previous_day_merged = df_previous_day_merged.drop(columns=['id'])
-    df_previous_day_merged = df_previous_day_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
-    df_previous_day_merged = df_previous_day_merged.sort_values(by='item_name')
-    df_previous_day_merged['datetime'] = df_previous_day_merged['datetime'].astype(str).str[:-6]
-    df_previous_day_merged = df_previous_day_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume'])
-    df_previous_day_merged = df_previous_day_merged.reset_index(drop=True)
+    #df_previous_day_merged = df_items.merge(df_previous_day, how='inner', on='id')
+    #df_previous_day_merged = df_previous_day_merged.drop(columns=['id'])
+    #df_previous_day_merged = df_previous_day_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
+    #df_previous_day_merged = df_previous_day_merged.sort_values(by='item_name')
+    #df_previous_day_merged['datetime'] = df_previous_day_merged['datetime'].astype(str).str[:-6]
+    #df_previous_day_merged = df_previous_day_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume'])
+    #df_previous_day_merged = df_previous_day_merged.reset_index(drop=True)
 
     # Reads and sanitises the previous hour data into a pandas dataframe
     df_previous_hour = read_json(previous_hour)
@@ -159,7 +159,7 @@ try:
     # Export data
     print('Exporting Worksheet')
     df_even_more_parsed_relics.to_csv(csv_name, index=None, quoting=QUOTE_ALL)
-    df_previous_day_merged.to_csv('DayPrices.csv', index=None, quoting=QUOTE_ALL)
+    #df_previous_day_merged.to_csv('DayPrices.csv', index=None, quoting=QUOTE_ALL)
     df_previous_hour_merged.to_csv('HourPrices.csv', index=None, quoting=QUOTE_ALL)
     #with ExcelWriter(workbook_name, mode='a', engine='openpyxl', if_sheet_exists='replace') as writer:
     #    df_previous_day_merged.to_excel(writer, sheet_name=sheet_name_day)

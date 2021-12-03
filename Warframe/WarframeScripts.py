@@ -76,14 +76,14 @@ try:
     print('Ducat Data Processed')
     # Fuck Comments
     print('Downloading Relic Data')
-    url_relics = "https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html"
+    url_relics = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
     relic_data_txt_name = 'RelicData.txt'
     print("Loading Remote Item Data")
 
     for x in range(0, retry_attempts):
         try:
-            headers = {"Range": "bytes=0-1"}  # first 100 bytes
-            soup = str(BeautifulSoup(get(url_relics,headers).content, "html.parser")).replace('\n', '')
+            headers = {"Range": "bytes=0-200"}  # first 100 bytes
+            soup = str(BeautifulSoup(get(url_relics,headers=headers).content, "lxml")).replace('\n', '')
             print(soup)
             #print('Saving Local Data')
             #with open(relic_data_txt_name, 'w') as f:

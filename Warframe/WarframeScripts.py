@@ -92,7 +92,7 @@ try:
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
-    print(soup[:59])
+    print(soup[:500])
 
     print('Relic Data Downloaded')
     print('Processing Relic Data')

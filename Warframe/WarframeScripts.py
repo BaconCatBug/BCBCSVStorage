@@ -138,6 +138,8 @@ try:
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Harness Blueprint',value=r'Harness', regex=True)
 
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Exceptional'].index)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Flawless'].index)
+    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Radiant'].index)
     #print(df_even_more_parsed_relics.head(5))
     #df_even_more_parsed_relics['Relic_Name'] = df_even_more_parsed_relics['Relic_Name'].str.split(n=1).str[1]
     #df_axi = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Axi'].reset_index(drop=True)

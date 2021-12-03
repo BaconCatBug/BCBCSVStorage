@@ -92,7 +92,10 @@ try:
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
-    print(soup[:500])
+    with open('filename.txt', 'w') as f:
+        sys.stdout = f  # Change the standard output to the file we created.
+        print(soup)
+        sys.stdout = original_stdout  # Reset the standard output to its original value
 
     print('Relic Data Downloaded')
     print('Processing Relic Data')

@@ -515,6 +515,7 @@
 "201090101","Zidane","World in Red","Restores HP for 100% of the user's maximum HP and grants [Zidane Trance] when HP fall below 20%"
 "201090102","Zidane","Snap Judgment","35% chance to grant [Quick Cast 1] to the user after using a Thief ability"
 "201090103","Zidane","Thief's Ploy","25% chance to dualcast abilities that deal Wind damage"
+"201090104","Zidane","Swiftness (Zidane)","Grants [Haste] and [Instant Cast 3] at the beginning of the battle"
 "201090200","Garnet","Hidden Lineage","SUM attacks deal 10% more damage"
 "201090201","Garnet","Doubt Abandoned","Restores HP for 100% of the user's maximum HP and grants [Garnet Trance] when HP fall below 20%"
 "201090202","Garnet","Noble Resolve","Increases the duration of stat buffs by 30%"

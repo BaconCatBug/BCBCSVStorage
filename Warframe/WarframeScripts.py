@@ -3,6 +3,9 @@
 # pip install bs4 requests pandas openpyxl lxml html5lib
 # Run the python file with the included batch file, DUH!
 
+def pause():
+    programPause = raw_input("Press the <ENTER> key to continue...")
+
 try:
     # Error handling if something happens during script initialisation
     from csv import QUOTE_ALL  # Needed to export data to CSV
@@ -45,8 +48,12 @@ try:
 
     # Reads and sanitises the item data into a pandas dataframe
     df_items = read_json(items)
+    df_items2 = df_items['url_name']
     df_items = df_items.drop(columns=['url_name', 'thumb'])
     df_items = df_items.reindex(columns=['id', 'item_name'])
+    print(df_items2)
+    pause()
+
 
     # Reads and sanitises the previous day data into a pandas dataframe
     #df_previous_day = read_json(previous_day)
@@ -73,11 +80,10 @@ try:
     df_previous_hour_merged['datetime'] = df_previous_hour_merged['datetime'].astype(str).str[:-6]
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume'])
     patternDel = '.+ Set$'
-    filter = df_previous_hour_merged['item_name'].str.contains(patternDel)
-    df_previous_hour_merged = df_previous_hour_merged[~filter]
+    filter_df = df_previous_hour_merged['item_name'].str.contains(patternDel)
+    df_previous_hour_merged = df_previous_hour_merged[~filter_df]
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
     print('Ducat Data Processed')
-    # Fuck Comments
     print('Downloading Relic Data')
     url_relics = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
     relic_data_txt_name = 'RelicData.txt'

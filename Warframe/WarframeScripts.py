@@ -51,8 +51,8 @@ try:
     df_items2 = df_items['url_name']
     df_items = df_items.drop(columns=['url_name', 'thumb'])
     df_items = df_items.reindex(columns=['id', 'item_name'])
-    print(df_items2)
-    pause()
+    #print(df_items2)
+    #pause()
 
 
     # Reads and sanitises the previous day data into a pandas dataframe

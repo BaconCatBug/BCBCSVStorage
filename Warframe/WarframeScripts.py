@@ -4,7 +4,7 @@
 # Run the python file with the included batch file, DUH!
 
 def pause():
-    programPause = raw_input("Press the <ENTER> key to continue...")
+    programPause = input("Press the <ENTER> key to continue...")
 
 try:
     # Error handling if something happens during script initialisation
@@ -48,11 +48,9 @@ try:
 
     # Reads and sanitises the item data into a pandas dataframe
     df_items = read_json(items)
-    df_items2 = df_items['url_name']
+    #df_items2 = read_json(items)
     df_items = df_items.drop(columns=['url_name', 'thumb'])
     df_items = df_items.reindex(columns=['id', 'item_name'])
-    #print(df_items2)
-    #pause()
 
 
     # Reads and sanitises the previous day data into a pandas dataframe
@@ -74,6 +72,15 @@ try:
     df_previous_hour = df_previous_hour.rename(columns={'item': 'id'})
     # Merges the item data and previous hour data on the id column, drops the redundant id column, then renames the column names for export
     df_previous_hour_merged = df_items.merge(df_previous_hour, how='inner', on='id')
+    #df_items3 = df_items2.merge(df_previous_hour, how='inner', on='id')
+    #patternDel = '.+ Set$'
+    #filter_df = df_items3['item_name'].str.contains(patternDel)
+    #df_items3 = df_items3[~filter_df]
+    #with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+    #    print(df_items3)
+    #for elem in df_items3['url_name']:
+    #    print(elem)
+    #pause()
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['id'])
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')
@@ -125,7 +132,6 @@ try:
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Class', df_relic_class, allow_duplicates=True)
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Type', df_even_more_parsed_relics['Relic_Name'].str.upper().str.split().str[1], allow_duplicates=True)
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Refinement', df_even_more_parsed_relics['Relic_Name'].str.split().str[3].replace(to_replace=r'[\(\)]', value=r'', regex=True), allow_duplicates=True)
-    dict = {'Exceptional':'','Flawless':'','Radiant':''}
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C1_Raw', df_even_more_parsed_relics['C1'].replace(to_replace=r' \(.+\)',value='',regex=True))
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C2_Raw', df_even_more_parsed_relics['C2'].replace(to_replace=r' \(.+\)',value='',regex=True))
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C3_Raw', df_even_more_parsed_relics['C3'].replace(to_replace=r' \(.+\)',value='',regex=True))

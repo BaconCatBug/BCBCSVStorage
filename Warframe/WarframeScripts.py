@@ -72,6 +72,9 @@ try:
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')
     df_previous_hour_merged['datetime'] = df_previous_hour_merged['datetime'].astype(str).str[:-6]
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume'])
+    patternDel = '.+ Set$'
+    filter = df_previous_hour_merged['item_name'].str.contains(patternDel)
+    df_previous_hour_merged = df_previous_hour_merged[~filter]
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
     print('Ducat Data Processed')
     # Fuck Comments

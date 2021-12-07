@@ -48,7 +48,7 @@ try:
 
     # Reads and sanitises the item data into a pandas dataframe
     df_items = read_json(items)
-    #df_items2 = read_json(items)
+    df_items2 = read_json(items)
     df_items = df_items.drop(columns=['url_name', 'thumb'])
     df_items = df_items.reindex(columns=['id', 'item_name'])
 
@@ -72,15 +72,15 @@ try:
     df_previous_hour = df_previous_hour.rename(columns={'item': 'id'})
     # Merges the item data and previous hour data on the id column, drops the redundant id column, then renames the column names for export
     df_previous_hour_merged = df_items.merge(df_previous_hour, how='inner', on='id')
-    #df_items3 = df_items2.merge(df_previous_hour, how='inner', on='id')
-    #patternDel = '.+ Set$'
-    #filter_df = df_items3['item_name'].str.contains(patternDel)
-    #df_items3 = df_items3[~filter_df]
-    #with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-    #    print(df_items3)
-    #for elem in df_items3['url_name']:
-    #    print(elem)
-    #pause()
+
+    df_items2 = df_items2.merge(df_previous_hour, how='inner', on='id')
+    patternDel = '.+ Set$'
+    filter_df = df_items2['item_name'].str.contains(patternDel)
+    df_items2 = df_items2[~filter_df]
+    df_items2 = df_items2['url_name']
+    with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+        print(df_items2)
+    pause()
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['id'])
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')

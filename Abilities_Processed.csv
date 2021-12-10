@@ -240,7 +240,7 @@
 "PHY","Single enemy","Physical","4.00","Lightning","1.20","Four single attacks (1.00 each), grants [High Quick Cast 1] to the user","Lowest HP% enemy","80","10","30171281"
 "PHY","Single enemy","Physical","6.60","Wind","2.40","Six single attacks (1.10 each), cast time 2.40/2.00/1.60/1.20 scaling with uses","Lowest HP% enemy","90","10","30171271"
 "PHY","Single enemy","Physical","6.60","Wind, Lightning","1.20","Six single attacks (1.10 each), damages the user for 25%/25%/15%/15%/5% max HP scaling with 0/1/2/3/4+ uses","Lowest HP% enemy","80","10","30171291"
-"PHY","Single enemy","Physical","5.50","Wind, Water, Fire, Earth","1.65","Five single attacks (1.10 each)","Lowest HP% enemy","80","10","30171301"
+"PHY","Single enemy","Physical","5.50","Wind, Water, Fire, Earth","1.20","Five single attacks (1.10 each)","Lowest HP% enemy","80","10","30171301"
 "SUM","Single enemy","Magical","2.70","-","1.80","One single attack (2.70), minimum damage 600","Lowest HP% enemy","60","6","30131001"
 "SUM","Single enemy","Magical","5.40","-","1.80","One single attack (5.40), minimum damage 1000","Lowest HP% enemy","60","6","30131011"
 "SUM","All enemies","Magical","3.60","-","1.80","One group attack (3.60), minimum damage 600","All enemies","60","6","30131021"

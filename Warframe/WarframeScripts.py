@@ -17,6 +17,7 @@ try:
     from openpyxl import load_workbook
     from numpy import arange
     from os import path
+    from time import sleep
     import lxml
     import cchardet
 except ModuleNotFoundError:
@@ -77,14 +78,29 @@ try:
     # Merges the item data and previous hour data on the id column, drops the redundant id column, then renames the column names for export
     df_previous_hour_merged = df_items.merge(df_previous_hour, how='inner', on='id')
 
-    #df_items2 = df_items2.merge(df_previous_hour, how='inner', on='id')
-    #patternDel = '.+ Set$'
-    #filter_df = df_items2['item_name'].str.contains(patternDel)
-    #df_items2 = df_items2[~filter_df]
-    #df_items2 = df_items2['url_name']
+    df_items2 = df_items2.merge(df_previous_hour, how='inner', on='id')
+    patternDel = '.+ Set$'
+    filter_df = df_items2['item_name'].str.contains(patternDel)
+    df_items2 = df_items2[~filter_df]
+    df_items2 = df_items2['url_name']
     #with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
     #    print(df_items2)
+    ##################################
+    #include_offline = False
+    #order_type = 'Buy'
+    #list_orders = []
+    #list_prepandas = []
+    #for elem1 in df_items2:
+    #    for x in range(0, retry_attempts):
+    #        sleep(0.1)
+    #        temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
+    #        break
+    #    for elem2 in temp_json['payload']['orders']:
+    #        if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame':
+    #            print(elem2['platinum'])
+    #       
     #pause()
+    #################################################
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['id'])
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')

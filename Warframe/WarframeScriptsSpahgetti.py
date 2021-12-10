@@ -12,7 +12,7 @@ try:
     from bs4 import BeautifulSoup  # Needed to parse the dynamic webpage of the Ducanator
     from requests import get  # Needed to get the webpage of the Ducanator
     from re import search  # Needed to find the json string to import into pandas
-    from pandas import merge, read_csv, set_option, concat, DataFrame, read_json, read_html, ExcelWriter,option_context  # Needed to convert the json string into a usable dataframe object for manipulation
+    from pandas import read_csv, set_option, concat, DataFrame, read_json, read_html, ExcelWriter,option_context  # Needed to convert the json string into a usable dataframe object for manipulation
     from traceback import format_exc  # Needed for more friendly error messages.
     from openpyxl import load_workbook
     from numpy import arange
@@ -20,7 +20,6 @@ try:
     from time import sleep
     import lxml
     import cchardet
-    from json import dumps
 except ModuleNotFoundError:
     print('OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!')
     print('You didn\'t install the packages like I told you to. Please run \"pip install bs4 requests pandas\" in a cmd window to install the required packages!')
@@ -80,47 +79,27 @@ try:
     df_previous_hour_merged = df_items.merge(df_previous_hour, how='inner', on='id')
 
     df_items2 = df_items2.merge(df_previous_hour, how='inner', on='id')
-    df_ids = df_items2.merge(df_previous_hour, how='inner', on='id')
     patternDel = '.+ Set$'
     filter_df = df_items2['item_name'].str.contains(patternDel)
     df_items2 = df_items2[~filter_df]
     df_items2 = df_items2['url_name']
-    df_items2 = DataFrame(df_items2).sort_values(by=['url_name'])
-    df_items2 = df_items2.reset_index(drop=True)
-    df_items2 = df_items2['url_name'].values.tolist()
-    with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-        print(df_items2)
+    #with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+    #    print(df_items2)
     ##################################
-    print("new Ducat")
-    include_offline = False
-    order_type = 'buy'
-    list_orders = []
-    list_prepandas = []
-    for count, elem1 in enumerate(df_items2):
-        print(elem1)
-        for x in range(1, retry_attempts):
-            try:
-                sleep(0.1)
-                temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
-                break
-            except Exception:
-                print(elem1+' Item data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
-        for elem2 in temp_json['payload']['orders']:
-            if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame':
-                list_orders.append(elem2['platinum'])
-        list_orders.sort()
-        list_order_value = sum(list_orders[-2:])/len(list_orders[-2:])
-        list_prepandas.append([elem1, list_order_value])
-        print(list_prepandas)
-        print("#######################")
-        if count > 5:
-            break
-    df_plat = merge(DataFrame(list_prepandas), df_ids, left_on=0, right_on='url_name')
-    df_plat = df_plat[['item_name','ducats_x',1]]
-
-    with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-        print(df_plat)
-    pause()
+    #include_offline = False
+    #order_type = 'Buy'
+    #list_orders = []
+    #list_prepandas = []
+    #for elem1 in df_items2:
+    #    for x in range(0, retry_attempts):
+    #        sleep(0.1)
+    #        temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
+    #        break
+    #    for elem2 in temp_json['payload']['orders']:
+    #        if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame':
+    #            print(elem2['platinum'])
+    #       
+    #pause()
     #################################################
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['id'])
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])

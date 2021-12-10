@@ -2,24 +2,22 @@
 # Run the command below in a cmd window to install the needed packages, without the #, duh!
 # pip install bs4 requests pandas openpyxl lxml html5lib
 # Run the python file with the included batch file, DUH!
-
-def pause():
-    programPause = input("Press the <ENTER> key to continue...")
-
 try:
     # Error handling if something happens during script initialisation
     from csv import QUOTE_ALL  # Needed to export data to CSV
     from bs4 import BeautifulSoup  # Needed to parse the dynamic webpage of the Ducanator
     from requests import get  # Needed to get the webpage of the Ducanator
     from re import search  # Needed to find the json string to import into pandas
-    from pandas import read_csv, set_option, concat, DataFrame, read_json, read_html, ExcelWriter,option_context  # Needed to convert the json string into a usable dataframe object for manipulation
+    from pandas import merge, read_csv, set_option, concat, DataFrame, read_json, read_html, ExcelWriter,option_context  # Needed to convert the json string into a usable dataframe object for manipulation
     from traceback import format_exc  # Needed for more friendly error messages.
     from openpyxl import load_workbook
     from numpy import arange
     from os import path
     from time import sleep
+    from datetime import datetime
     import lxml
     import cchardet
+    from json import dumps
 except ModuleNotFoundError:
     print('OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!')
     print('You didn\'t install the packages like I told you to. Please run \"pip install bs4 requests pandas\" in a cmd window to install the required packages!')
@@ -27,20 +25,17 @@ except ModuleNotFoundError:
     exit(1)
 
 try:
+    startTime = datetime.now()
     #User Variables
-    workbook_name = 'Prime_Relic_Data.xlsx'
     csv_name = 'Prime-Relic Data.csv'
-    sheet_name_day = 'Day'
-    sheet_name_hour = 'Hour'
     sheet_name_relic = 'Relic_Data'
     retry_attempts = 10
+    order_type = 'buy'
+
     # Sets the URL to scrape, because hard-coding is bad
-    print('Downloading Ducat Data')
     url_ducats = "https://warframe.market/tools/ducats"
     # Scrapes the given URL
     soup = str(BeautifulSoup(get(url_ducats).content, "lxml")).replace('\n', '')
-    print('Ducat Data Downloaded')
-    print('Processing Ducat Data')
     # Finds the needed json string for item data, previous hour data, and previous day data.
     # Slices off the first bit to make a valid json string for pandas later
     items = search('"items": (\[(?:\[??[^\[]*?\]))', soup).group(0)[9:]
@@ -53,54 +48,46 @@ try:
     df_items = df_items.drop(columns=['url_name', 'thumb'])
     df_items = df_items.reindex(columns=['id', 'item_name'])
 
-
-    # Reads and sanitises the previous day data into a pandas dataframe
-    #df_previous_day = read_json(previous_day)
-    #df_previous_day = df_previous_day.drop(columns=['id', 'plat_worth', 'median'])
-    #df_previous_day = df_previous_day.rename(columns={'item': 'id'})
-    # Merges the item data and previous day data on the id column, drops the redundant id column, then renames the column names for export
-    #df_previous_day_merged = df_items.merge(df_previous_day, how='inner', on='id')
-    #df_previous_day_merged = df_previous_day_merged.drop(columns=['id'])
-    #df_previous_day_merged = df_previous_day_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
-    #df_previous_day_merged = df_previous_day_merged.sort_values(by='item_name')
-    #df_previous_day_merged['datetime'] = df_previous_day_merged['datetime'].astype(str).str[:-6]
-    #df_previous_day_merged = df_previous_day_merged.drop(columns=['datetime','ducats_per_platinum','position_change_month','position_change_week','position_change_day','volume'])
-    #patternDel = '.+ Set$'
-    #filter_df = df_previous_day_merged['item_name'].str.contains(patternDel)
-    #df_previous_day_merged = df_previous_day_merged[~filter_df]
-    #df_previous_day_merged = df_previous_day_merged.reset_index(drop=True)
-    #df_previous_day_merged = df_previous_day_merged.reset_index(drop=True)
-
     # Reads and sanitises the previous hour data into a pandas dataframe
     df_previous_hour = read_json(previous_hour)
     df_previous_hour = df_previous_hour.drop(columns=['id', 'plat_worth', 'median'])
     df_previous_hour = df_previous_hour.rename(columns={'item': 'id'})
+
     # Merges the item data and previous hour data on the id column, drops the redundant id column, then renames the column names for export
     df_previous_hour_merged = df_items.merge(df_previous_hour, how='inner', on='id')
-
     df_items2 = df_items2.merge(df_previous_hour, how='inner', on='id')
+    df_ids = df_items2.merge(df_previous_hour, how='inner', on='id')
     patternDel = '.+ Set$'
     filter_df = df_items2['item_name'].str.contains(patternDel)
     df_items2 = df_items2[~filter_df]
     df_items2 = df_items2['url_name']
-    #with option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-    #    print(df_items2)
-    ##################################
-    #include_offline = False
-    #order_type = 'Buy'
-    #list_orders = []
-    #list_prepandas = []
-    #for elem1 in df_items2:
-    #    for x in range(0, retry_attempts):
-    #        sleep(0.1)
-    #        temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
-    #        break
-    #    for elem2 in temp_json['payload']['orders']:
-    #        if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame':
-    #            print(elem2['platinum'])
-    #       
-    #pause()
-    #################################################
+    df_items2 = DataFrame(df_items2).sort_values(by=['url_name'])
+    df_items2 = df_items2.reset_index(drop=True)
+    df_items2 = df_items2['url_name'].values.tolist()
+    list_orders = []
+    list_prepandas = []
+    for count, elem1 in enumerate(df_items2):
+        for x in range(1, retry_attempts):
+            try:
+                sleep(0.15)
+                temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
+                break
+            except Exception:
+                print(elem1+' Item data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
+        for elem2 in temp_json['payload']['orders']:
+            if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame':
+                list_orders.append(elem2['platinum'])
+        list_orders.sort()
+        try:
+            list_order_value = sum(list_orders[-2:])/len(list_orders[-2:])
+        except ZeroDivisionError:
+            list_order_value = 0
+        list_prepandas.append([elem1, list_order_value])
+        list_orders = []
+    df_plat = merge(DataFrame(list_prepandas), df_ids, left_on=0, right_on='url_name')
+    df_plat = df_plat[['item_name','ducats_x',1]]
+    df_plat['ducats_per_plat'] = round(df_plat['ducats_x']/df_plat[1],2)
+    df_plat = df_plat.set_axis(['Item Name','Ducats','Top Buy Order Average','Ducats per Plat'], axis=1)
     df_previous_hour_merged = df_previous_hour_merged.drop(columns=['id'])
     df_previous_hour_merged = df_previous_hour_merged.reindex(columns=['item_name', 'datetime', 'ducats_per_platinum', 'ducats', 'wa_price','ducats_per_platinum_wa', 'position_change_month', 'position_change_week', 'position_change_day', 'volume'])
     df_previous_hour_merged = df_previous_hour_merged.sort_values(by='item_name')
@@ -110,29 +97,16 @@ try:
     filter_df = df_previous_hour_merged['item_name'].str.contains(patternDel)
     df_previous_hour_merged = df_previous_hour_merged[~filter_df]
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
-    
-    
-    print('Ducat Data Processed')
-    print('Downloading Relic Data')
+
     url_relics = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
     relic_data_txt_name = 'RelicData.txt'
-    print("Loading Remote Item Data")
 
     for x in range(0, retry_attempts):
         try:
-            #headers = {"Range": "bytes=0-500"}  # first 100 bytes
-            #soup = str(BeautifulSoup(get(url_relics,headers=headers).content, "lxml")).replace('\n', '')
             soup = str(BeautifulSoup(get(url_relics).content, "lxml")).replace('\n', '')
-            #print('Saving Local Data')
-            #with open(relic_data_txt_name, 'w') as f:
-            #    f.write(soup)
-            #break
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
-
-    print('Relic Data Downloaded')
-    print('Processing Relic Data')
     parsed_relics = search('<h3 id="relicRewards">Relics:</h3><table>.*?</table>', soup).group(0)[34:].replace('th>', 'td>').replace(r'<th colspan="2">', r'<td>').replace('X Kuva', 'x Kuva')
     df_parsed_relics = read_html(parsed_relics, header=None)
     df_parsed_relics = df_parsed_relics[0].replace(to_replace=r'.+\((.+)\%\)', value=r'\1', regex=True)
@@ -160,12 +134,6 @@ try:
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'U1_Raw', df_even_more_parsed_relics['U1'].replace(to_replace=r' \(.+\)',value='',regex=True))
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'U2_Raw', df_even_more_parsed_relics['U2'].replace(to_replace=r' \(.+\)',value='',regex=True))
     df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Rare_Raw', df_even_more_parsed_relics['Rare'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    #df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C1_Odds', df_even_more_parsed_relics['C1'].replace(to_replace=r'.+\((.+)\%\)',value=r'\1',regex=True).astype(float))
-    #df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C2_Odds', df_even_more_parsed_relics['C2'].replace(to_replace=r'.+\((.+)\%\)',value=r'\1',regex=True).astype(float))
-    #df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C3_Odds', df_even_more_parsed_relics['C3'].replace(to_replace=r'.+\((.+)\%\)',value=r'\1',regex=True).astype(float))
-    #df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'U1_Odds', df_even_more_parsed_relics['U1'].replace(to_replace=r'.+\((.+)\%\)',value=r'\1',regex=True).astype(float))
-    #df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'U2_Odds', df_even_more_parsed_relics['U2'].replace(to_replace=r'.+\((.+)\%\)',value=r'\1',regex=True).astype(float))
-    #df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Rare_Odds', df_even_more_parsed_relics['Rare'].replace(to_replace=r'.+\((.+)\%\)',value=r'\1',regex=True).astype(float))
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Systems Blueprint',value=r'Systems', regex=True)
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Neuroptics Blueprint',value=r'Neuroptics', regex=True)
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Chassis Blueprint',value=r'Chassis', regex=True)
@@ -175,43 +143,17 @@ try:
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Band Blueprint',value=r'Band', regex=True)
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Wings Blueprint',value=r'Wings', regex=True)
     df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Harness Blueprint',value=r'Harness', regex=True)
-
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Exceptional'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Flawless'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Radiant'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Class'] == 'Requiem'].index)
     df_even_more_parsed_relics = df_even_more_parsed_relics.drop(columns=['Relic_Name','C1','C2','C3','U1','U2','Rare','Refinement'])
     
-    #print(df_even_more_parsed_relics.head(5))
-    #df_even_more_parsed_relics['Relic_Name'] = df_even_more_parsed_relics['Relic_Name'].str.split(n=1).str[1]
-    #df_axi = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Axi'].reset_index(drop=True)
-    #df_lith = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Lith'].reset_index(drop=True)
-    #df_meso = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Meso'].reset_index(drop=True)
-    #df_neo = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Neo'].reset_index(drop=True)
-    #df_requiem = df_even_more_parsed_relics[df_even_more_parsed_relics['Relic_Class']=='Requiem'].reset_index(drop=True)
-    #df_final_export_relic = concat([df_axi,df_lith,df_meso,df_neo,df_requiem], axis=1, ignore_index=True)
-    #print(df_even_more_parsed_relics)
-    print('Relic Data Processed')
-
     # Export data
     print('Exporting Worksheet')
     df_even_more_parsed_relics.to_csv(csv_name, index=None, quoting=QUOTE_ALL)
-    #df_previous_day_merged.to_csv('DayPrices.csv', index=None, quoting=QUOTE_ALL)
-    df_previous_hour_merged.to_csv('HourPrices.csv', index=None, quoting=QUOTE_ALL)
-    #with ExcelWriter(workbook_name, mode='a', engine='openpyxl', if_sheet_exists='replace') as writer:
-    #    df_previous_day_merged.to_excel(writer, sheet_name=sheet_name_day)
-    #    df_previous_hour_merged.to_excel(writer, sheet_name=sheet_name_hour)
-    #    df_even_more_parsed_relics.to_excel(writer, sheet_name=sheet_name_relic)
-    #    #df_final_export_relic.to_excel(writer, sheet_name=sheet_name_relic)
-    #book = load_workbook(workbook_name)
-    #sheet = book[sheet_name_day]
-    #sheet.delete_cols(1,1)
-    #sheet = book[sheet_name_hour]
-    #sheet.delete_cols(1,1)
-    #sheet = book[sheet_name_relic]
-    #sheet.delete_cols(1,1)
-    #book.save(workbook_name)
-    #print('If you see this message, things should have worked correctly. Remove the \"pause\" from the batch script to automatically close this window after use.')
+    df_plat.to_csv('HourPrices.csv', index=None, quoting=QUOTE_ALL)
+    print(datetime.now() - startTime)
 
 except Exception:
     # Error handling if something happens during the main script

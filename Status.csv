@@ -1912,7 +1912,7 @@
 "Deeds Not Words Mode","After using two Earth/Lightning abilities, casts Let's Get to Work (Earth)/Let's Get to Work (Lightning) if the triggering ability deals Earth/Lightning damage","15","-","-","50962"
 "Electrostatic Mode","Grants [Overflow Lightning Radiant Shield: 125%]/[Overflow Lightning Radiant Shield: 200%]/[Overflow Lightning Radiant Shield: 300%] after using 1/2/3+ Lightning attacks","15","-","-","50963"
 "Tri-Element Mode III (Fire/Ice/Lightning)","Grants [Attach Fire 2 with Stacking]/[Attach Ice 2 with Stacking]/[Attach Lightning 2 with Stacking] after using a Fire/Ice/Lightning ability, lasts for 1 turn","-","-","-","50964"
-"Magicite Mine Mode","Grants Magicite +1 after using three Machinist abilities","15","-","-","50965"
+"Magicite Mine Mode","Grants Magicite +1 after using three Machinist abilities, removed after using three Machinist abilities","15","-","-","50965"
 "Heavy Debuff Shot Follow-Up","Casts Heavy Debuff Shot after using three Machinist abilities","15","-","-","50966"
 "Tri-Element Mode II (Fire/Ice/Lightning)","Grants [Attach Fire with Stacking]/[Attach Ice with Stacking]/[Attach Lightning with Stacking] after using a Fire/Ice/Lightning ability, lasts for 1 turn","-","-","-","50967"
 "White Magic Heals +20% Boost 1","Increases healing done by White Magic abilities by 20%, lasts for 1 turn","-","-","-","50968"

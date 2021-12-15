@@ -1,7 +1,7 @@
 from datetime import datetime
 from os import system, chdir
 
-start_time = datetime.now() 
+#start_time = datetime.now() 
 now = datetime.now()
 now = str(now.year) +'-'+ f"{now.month:02d}" +'-'+ f"{now.day:02d}"
 # print(now)
@@ -16,6 +16,6 @@ system('git add *')
 system('git commit -m "' + now + '"')
 # print('git push')
 system('git push')
-end_time = datetime.now()
-with open("execution.log", "w") as text_file:
-    text_file.write('Duration: {}'.format(end_time - start_time))
+#end_time = datetime.now()
+#with open("execution.log", "w") as text_file:
+#    text_file.write('Duration: {}'.format(end_time - start_time))

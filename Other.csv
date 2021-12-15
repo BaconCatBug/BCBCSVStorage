@@ -294,6 +294,7 @@
 "Awoken Platinum Crush","Rock Drive","PHY","Single enemy","Physical","4.32","Earth, NE","0.01","Six single attacks (0.72 each), 100% hit rate","Y","Lowest HP% enemy","0","Monk","31541547"
 "Dual Awoken Wind Mode Two (Cid (VII))","Dual Wind Jump","PHY","Single enemy","Physical","2.64","Wind, NE","0.01","One single ranged jump attack (2.64) capped at 99999, grants [Buff Wind 10% (15s)] to all allies","Y","Lowest HP% enemy","0","Dragoon","31541697"
 "Hot-Blooded Pilot Mode","Aero Down","NAT","Single enemy","","","","0.01","Causes [Imperil Wind 10% (15s)], grants [Buff Wind 10% (15s)] to all allies","N","Lowest HP% enemy","0","Dragoon","31541706"
+"Excellent Partner Mode","Charging Bolt","NAT","Single enemy","Hybrid","-","Earth, Lightning, NE","0.01","One single ranged hybrid attack (0.50 or 2.42), grants Professionalism +1 (max 10) to the user","Y","Lowest HP% enemy","0","Monk","31541809"
 "EX: SeeD","Shattering Finish","PHY","All enemies","Physical","2.60","Ice, NE","0.01","Four group attacks (0.65 each), 100% hit rate","Y","All enemies","0","Combat","30511677"
 "EX: Lion","Renzokuken Ice Fang","PHY","Single enemy","Physical","1.12","Ice, NE","0.01","4/5/6/7/8 single attacks (0.28/0.30/0.32/0.34/0.36 each) scaling with uses, 20/25/30/35/40% additional critical chance","Y","Lowest HP% enemy","0","Spellblade","30547021"
 "EX: Heart of the Lion","Renzokuken Fire Fang","PHY","Single enemy","Physical","2.00","Fire, NE","0.01","Five single attacks (0.40 each), 100% hit rate","Y","Lowest HP% enemy","0","Spellblade","30547112"

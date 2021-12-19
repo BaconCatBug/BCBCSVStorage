@@ -5,7 +5,7 @@ from os import system, chdir
 now = datetime.now()
 now = str(now.year) +'-'+ f"{now.month:02d}" +'-'+ f"{now.day:02d}"
 # print(now)
-chdir('/home/baconcatbug/Github/BCBCSVStorage/Warframe')
+chdir('/home/baconcatbug/GitHub/BCBCSVStorage/Warframe')
 # print('python WarframeScripts.py')
 system('python3 WarframeScripts.py')
 #print ('WarframeCSVtoTSV.py')

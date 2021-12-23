@@ -98,7 +98,8 @@ try:
     df_previous_hour_merged = df_previous_hour_merged[~filter_df]
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
 
-    url_relics = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
+    #url_relics = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
+    url_relics = 'http://web.archive.org/web/20211218105219/https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
     relic_data_txt_name = 'RelicData.txt'
 
     for x in range(0, retry_attempts):

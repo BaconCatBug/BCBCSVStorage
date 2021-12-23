@@ -414,7 +414,7 @@
 "PHY","Single enemy","Physical","5.50","Lightning, Ice, NE","1.65","Five single attacks (1.10 each)","Lowest HP% enemy","90","10","30191391"
 "PHY","Single enemy","Physical","5.50","Earth","1.65","Five single attacks (1.10 each), causes [Imperil Earth 10% (5s)]","Lowest HP% enemy","90","10","30191401"
 "PHY","Single enemy","Physical","4.00","Earth","1.65","Four single attacks (1.00 each), grants [Monk Quick Cast 2] to the user","Lowest HP% enemy","90","10","30191411"
-"NAT","Single enemy","Hybris","-","Earth, Lightning","1.65","Five single ranged hybrid attacks (1.10 or 3.50 each)","Lowest HP% enemy","90","10","30191421"
+"NAT","Single enemy","Hybrid","-","Earth, Lightning","1.65","Five single ranged hybrid attacks (1.10 or 3.50 each)","Lowest HP% enemy","90","10","30191421"
 "PHY","Single enemy","Physical","1.40","-","1.20","One single attack (1.40), heals the user for 30% of the damage dealt","Highest HP% enemy","60","10","30201001"
 "PHY","Single enemy","","","","1.20","Causes [Slow] (50%), if successful grants [Haste] to the user","Random enemy without status","65","10","30201011"
 "PHY","Single enemy","","","","1.20","[DEF -40%] for 20 seconds, [DEF +50%] to the user for 20 seconds","Random enemy","75","10","30201021"

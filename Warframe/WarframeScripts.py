@@ -29,7 +29,7 @@ try:
     #User Variables
     csv_name = 'Prime-Relic Data.csv'
     sheet_name_relic = 'Relic_Data'
-    retry_attempts = 10
+    retry_attempts = 100
     order_type = 'buy'
 
     # Sets the URL to scrape, because hard-coding is bad
@@ -69,8 +69,9 @@ try:
     for count, elem1 in enumerate(df_items2):
         for x in range(1, retry_attempts):
             try:
-                sleep(0.15)
+                sleep(0.5)
                 temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
+                print('Item data' + str(elem1) + 'success.')
                 break
             except Exception:
                 print(elem1+' Item data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')

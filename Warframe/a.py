@@ -53,11 +53,18 @@ for count, elem in enumerate(df_nested_list):
     else:
         templist.append(elem[2])
 
-#print(templist2)
 df_relics = DataFrame(templist2, columns=['C1','C2','C3','U1','U2','Rare','Class','Type'])
 df_relics = df_relics[['Class','Type','C1','C2','C3','U1','U2','Rare']]
-"""with option_context('display.max_rows', None, 'display.max_columns', None, 'display.width', 1000):  # more options can be specified also
-   print(df_relics)"""
+
+df_relics = df_relics.replace(to_replace=r'Systems Blueprint', value=r'Systems', regex=True)
+df_relics = df_relics.replace(to_replace=r'Neuroptics Blueprint', value=r'Neuroptics', regex=True)
+df_relics = df_relics.replace(to_replace=r'Chassis Blueprint', value=r'Chassis', regex=True)
+df_relics = df_relics.replace(to_replace=r'Cerebrum Blueprint', value=r'Cerebrum', regex=True)
+df_relics = df_relics.replace(to_replace=r'Carapace Blueprint', value=r'Carapace', regex=True)
+df_relics = df_relics.replace(to_replace=r'Buckle Blueprint', value=r'Buckle', regex=True)
+df_relics = df_relics.replace(to_replace=r'Band Blueprint', value=r'Band', regex=True)
+df_relics = df_relics.replace(to_replace=r'Wings Blueprint', value=r'Wings', regex=True)
+df_relics = df_relics.replace(to_replace=r'Harness Blueprint', value=r'Harness', regex=True)
 
 
 df_relics.to_csv('Prime-Relic Data.csv', index=None, quoting=QUOTE_ALL)

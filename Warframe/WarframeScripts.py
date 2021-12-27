@@ -101,7 +101,7 @@ try:
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
 
     relic_data_txt_name = 'RelicData.txt'
-    url_relics = 'https://drops.warframestat.us/data/relics.json'
+    url_relics = 'https://drops.warframestat.us/data/all.json'
     retry_attempts = 10
 
     for x in range(0, retry_attempts):
@@ -111,7 +111,7 @@ try:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
     data = loads(url.text)
-    #data = data['relics']
+    data = data['relics']
     df_nested_list = json_normalize(data, record_path=['rewards'], meta=['tier', 'relicName', 'state'])
     filter_df = df_nested_list['state'].str.contains('Intact')
     df_nested_list = df_nested_list[filter_df]

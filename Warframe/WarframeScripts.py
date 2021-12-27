@@ -63,6 +63,7 @@ try:
     df_items2 = df_items2['url_name']
     df_items2 = DataFrame(df_items2).sort_values(by=['url_name'])
     df_items2 = df_items2.reset_index(drop=True)
+    df_items2_length = len(df_items2.index)
     df_items2 = df_items2['url_name'].values.tolist()
     list_orders = []
     list_prepandas = []
@@ -71,7 +72,7 @@ try:
             try:
                 sleep(0.5)
                 temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
-                print('Item data ' +str(x)+': '+ str(elem1) + ' success.')
+                print('Item data ' +str(count)+'/'+str(df_items2_length)+': '+ str(elem1) + ' success.')
                 break
             except Exception:
                 print(elem1+' Item data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')

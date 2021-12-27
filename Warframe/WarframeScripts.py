@@ -8,7 +8,7 @@ try:
     from bs4 import BeautifulSoup  # Needed to parse the dynamic webpage of the Ducanator
     from requests import get  # Needed to get the webpage of the Ducanator
     from re import search  # Needed to find the json string to import into pandas
-    from pandas import merge, read_csv, set_option, concat, DataFrame, read_json, read_html, ExcelWriter,option_context  # Needed to convert the json string into a usable dataframe object for manipulation
+    from pandas import merge, read_csv, set_option, concat, DataFrame, read_json, read_html, ExcelWriter, option_context, json_normalize  # Needed to convert the json string into a usable dataframe object for manipulation
     from traceback import format_exc  # Needed for more friendly error messages.
     from openpyxl import load_workbook
     from numpy import arange
@@ -17,7 +17,7 @@ try:
     from datetime import datetime
     import lxml
     import cchardet
-    from json import dumps
+    from json import dumps, loads
 except ModuleNotFoundError:
     print('OOPSIE WOOPSIE!! Uwu We made a fucky wucky!! A wittle fucko boingo! The code monkeys at our headquarters are working VEWY HAWD to fix this!')
     print('You didn\'t install the packages like I told you to. Please run \"pip install bs4 requests pandas\" in a cmd window to install the required packages!')
@@ -98,61 +98,51 @@ try:
     df_previous_hour_merged = df_previous_hour_merged[~filter_df]
     df_previous_hour_merged = df_previous_hour_merged.reset_index(drop=True)
 
-    #url_relics = 'https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
-    url_relics = 'http://web.archive.org/web/20211218105219/https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html'
     relic_data_txt_name = 'RelicData.txt'
+    url_relics = 'https://drops.warframestat.us/data/builds/d2f04a78f07d250cbb3537aaa20535a0.json'
+    retry_attempts = 10
 
     for x in range(0, retry_attempts):
         try:
-            soup = str(BeautifulSoup(get(url_relics).content, "lxml")).replace('\n', '')
+            url = get(url_relics)
         except Exception:
             print('Relic data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
 
-    parsed_relics = search('<h3 id="relicRewards">Relics:</h3><table>.*?</table>', soup).group(0)[34:].replace('th>', 'td>').replace(r'<th colspan="2">', r'<td>').replace('X Kuva', 'x Kuva')
-    df_parsed_relics = read_html(parsed_relics, header=None)
-    df_parsed_relics = df_parsed_relics[0].replace(to_replace=r'.+\((.+)\%\)', value=r'\1', regex=True)
-    df_parsed_relics[1] = df_parsed_relics[1].astype(float)
-    df_parsed_relics = df_parsed_relics.dropna(how='all').fillna(999)
-    groups = df_parsed_relics.groupby(arange(len(df_parsed_relics.index)) // 7, sort=False).apply(lambda x: x.sort_values(by=1, ascending=False))
-    groups[1] = ' (' + groups[1].astype(str) + '%)'
-    groups = groups[0] + groups[1]
-    groups = groups.replace(to_replace=r'\(999.0\%\)', value=r'', regex=True)
+    data = loads(url.text)
+    data = data['relics']
+    df_nested_list = json_normalize(data, record_path=['rewards'], meta=['tier', 'relicName', 'state'])
+    filter_df = df_nested_list['state'].str.contains('Intact')
+    df_nested_list = df_nested_list[filter_df]
+    filter_df = df_nested_list['tier'].str.contains('Requiem')
+    df_nested_list = df_nested_list[~filter_df]
+    df_nested_list = df_nested_list[['tier', 'relicName', 'itemName', 'chance']].sort_values(by=['tier', 'relicName', 'chance'], ascending=[True, True, False]).reset_index(drop=True).values.tolist()
     templist = []
     templist2 = []
-    for count, value in enumerate(groups):
-        if count % 7 == 0 and count != 0:
+    for count, elem in enumerate(df_nested_list):
+        if (count + 1) % 6 == 0 and count != 0:
+            templist.append(elem[2])
+            templist.append(elem[0])
+            templist.append(elem[1])
             templist2.append(templist)
             templist = []
-        templist.append(value)
-    df_even_more_parsed_relics = DataFrame(templist2, columns=['Relic_Name', 'C1', 'C2', 'C3', 'U1', 'U2', 'Rare'])
-    df_relic_class = df_even_more_parsed_relics['Relic_Name'].str.split().str[0]
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Class', df_relic_class, allow_duplicates=True)
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Type', df_even_more_parsed_relics['Relic_Name'].str.upper().str.split().str[1], allow_duplicates=True)
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Refinement', df_even_more_parsed_relics['Relic_Name'].str.split().str[3].replace(to_replace=r'[\(\)]', value=r'', regex=True), allow_duplicates=True)
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C1_Raw', df_even_more_parsed_relics['C1'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C2_Raw', df_even_more_parsed_relics['C2'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'C3_Raw', df_even_more_parsed_relics['C3'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'U1_Raw', df_even_more_parsed_relics['U1'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'U2_Raw', df_even_more_parsed_relics['U2'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    df_even_more_parsed_relics.insert(len(df_even_more_parsed_relics.columns), 'Rare_Raw', df_even_more_parsed_relics['Rare'].replace(to_replace=r' \(.+\)',value='',regex=True))
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Systems Blueprint',value=r'Systems', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Neuroptics Blueprint',value=r'Neuroptics', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Chassis Blueprint',value=r'Chassis', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Cerebrum Blueprint',value=r'Cerebrum', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Carapace Blueprint',value=r'Carapace', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Buckle Blueprint',value=r'Buckle', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Band Blueprint',value=r'Band', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Wings Blueprint',value=r'Wings', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.replace(to_replace=r'Harness Blueprint',value=r'Harness', regex=True)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Exceptional'].index)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Flawless'].index)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Refinement'] == 'Radiant'].index)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(df_even_more_parsed_relics.loc[df_even_more_parsed_relics['Class'] == 'Requiem'].index)
-    df_even_more_parsed_relics = df_even_more_parsed_relics.drop(columns=['Relic_Name','C1','C2','C3','U1','U2','Rare','Refinement'])
-    
+        else:
+            templist.append(elem[2])
+
+    df_relics = DataFrame(templist2, columns=['C1', 'C2', 'C3', 'U1', 'U2', 'Rare', 'Class', 'Type'])
+    df_relics = df_relics[['Class', 'Type', 'C1', 'C2', 'C3', 'U1', 'U2', 'Rare']]
+    df_relics = df_relics.replace(to_replace=r'Systems Blueprint', value=r'Systems', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Neuroptics Blueprint', value=r'Neuroptics', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Chassis Blueprint', value=r'Chassis', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Cerebrum Blueprint', value=r'Cerebrum', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Carapace Blueprint', value=r'Carapace', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Buckle Blueprint', value=r'Buckle', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Band Blueprint', value=r'Band', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Wings Blueprint', value=r'Wings', regex=True)
+    df_relics = df_relics.replace(to_replace=r'Harness Blueprint', value=r'Harness', regex=True)
+
     # Export data
     print('Exporting Worksheet')
-    df_even_more_parsed_relics.to_csv(csv_name, index=None, quoting=QUOTE_ALL)
+    df_relics.to_csv(csv_name, index=None, quoting=QUOTE_ALL)
     df_plat.to_csv('HourPrices.csv', index=None, quoting=QUOTE_ALL)
     print(datetime.now() - startTime)
 

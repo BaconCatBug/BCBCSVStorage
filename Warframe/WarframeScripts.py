@@ -77,7 +77,7 @@ try:
             except Exception:
                 print(elem1+' Item data download failed, retrying... ' + str(retry_attempts - x - 1) + ' attempts left...', end='\r')
         for elem2 in temp_json['payload']['orders']:
-            if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame':
+            if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame' and elem2['region'] == 'en':
                 list_orders.append(elem2['platinum'])
         list_orders.sort()
         try:

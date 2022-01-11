@@ -74,7 +74,7 @@ try:
     for count, elem1 in enumerate(df_items2):
         for x in range(1, retry_attempts):
             try:
-                sleep(0.5)
+                sleep(0.05)
                 temp_json = get('https://api.warframe.market/v1/items/' + elem1 + '/orders').json()
                 print('Item data ' +str(count)+'/'+str(df_items2_length)+': '+ str(elem1) + ' success.')
                 break

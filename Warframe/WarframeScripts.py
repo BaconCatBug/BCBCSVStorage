@@ -30,7 +30,7 @@ try:
     csv_name = 'Prime-Relic Data.csv'
     sheet_name_relic = 'Relic_Data'
     retry_attempts = 100
-    order_type = 'sell'
+    order_type = 'buy'
     if order_type == 'buy':
         reversed_sort=False
     else:

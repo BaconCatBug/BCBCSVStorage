@@ -31,6 +31,10 @@ try:
     sheet_name_relic = 'Relic_Data'
     retry_attempts = 100
     order_type = 'sell'
+    if order_type == 'buy':
+        reversed_sort=False
+    else:
+        reversed_sort=True
 
     # Sets the URL to scrape, because hard-coding is bad
     url_ducats = "https://warframe.market/tools/ducats"
@@ -79,7 +83,7 @@ try:
         for elem2 in temp_json['payload']['orders']:
             if elem2['order_type'] == order_type and elem2['user']['status'] == 'ingame' and elem2['region'] == 'en':
                 list_orders.append(elem2['platinum'])
-        list_orders.sort()
+        list_orders.sort(reverse=reversed_sort)
         try:
             list_order_value = sum(list_orders[-2:])/len(list_orders[-2:])
         except ZeroDivisionError:

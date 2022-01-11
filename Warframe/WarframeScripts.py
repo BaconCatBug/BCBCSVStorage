@@ -30,7 +30,7 @@ try:
     csv_name = 'Prime-Relic Data.csv'
     sheet_name_relic = 'Relic_Data'
     retry_attempts = 100
-    order_type = 'buy'
+    order_type = 'sell'
 
     # Sets the URL to scrape, because hard-coding is bad
     url_ducats = "https://warframe.market/tools/ducats"

@@ -144,6 +144,7 @@
 "201030403","Ingus","Resolute Warrior","Grants [Attach Earth] at the beginning of the battle"
 "201030404","Ingus","Stoic Knight","25% chance to cast an ability (PHY: single, 3x 0.42 physical Earth/NE, restores 1500 HP to the lowest HP% ally) after using a Knight ability"
 "201030405","Ingus","Hidden Feelings","25% chance to dualcast Knight abilities"
+"201030406","Ingus","Catalyst (Ingus)","Grants [ATK and DEF +30% (?s)] and [Quick Cast] to the user after using three Knight abilities (only triggers once per battle)"
 "201030500","Desch","Ancient Wisdom","Increases Lightning damage dealt by 10%"
 "201030501","Desch","Rekindled Memory","35% chance to dualcast abilities that deal Lightning damage"
 "201030502","Desch","Total Devotion","MAG +1% for each hit dealt with damaging BLK attacks, up to +20%"

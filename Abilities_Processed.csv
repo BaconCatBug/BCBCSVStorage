@@ -617,6 +617,7 @@
 "PHY","Single enemy","Physical","5.95","Water","1.65","Seven single ranged attacks (0.85 each)","Lowest HP% enemy","90","10","30261291"
 "PHY","Single enemy","Physical","5.50","Lightning","0.01","Five single ranged attacks (1.10 each)","Lowest HP% enemy","70","10","30261301"
 "PHY","Single enemy","Physical","7.10","Lightning","1.65","One single ranged attack (7.10) capped at 99999","Lowest HP% enemy","90","10","30261321"
+"PHY","Single enemy","Physical","5.50","Poison, Fire, Lightning","1.65","Five single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30261311"
 "PHY","Single enemy","Physical","5.50","Fire, Ice, Lightning","1.65","Five single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30261341"
 "PHY","Single enemy","Physical","4.00","Lightning","1.65","Four single ranged attacks (1.00 each), grants [Machinist Quick Cast 2] to the user","Lowest HP% enemy","90","10","30261331"
 "PHY","Single","Physical","2.20","Dark","1.65","One single attack (2.20), grants [Dark Bargain] to the user for 20 seconds","Lowest HP% enemy","70","10","30271001"

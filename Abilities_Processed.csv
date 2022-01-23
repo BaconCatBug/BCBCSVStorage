@@ -678,6 +678,7 @@
 "PHY","Single enemy","Physical","5.50","Fire, Ice, Water","1.65","Four single ranged attacks (1.10 each), followed by one single ranged attack (1.10) with additional 20% critical damage","Lowest HP% enemy","90","10","30281221"
 "PHY","Single enemy","Physical","4.00","Dark","1.65","Four single ranged attacks (1.00 each), causes [Imperil Dark 10% (5s)], grants [Sharpshooter Quick Cast 2] (50% chance)/restores 1000 HP to the lowest HP% ally and removes [Poison], [Blind] and [Sleep] from lowest HP% ally (50% chance)","Lowest HP% enemy","90","10","30281231"
 "PHY","Single enemy","Physical","5.50","Fire, Lightning","3.30","Five single ranged attacks (1.10 each), causes [Imperil Fire 10% (5s)] and [Imperil Lightning 10% (5s)]","Lowest HP% enemy","90","10","30281241"
+"PHY","Single enemy","Physical","6.60","Water","1.65","Six single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30281251"
 "BLK","Single","Magical","12.00","Lightning","2.60","Six single attacks (2.00 each)","Lowest HP% enemy","75","10","30301001"
 "BLK","Single","Magical","12.00","Ice","2.60","Six single attacks (2.00 each)","Lowest HP% enemy","75","10","30301011"
 "BLK","Single","Magical","5.20","Lightning","1.65","Two single attacks (2.60 each), grants [Magical Quick Cast 1] to the user","Lowest HP% enemy","70","10","30301021"

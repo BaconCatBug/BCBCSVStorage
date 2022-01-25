@@ -362,6 +362,7 @@ Neo	O1	Volt Prime Blueprint	Forma Blueprint	Odonata Prime Harness	Aklex Prime Bl
 Neo	P1	Ninkondi Prime Blueprint	Paris Prime Lower Limb	Redeemer Prime Blade	Akjagara Prime Receiver	Rubico Prime Stock	Pangolin Prime Blueprint
 Neo	P2	Aksomati Prime Receiver	Braton Prime Stock	Guandao Prime Blade	Forma Blueprint	Titania Prime Blueprint	Pandero Prime Receiver
 Neo	P3	Lex Prime Blueprint	Panthera Prime Blueprint	Orthos Prime Handle	Astilla Prime Stock	Inaros Prime Chassis	Pangolin Prime Blueprint
+Neo	P4	Karyst Prime Blueprint	Zakti Prime Receiver	Paris Prime Upper Limb	Forma Blueprint	Braton Prime Receiver	Pandero Prime Receiver
 Neo	R1	Hikou Prime Blueprint	Ankyros Prime Gauntlet	Forma Blueprint	Boltor Prime Receiver	Nyx Prime Chassis	Rhino Prime Blueprint
 Neo	R2	Ninkondi Prime Blueprint	Braton Prime Stock	Forma Blueprint	Paris Prime Grip	Tiberon Prime Blueprint	Rubico Prime Blueprint
 Neo	R3	Baza Prime Receiver	Limbo Prime Systems	Burston Prime Blueprint	Paris Prime Grip	Ninkondi Prime Chain	Redeemer Prime Handle

@@ -215,6 +215,7 @@
 "NAT","All allies","","","","1.65","Grants [10% Damage Reduction Barrier 1], grants [Exertion ATK and MAG +5%/10%/20%/30%], grants [Exertion 1/2/3/3] to the user if the user has Exertion 0/1/2/3","All allies","100","10","30161281"
 "NAT","Single ally","","","","1.65","Transfers the user's Soul Break points to the target (maximum of 500 Soul Break points), grants [Quick Cast 1]","Random ally prioritizing self last","100","10","30161291"
 "NAT","All allies","","","","1.65","Restores 1000 HP","All allies","180","10","30161301"
+"NAT","Single ally","","","","0.83","Transfers the user's Soul Break points to the target (maximum of 500 Soul Break points), grants [Quick Cast 2] to the user","Random ally prioritizing self last","100","10","30161311"
 "PHY","Single","Physical","1.10","-","1.20","One single attack (1.10), 100% hit rate","Lowest HP% enemy","60","10","30171001"
 "NAT","Self","","","","1.20","Grants [Haste]","Self","65","12","30171011"
 "PHY","Single","Physical","2.10","-","1.20","One single ranged attack (2.10), causes [Stop] (40%)","Random enemy without status","75","10","30171021"

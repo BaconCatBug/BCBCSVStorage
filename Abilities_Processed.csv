@@ -646,7 +646,7 @@
 "NAT","Single enemy","Magical","-","Dark, Holy","1.65","Five single hybrid attacks (3.50 or 3.55 each)","Lowest HP% enemy","90","10","30271211"
 "PHY","Single enemy","Physical","6.60","Dark","1.65","Six single attacks (1.10 each), 100% hit rate","Lowest HP% enemy","90","10","30271231"
 "PHY","Single enemy","Physical","5.50","Dark","1.65","Five single attacks (1.10 each), heals the user for 20% of the damage dealt","Lowest HP% enemy","90","10","30271221"
-"PHY","Single enemy","Physical","5.50","Dark, Fire","1.65","Five group ranged attacks (0.92~1.10 scaling with targets)","Lowest HP% enemy","90","10","30271251"
+"PHY","Single enemy","Physical","5.50","Dark, Fire","1.65","Five group ranged attacks (0.92~1.10 scaling with targets)","All enemies","90","10","30271251"
 "PHY","Single enemy","Physical","5.50","Dark, Fire","1.65","Five single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30271241"
 "BLK","Single enemy","Magical","21.00","Dark, Poison","1.65","Six single attacks (3.50 each), causes [MND -30% (8s)] to the user","Lowest HP% enemy","90","10","30271261"
 "BLK","Single","Magical","22.50","Dark","1.65","One single attack (22.50) capped at 99999","Lowest HP% enemy","90","10","30271271"

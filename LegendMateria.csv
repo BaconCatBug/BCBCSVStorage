@@ -750,7 +750,7 @@
 "201130703","Serah","Sister's Strength","Grants [Attach Ice] at the beginning of the battle"
 "201130704","Serah","Meanie Miss","Grants [Attach Water] at the beginning of the battle"
 "201130705","Serah","Re-action (Serah)","100% chance to dualcast every third Water ability"
-"201130706","Serah","First Strike (Serah)","Grants [Instant ATB 1] and [Quick Cast] at the beginning of the battle"
+"201130706","Serah","First Strike (Serah)","Grants [Quick Cast] at the beginning of the battle, begins the round with full ATB gauge"
 "201131000","Cid Raines","Young Idealist","BLK attacks deal 10% more damage"
 "201131001","Cid Raines","Seraphic Might","35% chance to dualcast abilities that deal Holy or Dark damage"
 "201131002","Cid Raines","Mouth of the Dead","Increases the duration of stat buffs by 30%"

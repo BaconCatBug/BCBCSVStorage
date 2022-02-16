@@ -3096,7 +3096,7 @@
 "Crackshot Damage Tracker","Increases Crackshot level by 1 when user crosses 100001 and 300001 damage dealt during the status, removed if user hasn't Arcane Dyad Empowered: Prompto","-","-","-","52088"
 "Crackshot Level","Keeps track of Crackshot level, initially set at level 0 with a maximum level of 2, removed if user hasn't Arcane Dyad Empowered: Prompto","-","-","-","52089"
 "Awoken Reaper","Darkness abilities don't consume uses, cast speed x2.00/2.25/2.50/2.75/3.00 for Darkness abilities at ability rank 1/2/3/4/5, casts Dark Divider after using after using Darkness abilities","15","-","-","52090"
-"Dual Trigger Spark Mode","Lightning abilities deal 10%/20%/30%/40%/50% more damage if the target's Lightning weakness is 20%/30%/40%/50%/60%+, lasts for 1 turn, removed if the user hasn't [Dual Awoken Lightning Mode II (Prompto)]","-","-","-","52091"
+"Dual Trigger Spark Mode","Lightning abilities deal 10%/20%/30%/40%/50% more damage if the target's Lightning weakness is 20%/30%/40%/50%/60%+, removed if the user hasn't [Dual Awoken Lightning Mode II (Prompto)]","-","-","-","52091"
 "Arcane Dyad Empowered: Yda","Keeps track of Six-sided Star uses, removed if user has triggered Six-sided Star two times","-","-","-","52093"
 "Six-sided Star Damage Tracker","Increases Six-sided Star level by 1 when user crosses 100001 and 300001 damage dealt during the status, removed if user hasn't Arcane Dyad Empowered: Yda","-","-","-","52094"
 "Six-sided Star Level","Keeps track of Six-sided Star level, initially set at level 0 with a maximum level of 2, removed if user hasn't Arcane Dyad Empowered: Yda","-","-","-","52095"

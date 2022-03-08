@@ -624,6 +624,7 @@
 "PHY","Single enemy","Physical","5.50","Poison, Fire, Lightning","1.65","Five single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30261311"
 "PHY","Single enemy","Physical","5.50","Fire, Ice, Lightning","1.65","Five single ranged attacks (1.10 each)","Lowest HP% enemy","90","10","30261341"
 "PHY","Single enemy","Physical","4.00","Lightning","1.65","Four single ranged attacks (1.00 each), grants [Machinist Quick Cast 2] to the user","Lowest HP% enemy","90","10","30261331"
+"PHY","Single enemy","Physical","5.00","Fire","1.65","Five single ranged attacks (1.00 each), causes [Imperil Fire 10% (5s)]","Lowest HP% enemy","90","10","30261351"
 "PHY","Single","Physical","2.20","Dark","1.65","One single attack (2.20), grants [Dark Bargain] to the user for 20 seconds","Lowest HP% enemy","70","10","30271001"
 "PHY","Single","Physical","3.80","Dark","1.65","Four single attacks (0.95 each), damages the user for 15% max HP","Lowest HP% enemy","75","10","30271011"
 "BLK","Single","Magical","9.00","Dark","1.65","Four single attacks (2.25 each), 3.50 multiplier if the user has any Doom","Lowest HP% enemy","75","10","30271021"

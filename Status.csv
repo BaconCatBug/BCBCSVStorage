@@ -1813,7 +1813,7 @@
 "Hunter's Edge Counter","Keeps track of the number of uses of Hunter's Edge, removed if user hasn't Synchro Mode","-","-","-","50727"
 "Lazy Mirage Follow-Up","Grants [Physical High Quick Cast 1] to all allies in the front row after using a Wind attack","15","-","-","50728"
 "Swirling Storm Follow-Up","Casts Swirling Storm after using a Wind attack","15","-","-","50729"
-"Items +1","Increases Items level by 1 after using Potato Masher, removed if user hasn't Synchro Mode","-","-","-","50730"
+"Eccentrick Mode","Grants Items +1 after casting Potato Masher, removed if user hasn't Synchro Mode","-","-","-","50730"
 "Chilling Lash Follow-Up","Casts Chilling Lash after using two Ice attacks","15","-","-","50731"
 "Greased Trigger Mode","Casts Critical Enfilade after using three Lightning attacks","15","-","-","50732"
 "Awoken Engineer","Machinist abilities don't consume uses and deal 5/10/15/20/30% more damage at ability rank 1/2/3/4/5, dualcasts Machinist abilities","15","-","-","50733"

@@ -1,1 +1,1 @@
-1.01 Minor Optional update from 1.0 - Required update if any version other than 1.0 
+1.02 Minor Optional update from 1.0/1.01 - Required update if any version other than 1.0 

@@ -7,9 +7,9 @@ now = str(now.year) +'-'+ f"{now.month:02d}" +'-'+ f"{now.day:02d}"
 # print(now)
 
 # print('python WarframeScripts.py')
-system('python WarframeScripts.py')
+system('python3 WarframeScripts.py')
 #print ('WarframeCSVtoTSV.py')
-system('python WarframeCSVtoTSV.py')
+system('python3 WarframeCSVtoTSV.py')
 # print('git add *')
 system('git add *')
 # print("git commit -m 'now'")

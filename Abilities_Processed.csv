@@ -377,6 +377,7 @@
 "PHY","Single enemy","Physical","6.60","Wind","1.65","Six single ranged jump attacks (1.10 each)","Lowest HP% enemy","90","10","30181301"
 "PHY","Single enemy","Physical","3.00","Water","1.65","Three single ranged jump attacks (1.00 each), grants [Instant Cast 1] to the user","Lowest HP% enemy","90","10","30181311"
 "PHY","Single enemy","Physical","?","Water, Ice, Earth","1.65","Five single ranged attacks (? each)","Lowest HP% enemy","90","10","30181331"
+"PHY","Single enemy","Physical","?","Lightning, Dark","1.65","Four single ranged attacks (? each), grants [No Air Time 3] to the user","Lowest HP% enemy","90","10","30181321"
 "PHY","Single","Physical","2.00","-","1.65","One single attack (1.50), always deals a critical hit, 50% hit rate","Highest HP% enemy","60","10","30191001"
 "PHY","Single","Physical","1.70","-","1.65","One single ranged attack (1.70)","Lowest HP% enemy","60","10","30191011"
 "NAT","Self","Magical","1.50","-","1.65","Restores HP (80), damages undeads, [ATK +20%] for 25 seconds","Self","65","10","30191021"

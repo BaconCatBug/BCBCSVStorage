@@ -3501,6 +3501,7 @@
 "ATK and MAG +30%, DEF +25% (25s)","ATK and MAG +30%, DEF +25%","25","-","All other ""ATK, DEF and MAG""","6052"
 "ATK and MND +30%, DEF and RES +25% (25s)","ATK and MND +30%, DEF and RES +25%","25","-","All other ""ATK, DEF, RES and MND""","6054"
 "EVA +X%","EVA +X%","-","-","-","606"
+"ATK +50%, DEF and RES -30% (8s)","ATK +50%, DEF and RES -30%","8","-","All other ""ATK, DEF and RES""","6061"
 "RES +X%","RES +X%","-","-","All other ""RES""","607"
 "RES +10% (8s)","RES +10%","8","-","All other ""RES""","607000"
 "RES +20% (8s)","RES +20%","8","-","All other ""RES""","607010"

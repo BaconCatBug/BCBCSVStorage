@@ -3310,7 +3310,7 @@
 "Arcane Dyad Empowered: Gogo (V)","Keeps track of Apex Deep Aqua Breath uses, removed if user has triggered Apex Deep Aqua Breath two times","-","-","-","52187"
 "Apex Deep Aqua Breath Damage Tracker","Increases Apex Deep Aqua Breath level by 1 when user crosses 100001 and 300001 damage dealt during the status, removed if user hasn't Arcane Dyad Empowered: Gogo (V)","-","-","-","52188"
 "Apex Deep Aqua Breath Level","Keeps track of Apex Deep Aqua Breath level, initially set at level 0 with a maximum level of 2, removed if user hasn't Arcane Dyad Empowered: Gogo (V)","-","-","-","52189"
-"Dual Deepsea Mimicry Mode","Mimicked abilities deal 50% more damage, casts the last ability used by an ally when another ally casts a Water abilities, removed after triggering three times","15","-","-","52190"
+"Dual Deepsea Mimicry Mode","Mimicked abilities deal 50% more damage, casts the last ability used by any ally when another ally casts a Water abilities, removed after triggering three times","15","-","-","52190"
 "Mimicry Stunt Mode","Grants [Buff Water 10% (15s)] to all allies after three Water abilities are used by other allies, removed after triggering three times, grants [Triplecast Water 1] and [Water Ability +30% Boost 1] to the user when removed","15","-","-","52191"
 "Chain Force Mode (Warrior of Light)","Casts Holy Guidance: Warrior of Light after any Holy Chain reaches a count of 50 or 100, removed after casting Holy Guidance: Warrior of Light two times","15","-","-","52192"
 "Chain Force Mode (Thief (I))","Grants [Quick Cast 1] to all allies after using a Wind or Poison ability, removed after using two Wind or Poison abilities","15","-","-","52193"

@@ -500,6 +500,7 @@
 "PHY","Single enemy","Physical","5.50","Wind, Holy","1.65","Four single attacks (1.10 each), followed by one single attack (1.10) with additional 20% critical damage","Lowest HP% enemy","90","10","30211411"
 "PHY","Single enemy","Physical","6.60","Holy","1.65","Six single attacks (1.10 each)","Lowest HP% enemy","90","10","30211431"
 "PHY","Single enemy","Physical","6.60","Earth, Holy","1.65","Six single attacks (1.10 each)","Lowest HP% enemy","90","10","30211441"
+"PHY","Single enemy","Physical","?","Holy","1.65","Six single attacks (? each)","Lowest HP% enemy","90","10","30211461"
 "NAT","Self","","","","1.65","Grants [Retaliate] for 15 seconds","Self","80","10","30221001"
 "PHY","Single","Physical","1.60","-","1.65","One single attack (1.60), causes [Instant KO] (30%)","Highest HP% enemy","65","10","30221011"
 "PHY","All enemies","Physical","1.50","-","1.65","One group attack (1.50), causes [Blind] (20%)","All enemies","75","10","30221021"

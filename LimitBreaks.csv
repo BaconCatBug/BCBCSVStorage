@@ -226,6 +226,7 @@
 "Type-0","Seven","Weakening Flash (Seven)","LBG","NAT","Single enemy","","","","0.01","Causes [Imperil Ice 40% (5s)], grants [Quick Cast 2] to all allies","N","Lowest HP% enemy","0","Ice Damage Up","MAG +10","Sleipnir Tail (Type-0)","降閃【セブン】","23260018"
 "Beyond","Serafie","Tickling Wind","LBO","BLK","Single enemy","Magical","96.00","Wind","2.50","Four single attacks (3.00 each scaling with LB gauge and LB honing level) capped at 99999, ignores RES, grants [HP Stock (3000)] to all allies","N","Lowest HP% enemy","250","Limit Break Damage Up, Cast Time Down","","Mirage Rod (Beyond)","風のくすぐり","23450007"
 "Beyond","Serafie","Spiraling Flash (Serafie)","LBG","NAT","Single enemy","","","","0.01","Causes [Imperil Wind 40% (5s)], grants [Quick Cast 2] to all allies","N","Lowest HP% enemy","0","Wind Damage Up","MAG +10","Silken Shirt (Beyond)","降閃【セラフィ】","23450014"
+"Beyond","Enna Kros","Parallel Bond: Enna Kros (Earth)","LBC","BLK","Single enemy","Magical","26.00","Earth, NE","0.01","Ten single attacks (2.60 each) capped at 19999, activates Earth Chain (max 150, field +0%) or adds 25 to the current Earth Chain maximum limit, grants [Chain Force Mode (Enna Kros)] and [Instant ATB 1] to the user","N","Lowest HP% enemy","250","Limit Break Damage Up, Quick Cast 1","","Titan Mirage (Beyond)","紡絆・エナ・クロ地","23280014"
 "","","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","","",""
 "","","","","","","","","","","","","","","","","","",""

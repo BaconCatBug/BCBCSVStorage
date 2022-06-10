@@ -810,6 +810,7 @@
 "Motherly Protector","Motherly Protector","WHT","All allies","Magical","2.00","Holy","0.01","Restores HP (25), damages undeads","N","All allies","0","Special",""
 "Courage Boost!","Courage Boost!","WHT","All allies","Magical","2.00","Holy","0.01","Restores HP (25), damages undeads","Y","All allies","0","Special",""
 "SOLDIER Follow-Up","SOLDIER Follow-Up","PHY","Single enemy","Physical","1.08","Wind","0.01","One single attack (1.08)","Y","Lowest HP% enemy","0","Celerity",""
+"Materia Hunt Mode","Fearless","PHY","Single enemy","Physical","?","Water, Earth, NE","0.01","Four single ranged attacks (? each), 100% hit rate","Y","Lowest HP% enemy","0","Ninja","31520069"
 "Dream Fulfilled","Dream Fulfilled","WHT","All allies","Magical","2.00","Holy","0.01","Restores HP (25), damages undeads","Y","All allies","0","Special",""
 "Stocky Sidekick","Up a Point","PHY","Single enemy","Physical","2.16","Water, Ice, Earth, NE","0.01","Four single ranged attacks (0.54 each)","Y","Lowest HP% enemy","0","Dragoon","30528014"
 "Onslaught (Fujin)","Geki","BLK","Single enemy","Magical","8.16","Wind, NE","0.01","Four single attacks (2.04 each)","Y","Lowest HP% enemy","0","Black Magic","31520013"

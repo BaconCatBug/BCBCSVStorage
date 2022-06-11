@@ -4034,7 +4034,7 @@
 "Core","Dr. Mog","","Fated Bonds of Historia+ (Monk)","RW","NAT","All allies","","","","2.50","Activates Monk Chain (max 150, field +70%), grants [ATK and MAG +50% (25s)]","N","All allies","-","","","-","天命・ 絆のヒストリア","23060115"
 "Core","Dr. Mog","","Fated Bonds of Historia+ (Dragoon)","RW","NAT","All allies","","","","2.50","Activates Dragoon Chain (max 150, field +70%), grants [ATK and MAG +50% (25s)]","N","All allies","-","","","-","天命・ 絆のヒストリア","23060116"
 "Core","Dr. Mog","","Fated Bonds of Historia+ (Machinist)","RW","NAT","All allies","","","","2.50","Activates Machinist Chain (max 150, field +70%), grants [ATK and MAG +50% (25s)]","N","All allies","-","","","-","天命・ 絆のヒストリア","23060117"
-"Core","Dr. Mog","","Rejuvenation Grimoire III","RW","WHT","All allies","","","","0.01","Restores HP for 100% of the target's maximum HP, grants [Pain -1] and [Instant Cast 1]","N","All allies","-","","","-","原書・快癒のグリモアIII","23060118"
+"Core","Dr. Mog","","Rejuvenation Grimoire","RW","NAT","All allies","","","","0.01","Restores HP for 100% of the target's maximum HP","N","All allies","-","","","-","原書・快癒のグリモアIII","23060118"
 "Core","Shadowsmith","","Fantasy Fusion","RW","NAT","All allies","","","","2.50","Activates Chain (max 150, field +50%)","N","-","-","","","-","因果律操作「幻想一律」","23380001"
 "Core","Shadowsmith","","Soul of Nihility","USB","PHY","Single enemy","Physical","7.10","Dark, NE","2.50","Ten single attacks (0.71 each), grants [Attach Dark], [Damage Cap +10000] and [Nihility Follow-Up] to the user, grants [PHY +30% Boost] to the user if user's ATK > MAG, grants or [Magical +30% Boost] to the user if user's MAG > ATK","N","Lowest HP% enemy","500","","","-","?","23380003"
 "","","","","","","","","","","","","","","","","","","",""
